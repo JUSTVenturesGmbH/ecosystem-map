@@ -3,8 +3,8 @@ category:
   - Oracle
   - Dapp
   - Social
-description: Enabling BLE to connect IoT devices to the Internet at a low-cost
-  while maintaining privacy and security
+description: Enabling BLE to connect IoT devices to the Internet at a low-cost while
+  maintaining privacy and security
 readiness:
   business: Business concept/low adoption
   technology: Connected to Relay chain
@@ -25,8 +25,6 @@ metrics:
   twitter:
     - date: 2023-12-31
       value: 53100
-    - date: 2022-12-31
-      value: 55900
   youtube:
     - date: 2023-12-31
       value: 7400

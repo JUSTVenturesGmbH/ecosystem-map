@@ -1,10 +1,10 @@
 name: Acala / Karura
 category:
   - DeFi
-description: DeFi platform that offers a suite of financial products and
-  services, including lending, borrowing, staking, and trading, in a secure and
-  scalable way. Acala is also Ethereum-compatible, making it easy for developers
-  to bring their existing applications to the Polkadot ecosystem.
+description: DeFi platform that offers a suite of financial products and services,
+  including lending, borrowing, staking, and trading, in a secure and scalable way.
+  Acala is also Ethereum-compatible, making it easy for developers to bring their
+  existing applications to the Polkadot ecosystem.
 readiness:
   business: Scaling/Alliance
   technology: Connected to Relay chain
@@ -29,8 +29,6 @@ metrics:
   twitter:
     - date: 2023-12-31
       value: 260292
-    - date: 2022-12-31
-      value: 269100
   youtube:
     - date: 2023-12-31
       value: 17300

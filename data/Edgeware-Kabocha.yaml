@@ -3,8 +3,8 @@ category:
   - DAO
   - EVM
   - Smart Contracts
-description: smart contract platform with public treasury, governing community,
-  and a focus on DAO deployments
+description: smart contract platform with public treasury, governing community, and
+  a focus on DAO deployments
 readiness:
   business: Scaling/Alliance
   technology: Connected to Relay chain
@@ -28,8 +28,6 @@ metrics:
   twitter:
     - date: 2023-12-31
       value: 21821
-    - date: 2022-12-31
-      value: 19100
   youtube:
     - date: 2023-12-31
       value: 234

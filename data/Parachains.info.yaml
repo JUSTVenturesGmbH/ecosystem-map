@@ -24,8 +24,6 @@ metrics:
   twitter:
     - date: 2023-12-31
       value: 3715
-    - date: 2022-12-31
-      value: 3400
   youtube:
     - date: 2023-12-31
       value: 3500

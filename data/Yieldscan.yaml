@@ -1,8 +1,8 @@
 name: Yieldscan
 category:
   - Indexer
-description: a portfolio management platform for NPoS (nominated proof-of-stake)
-  networks like Kusama and Polkadot.
+description: a portfolio management platform for NPoS (nominated proof-of-stake) networks
+  like Kusama and Polkadot.
 readiness:
   technology: Discontinued
 target_audience:

@@ -5,8 +5,8 @@ category:
   - Smart Contracts
   - DAO
   - Data
-description: Multichain Account abstraction hub, optimized for decentralized
-  operations & financial management spanning across every blockchain.
+description: Multichain Account abstraction hub, optimized for decentralized operations
+  & financial management spanning across every blockchain.
 readiness:
   business: Verified in market/high adoption
   technology: Connected to Relay chain
@@ -32,8 +32,6 @@ metrics:
   twitter:
     - date: 2023-12-31
       value: 17046
-    - date: 2022-12-31
-      value: 10400
   youtube:
     - date: 2023-12-31
       value: 236

@@ -4,7 +4,8 @@ category:
   - Dapp
   - EVM
   - Data
-description: decentralized cloud storage provider - dapp hosting, nft storage, ipfs storage
+description: decentralized cloud storage provider - dapp hosting, nft storage, ipfs
+  storage
 readiness:
   business: Scaling/Alliance
   technology: Connected to Relay chain
@@ -21,13 +22,12 @@ web:
   site: https://crust.network/
   twitter: CrustNetwork
   discord: https://discord.com/invite/Jbw2PAUSCR
-  contact: https://docs.google.com/forms/d/e/1FAIpQLSesR1Wv5cLXFEVngDeAs1iU_SZMgHz9VUBTAVM7eVPk38yzPg/viewform
+  contact: 
+    https://docs.google.com/forms/d/e/1FAIpQLSesR1Wv5cLXFEVngDeAs1iU_SZMgHz9VUBTAVM7eVPk38yzPg/viewform
 metrics:
   twitter:
     - date: 2023-12-31
       value: 109980
-    - date: 2022-12-31
-      value: 107900
   youtube:
     - date: 2023-12-31
       value: 1700

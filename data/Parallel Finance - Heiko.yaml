@@ -7,8 +7,8 @@ category:
   - NFT
   - EVM
   - Indexer
-description: decentralized lending, staking, and borrowing protocol, wallet, DAO
-  wallet (https://parax.ai/Products/Polkadot)
+description: decentralized lending, staking, and borrowing protocol, wallet, DAO wallet
+  (https://parax.ai/Products/Polkadot)
 readiness:
   business: Scaling/Alliance
   technology: Connected to Relay chain
@@ -30,8 +30,6 @@ metrics:
   twitter:
     - date: 2023-12-31
       value: 91471
-    - date: 2022-12-31
-      value: 96700
   youtube:
     - date: 2023-12-31
       value: 2900

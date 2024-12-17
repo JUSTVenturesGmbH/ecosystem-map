@@ -2,8 +2,8 @@ name: Konomi
 category:
   - Oracle
   - DeFi
-description: Cross-chain Oracle Machine with P2P lending module and one-stop
-  asset management solution
+description: Cross-chain Oracle Machine with P2P lending module and one-stop asset
+  management solution
 readiness:
   business: Verified in market/high adoption
   technology: In production

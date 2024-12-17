@@ -2,7 +2,8 @@ name: Polimec
 category:
   - DeFi
   - Aggregator
-description: fundraising in a decentralized, transparent, and regulatory compliant manner
+description: fundraising in a decentralized, transparent, and regulatory compliant
+  manner
 readiness:
   business: Business concept/low adoption
   technology: Validated POC / testnet

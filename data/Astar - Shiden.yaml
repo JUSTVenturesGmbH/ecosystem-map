@@ -1,7 +1,8 @@
 name: Astar / Shiden
 category:
   - Smart Contracts
-description: smart contract platform that supports multiple blockchains and virtual machines
+description: smart contract platform that supports multiple blockchains and virtual
+  machines
 readiness:
   business: Scaling/Alliance
   technology: Connected to Relay chain
@@ -25,8 +26,6 @@ metrics:
   twitter:
     - date: 2023-12-31
       value: 352994
-    - date: 2022-12-31
-      value: 360100
   youtube:
     - date: 2023-12-31
       value: 4330

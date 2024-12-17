@@ -18,13 +18,12 @@ web:
   logo: Chainflip Labs.jpg
   site: https://chainflip.io/
   twitter: Chainflip
-  contact: https://docs.google.com/forms/d/e/1FAIpQLSeH-IXNGzcMNLNFFaTxWYcMXNPOeEQHSggs_5P9RASV22_WkQ/viewform
+  contact: 
+    https://docs.google.com/forms/d/e/1FAIpQLSeH-IXNGzcMNLNFFaTxWYcMXNPOeEQHSggs_5P9RASV22_WkQ/viewform
 metrics:
   twitter:
     - date: 2023-12-31
       value: 62751
-    - date: 2022-12-31
-      value: 17300
   youtube:
     - date: 2023-12-31
       value: 156

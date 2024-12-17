@@ -4,7 +4,8 @@ category:
   - Validator provider
   - API
   - Indexer
-description: Solution for enterprise - wallet, staking, governance, block explorer, APIs
+description: Solution for enterprise - wallet, staking, governance, block explorer,
+  APIs
 readiness:
   technology: Connected to Relay chain
 target_audience:
@@ -24,8 +25,6 @@ metrics:
   twitter:
     - date: 2023-12-31
       value: 19936
-    - date: 2022-12-31
-      value: 19500
   youtube:
     - date: 2023-12-31
       value: 249

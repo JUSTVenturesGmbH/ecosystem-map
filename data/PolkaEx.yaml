@@ -2,8 +2,8 @@ name: PolkaEx
 category:
   - Exchange
   - DeFi
-description: A cross-chain Dex and Launchpad on Polkadot with higher TPS and
-  lower transaction fees
+description: A cross-chain Dex and Launchpad on Polkadot with higher TPS and lower
+  transaction fees
 readiness:
   business: Business concept/low adoption
   technology: Connected to Parachain

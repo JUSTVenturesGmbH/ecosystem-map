@@ -1,7 +1,8 @@
 name: Frequency
 category:
   - Social
-description: Layer 1 blockchain enabling builders to deliver decentralized social apps
+description: Layer 1 blockchain enabling builders to deliver decentralized social
+  apps
 readiness:
   business: Verified in market/high adoption
   technology: Connected to Relay chain
@@ -25,8 +26,6 @@ metrics:
   twitter:
     - date: 2023-12-31
       value: 1554
-    - date: 2022-12-31
-      value: 560
   youtube: []
   github:
     - date: 2023-12-31

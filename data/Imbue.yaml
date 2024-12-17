@@ -3,8 +3,8 @@ category:
   - Marketplace
   - Social
   - EVM
-description: a multichain platform providing a secure, reliable, and safe
-  freelance marketplace
+description: a multichain platform providing a secure, reliable, and safe freelance
+  marketplace
 readiness:
   business: Verified in market/high adoption
   technology: Connected to Relay chain
@@ -26,8 +26,6 @@ metrics:
   twitter:
     - date: 2023-12-31
       value: 3171
-    - date: 2022-12-31
-      value: 2000
   youtube:
     - date: 2023-12-31
       value: 73
