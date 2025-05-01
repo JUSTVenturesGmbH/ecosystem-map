@@ -32,5 +32,5 @@ metrics:
   blog: []
   app_downloads: []
   github_pushed_at:
-    - date: 2025-03-01
-      value: 1740753071
+    - date: 2025-05-01
+      value: 1746044777
