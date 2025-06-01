@@ -25,11 +25,11 @@ metrics:
   twitter: []
   youtube: []
   github:
-    - date: 2025-05-01
-      value: 1789
+    - date: 2025-06-01
+      value: 1793
   discord: []
   blog: []
   app_downloads: []
   github_pushed_at:
-    - date: 2025-05-01
-      value: 1745932557
+    - date: 2025-06-01
+      value: 1748611577

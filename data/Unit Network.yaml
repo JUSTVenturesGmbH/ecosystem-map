@@ -30,7 +30,7 @@ web:
   contact: support@unit.network
   documentation: https://unit.network/documentation-hub/
 treasury_funded: false
-audit: false 
+audit: false
 metrics:
   twitter:
     - date: 2023-12-31
@@ -40,8 +40,8 @@ metrics:
       value: 5230
   github: []
   discord:
-    - date: 2024-12-25
-      value: 562
+    - date: 2025-06-01
+      value: 9
   blog:
     - date: 2023-12-31
       value: 4000
