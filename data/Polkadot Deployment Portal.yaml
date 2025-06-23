@@ -1,0 +1,33 @@
+name: Polkadot Deployment Portal (PDP)
+category:
+  - Infra
+description: Simplest, fastest and cheapest way of deploying and using Polkadot Native Rollups.
+readiness:
+  business: Business concept/low adoption
+  technology: In development
+target_audience:
+  - Startup
+  - Dev teams
+  - Individual tinkerer
+  - Established corporation
+  - Governmental organization
+ecosystem:
+  - Kusama
+  - Polkadot
+layer:
+  - Layer-3
+web:
+  logo: PDP_logo.jpg
+  site: https://www.deploypolkadot.xyz
+  twitter: PolkadotDeploy
+  github: 
+treasury_funded: false
+audit: false
+metrics:
+  twitter: []
+  youtube: []
+  github: []
+  discord: []
+  blog: []
+  app_downloads: []
+  github_pushed_at: []
