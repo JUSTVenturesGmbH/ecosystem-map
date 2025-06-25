@@ -20,7 +20,6 @@ web:
   logo: PDP_logo.jpg
   site: https://www.deploypolkadot.xyz
   twitter: PolkadotDeploy
-  github: 
 treasury_funded: false
 audit: false
 metrics:
