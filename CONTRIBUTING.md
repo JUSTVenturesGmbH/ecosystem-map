@@ -65,3 +65,6 @@ Below are the available markdown headers for adding entities with guidelines for
 - `appstore`/`playstore`/`webstore`: links to the relevant stores
 - `treasury_funded`: if was funded by Kusama/Polkadot treasury (true or false)
 - `audit`: if security audited (true or false)
+
+
+# Please don't change the README.md file, it is created automatically.
