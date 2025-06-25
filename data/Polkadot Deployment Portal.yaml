@@ -8,9 +8,9 @@ readiness:
 target_audience:
   - Startup
   - Dev teams
-  - Individual tinkerer
-  - Established corporation
-  - Governmental organization
+  - Individuals
+  - Established corp
+  - Governmental org
 ecosystem:
   - Kusama
   - Polkadot
