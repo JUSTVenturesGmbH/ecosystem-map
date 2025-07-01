@@ -30,6 +30,9 @@ target_audience:
   - Personal investors
   - Institutional investors
   - Community DAO
+ecosystem:
+  - Polkadot
+  - Acala Network
 layer:
   - Layer-3
 web:
@@ -48,13 +51,119 @@ metrics:
 Below are the available markdown headers for adding entities with guidelines for each header (only input what is applicable for what you are adding):
 
 - `name`: The project  name (will also be used as page name), cen be several names for different chains or products
-- `category`: List of categories describing the project, each starts by dash and on the new line. [See the list](https://github.com/JUSTVenturesGmbH/ecosystem-map/tree/main?tab=readme-ov-file#category)
+- `category`: List of categories describing the project, each starts by dash and on the new line. 
+<details>
+  <summary>See list</summary>
+        - API
+        - Aggregator
+        - Alerts
+        - Analytics
+        - Bridge
+        - DAO
+        - Dapp
+        - Data
+        - DeFi
+        - DePIN
+        - Education
+        - EVM
+        - Exchange
+        - Game
+        - Governance
+        - Identity
+        - Indexer
+        - Infra
+        - Linrary
+        - Marketplace
+        - Newsletter
+        - NFT
+        - Oracle
+        - Privacy
+        - Smart Contracts
+        - Social
+        - Staking
+        - Tools
+        - Validator provider
+        - Wallet
+        - XCM
+  </details>
+
 - `description`: The short project description
-- `Business readiness`: Choose one from the [list](https://github.com/JUSTVenturesGmbH/ecosystem-map/tree/main?tab=readme-ov-file#business-readiness)
-- `Technology readiness`: Choose one from the [list](https://github.com/JUSTVenturesGmbH/ecosystem-map/tree/main?tab=readme-ov-file#technology-readiness)
-- `Target audience`: A list of provisional users, each starts by dash and on the new line. [See the list](https://github.com/JUSTVenturesGmbH/ecosystem-map/tree/main?tab=readme-ov-file#target-audience)
-- `Layer`: List of layers, each starts by dash and on the new line. [See the list](https://github.com/JUSTVenturesGmbH/ecosystem-map/tree/main?tab=readme-ov-file#typelayer)
-- `logo`: Outdated
+
+- `Business readiness`: 
+<details>
+  <summary>See list</summary>
+       - Business concept/low adoption
+        - Verified in market/high adoption
+        - Scaling/Alliance
+  </details>
+
+- `Technology readiness`: 
+<details>
+  <summary>See list</summary>
+          - In research
+          - Validated POC / testnet
+          - In development
+          - In production
+          - Connected to Relay chain
+          - Connected to Parachain
+          - Discontinued
+  </details>
+
+- `Target audience`: A list of provisional users, each starts by dash and on the new line. 
+<details>
+  <summary>See list</summary>
+        - Community DAO
+        - Dev teams
+        - Established corp
+        - Governmental org
+        - Individuals
+        - Institutional investors
+        - Personal investors
+        - Research institute
+        - Startup
+  </details>
+  <details>
+  <summary>See definitions</summary>
+  | Commercial business unit | Non-commercial business unit |
+| ------------------------ | ---------------------------- |
+| Startup | Research Institute |
+| Established corporation | Governmental organization |
+| Institutional investor | Community DAO |
+| Personal investor | Individuals|
+| | Dev team (grants) |
+  </details>
+  
+- `ecosystem`: List of ecosystems. To add more, please reach out to the team.
+<details>
+  <summary>See list</summary>
+        - Polkadot
+        - Kusama
+        - Acala Network
+        - Moonbeam
+        - Astar Network
+        - Aleph Zero
+   </details>
+
+- `Layer`: List of layers, each starts by dash and on the new line. 
+<details>
+  <summary>See list</summary>
+     - Layer-0
+     - Layer-1
+     - Layer-2
+     - Layer-3
+     - Layer-4
+     - None
+  </details>
+  <details>
+  <summary>See definitions</summary>
+    Layer 0 - protocol
+    Layer 1 - consensus (consensus, node operators, parachains)
+    Layer 2 - scaling (off-chain computing, messages, governance, bridges)
+    Layer 3 - smart contracts, dApps
+    Layer 4 - identity, keys
+  </details>
+
+- `logo`: WIP
 - `website`: URL to the project website
 - `twitter`: Twitter handle without @
 - `youtube`: Outdated

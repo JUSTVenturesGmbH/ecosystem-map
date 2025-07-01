@@ -115,6 +115,7 @@ properties:
       enum:
         - API
         - Aggregator
+        - Alerts
         - Analytics
         - Bridge
         - DAO
@@ -122,19 +123,27 @@ properties:
         - Data
         - DeFi
         - DePIN
+        - Education
         - EVM
         - Exchange
         - Game
+        - Governance
+        - Identity
         - Indexer
         - Infra
+        - Linrary
         - Marketplace
+        - Newsletter
         - NFT
         - Oracle
         - Privacy
         - Smart Contracts
         - Social
+        - Staking
+        - Tools
         - Validator provider
         - Wallet
+        - XCM
 
   readiness:
     type: object
