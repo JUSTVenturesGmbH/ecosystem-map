@@ -9,6 +9,8 @@ target_audience:
   - Dev teams
 ecosystem:
   - Kusama
+layer:
+  - None
 web:
   logo: default.png
   site: https://kusama.d3sjfzcxgz1xj9.amplifyapp.com

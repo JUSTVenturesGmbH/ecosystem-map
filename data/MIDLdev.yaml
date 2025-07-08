@@ -15,6 +15,6 @@ layer:
 web:
   logo: default.png
   site: https://midl.dev/polkadot/
-  github:https://github.com/midl-dev/polkadot-k8s
+  github: https://github.com/midl-dev/polkadot-k8s
 treasury_funded: false
 audit: false

@@ -8,8 +8,8 @@ readiness:
 target_audience:
   - Dev teams
   - Individuals
-  - Institutional investor
-  - Personal investor
+  - Institutional investors
+  - Personal investors
 ecosystem:
   - Polkadot
   - Kusama

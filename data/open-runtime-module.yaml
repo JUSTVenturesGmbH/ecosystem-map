@@ -14,7 +14,7 @@ ecosystem:
   - Kusama
   - Acala Network
   - Astar Network
-  - Moonbeam Network
+  - Moonbeam
 layer:
   - Layer-2
 web:

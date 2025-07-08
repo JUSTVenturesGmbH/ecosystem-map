@@ -8,6 +8,8 @@ target_audience:
   - Dev teams
 ecosystem:
   - Moonbeam
+layer:
+  - None
 web:
   logo: default.png
   site: https://github.com/cyphertux/cryptotux-raffle/tree/main

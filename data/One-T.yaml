@@ -1,7 +1,7 @@
 name: One-T
 category:
   - Infra
-  - indexer
+  - Indexer
   - API
   - Validator provider
   - Alerts
