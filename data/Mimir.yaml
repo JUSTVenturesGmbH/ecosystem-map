@@ -24,4 +24,3 @@ web:
   documentation: https://docs.mimir.global
 treasury_funded: false
 audit: false
-metrics:

@@ -21,6 +21,5 @@ web:
   logo: default.png
   site: https://github.com/open-web3-stack/open-runtime-module-library
   github: https://github.com/open-web3-stack/open-runtime-module-library
-  documentation: 
 treasury_funded: false
 audit: false

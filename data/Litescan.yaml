@@ -10,6 +10,8 @@ target_audience:
 ecosystem:
   - Polkadot
   - Kusama
+layer:
+  - None
 web:
   logo: default.png
   site: https://github.com/pifragile/litescan

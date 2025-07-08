@@ -15,6 +15,7 @@ layer:
   - Layer-1
 web:
   logo: default.png
+  site: https://github.com/drandreaskrueger/chainhammer
   github: https://github.com/drandreaskrueger/chainhammer
 treasury_funded: false
 audit: false

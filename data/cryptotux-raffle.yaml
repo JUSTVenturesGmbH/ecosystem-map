@@ -12,6 +12,5 @@ web:
   logo: default.png
   site: https://github.com/cyphertux/cryptotux-raffle/tree/main
   github: https://github.com/cyphertux/cryptotux-raffle/tree/main
-  documentation: 
 treasury_funded: false
 audit: false

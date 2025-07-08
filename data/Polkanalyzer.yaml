@@ -17,6 +17,5 @@ web:
   logo: default.png
   site: https://github.com/filippoweb3/polkanalyzer-app
   github: https://github.com/filippoweb3/polkanalyzer
-  documentation: 
 treasury_funded: false
 audit: false

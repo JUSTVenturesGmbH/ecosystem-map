@@ -2,7 +2,7 @@ name: Validator selector
 category:
   - Infra
   - Dapp
-description: 
+description: Validator selector
 readiness:
   technology: In production
 target_audience:

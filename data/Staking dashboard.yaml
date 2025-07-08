@@ -7,8 +7,8 @@ readiness:
   business: Verified in market/high adoption
   technology: In production
 target_audience:
-  - Personal investor
-  - Institutional investor
+  - Personal investors
+  - Institutional investors
   - Community DAO
   - Dev teams
 ecosystem:

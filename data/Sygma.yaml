@@ -5,9 +5,9 @@ category:
   - Bridge
 description: A substrate to EVM Bridge, the interoperability layer for cross-blockchain applications
 readiness:
-  technology: In production
+  technology: Discontinued
 target_audience:
-  - Discontinued
+  - Dev teams
 ecosystem:
   - Polkadot
   - Kusama

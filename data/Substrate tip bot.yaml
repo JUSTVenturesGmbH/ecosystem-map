@@ -15,6 +15,6 @@ layer:
 web:
   logo: default.png
   site: https://github.com/paritytech/substrate-tip-bot
-  github:https://github.com/paritytech/substrate-tip-bot
+  github: https://github.com/paritytech/substrate-tip-bot
 treasury_funded: false
 audit: false

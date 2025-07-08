@@ -2,7 +2,7 @@ name: Staking metrics
 category:
   - Infra
   - Staking
-  - Dashboard
+  - Indexer
 description: Dashboard with selected metrics on staking, nomination pools and more.
 readiness:
   technology: In production
