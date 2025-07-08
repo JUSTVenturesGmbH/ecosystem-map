@@ -1,0 +1,25 @@
+name: Delegate registry
+category:
+  - Infra
+  - Social
+  - Library
+  - Governance
+description: a comprehensive directory for individuals and organizations in the Substrate ecosystem to share their delegator information in Nova Wallet's agile delegation interface
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+  - DAO
+  - Individuals
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-4
+web:
+  logo: default.png
+  site: https://github.com/novasamatech/opengov-delegate-registry
+  github: https://github.com/novasamatech/opengov-delegate-registry 
+  documentation: https://docs.novawallet.io/nova-wallet-wiki/opengov/delegate-registry
+treasury_funded: false
+audit: false

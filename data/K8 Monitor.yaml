@@ -1,0 +1,22 @@
+name: K8s Monitor
+category:
+  - Infra
+  - Library
+  - Tools
+description:  A tool to deploy a Monitoring System for your Substrate based Nodes in a Kubernetes cluster. The focus is specific on Validators.
+readiness:
+  business: Verified in market/high adoption
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://github.com/ironoa/polkadot-k8s-monitor
+  github: https://github.com/ironoa/polkadot-k8s-monitor
+treasury_funded: false
+audit: false

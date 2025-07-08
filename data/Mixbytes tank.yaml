@@ -1,0 +1,21 @@
+name: Mixbytes tank
+category:
+  - Infra
+  - Tools
+description: Benchmarking tool for Substrate and Polkadot
+readiness:
+  technology: Discontinued
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://github.com/mixbytes/tank
+  github: https://github.com/mixbytes/tank
+  documentation: https://github.com/mixbytes/tank/blob/master/docs/guide/README.md
+treasury_funded: false
+audit: false

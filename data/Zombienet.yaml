@@ -1,0 +1,21 @@
+name: Zombienet
+category:
+  - Infra
+  - Library
+description: A testing framework, build in nodeJS, for Substrate based blockchains, providing a simple cli tool that allows users to spawn and test ephemeral networks.
+readiness:
+  business: Verified in market/high adoption
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://github.com/paritytech/zombienet
+  github: https://github.com/paritytech/zombienet
+treasury_funded: false
+audit: false

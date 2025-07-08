@@ -1,0 +1,22 @@
+name: Radiumblock
+category:
+  - Infra
+  - Validator provider
+description: Dotsama validator snapshot service
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+  - Ethereum
+  - Solana
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://radiumblock.com/snapshots.html
+  twitter: RadiumBlock
+treasury_funded: false
+audit: false

@@ -1,0 +1,22 @@
+name: Metis
+category:
+  - Infra
+  - Library
+description: ink! and Ask! standard Library
+readiness:
+  business: Verified in market/high adoption
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://github.com/patractlabs/metis
+  github: https://github.com/patractlabs/metis
+  documentation: https://patractlabs.github.io/metis/#/./en-us/overview
+treasury_funded: false
+audit: false

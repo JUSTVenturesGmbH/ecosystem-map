@@ -1,0 +1,18 @@
+name: Litescan
+category:
+  - Infra
+  - Indexer
+description: A lightweight indexer for Polkadot chains
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+web:
+  logo: default.png
+  site: https://github.com/pifragile/litescan
+  github: https://github.com/pifragile/litescan
+treasury_funded: false
+audit: false

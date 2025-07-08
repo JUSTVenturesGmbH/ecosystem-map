@@ -1,0 +1,24 @@
+name: Bagpipes
+category:
+  - XCM
+  - Dapp
+description: lets you create workflows in a drag and drop style interface in order to build execution flows of cross chain assets transfers using XCM.
+readiness:
+  business: Business concept/low adoption
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Moonbeam
+layer:
+  - Layer-3
+web:
+  logo: default.png
+  site: https://bagpipes.io
+  github: https://github.com/BagpipesOrg/app
+  twitter: BagpipesOrg
+  discord: https://discord.com/invite/3ZNEzVdXph
+  documentation: https://docs.bagpipes.io/docs/category/intro
+treasury_funded: false
+audit: false

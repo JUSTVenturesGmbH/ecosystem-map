@@ -1,0 +1,21 @@
+name: Polkacli
+category:
+  - Infra
+  - Library
+  - Tools
+description: Bash tool for easy installation of polkadot node for Kusama, Polkadot and Westend networks.
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://github.com/kusamaxi/polkacli
+  github: https://github.com/kusamaxi/polkacli
+treasury_funded: false
+audit: false

@@ -1,0 +1,23 @@
+name: Crunch
+category:
+  - Infra
+  - Library
+  - Staking
+  - Tools
+description: A command-line interface (CLI) to easily automate payouts of staking rewards on Substrate-based chains.
+readiness:
+  business: Verified in market/high adoption
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-3
+web:
+  logo: default.png
+  site: https://github.com/turboflakes/crunch
+  github: https://github.com/turboflakes/crunch
+treasury_funded: false
+audit: false

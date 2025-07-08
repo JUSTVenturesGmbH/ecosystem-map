@@ -1,0 +1,21 @@
+name: SubWallet Chainlist
+category:
+  - Infra
+  - Library
+description: This is the repository to integrate, contain all information about projects/chains/assets available on SubWallet's products.
+readiness:
+  business: Verified in market/high adoption
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://github.com/Koniverse/SubWallet-ChainList
+  github: https://github.com/Koniverse/SubWallet-ChainList
+treasury_funded: false
+audit: false

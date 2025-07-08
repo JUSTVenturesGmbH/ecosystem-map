@@ -1,0 +1,17 @@
+name: Cryptotux Raffle
+category:
+  - Tools
+description: A decentralized, transparent, and verifiable raffle system built on blockchain technology.
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Moonbeam
+web:
+  logo: default.png
+  site: https://github.com/cyphertux/cryptotux-raffle/tree/main
+  github: https://github.com/cyphertux/cryptotux-raffle/tree/main
+  documentation: 
+treasury_funded: false
+audit: false

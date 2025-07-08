@@ -1,0 +1,22 @@
+name: Polkanalyzer
+category:
+  - Infra
+  - Validator provider
+  - Dapp
+description: A tool that allows one to easily visualize Polkadot's NPoS data and make a fair selection of validator nodes.
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://github.com/filippoweb3/polkanalyzer-app
+  github: https://github.com/filippoweb3/polkanalyzer
+  documentation: 
+treasury_funded: false
+audit: false

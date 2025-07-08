@@ -1,0 +1,22 @@
+name: Nomination Monitoring & Audit Tool
+category:
+  - Infra
+  - Library
+  - Tools
+description: A bot that monitors nominations of the accounts held by the 1KV programme.
+readiness:
+  business: 
+  technology: Discontinued
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://github.com/paradox-tt/TVP_Monitor
+  github: https://github.com/paradox-tt/TVP_Monitor
+treasury_funded: false
+audit: false

@@ -169,7 +169,7 @@ Below are the available markdown headers for adding entities with guidelines for
 - `youtube`: Outdated
 - `blog`: Outdated
 - `documentation`: URL to the project documentation
-- `github`: URL to the GitHub page
+- `github`: URL to the GitHub repo (in order to collect the number of stars the link should be to a specific repo)
 - `discord`: Link to discord room
 - `appstore`/`playstore`/`webstore`: links to the relevant stores
 - `treasury_funded`: if was funded by Kusama/Polkadot treasury (true or false)

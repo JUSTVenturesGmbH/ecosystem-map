@@ -1,0 +1,22 @@
+name: Polkadot API Playground
+category:
+  - Infra
+  - Library
+  - API
+description: For developers to craft, evaluate, and deploy React components that seamlessly interact with Polkadot.
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-3
+web:
+  logo: default.png
+  site: https://papi-simulator.aipop.fun
+  github: https://github.com/developerfred/papi-simulator
+  documentation: https://papi.how/getting-started/
+treasury_funded: false
+audit: false

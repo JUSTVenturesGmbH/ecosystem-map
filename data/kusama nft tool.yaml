@@ -1,0 +1,16 @@
+name: Kusama NFT Twitter network visualization
+category:
+  - NFT
+  - Tools
+description: 
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Kusama
+web:
+  logo: default.png
+  site: https://kusama.d3sjfzcxgz1xj9.amplifyapp.com
+treasury_funded: false
+audit: false

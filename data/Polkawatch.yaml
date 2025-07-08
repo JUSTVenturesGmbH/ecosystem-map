@@ -1,0 +1,20 @@
+name: Polkawatch
+category:
+  - Infra
+  - Tools
+description: A tool designed to measure the effective decentralization of Polkadot Validation process
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://polkawatch.app
+  twitter: polkawatch
+treasury_funded: false
+audit: false

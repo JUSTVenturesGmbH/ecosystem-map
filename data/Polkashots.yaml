@@ -1,0 +1,19 @@
+name: Polkashots
+category:
+  - Infra
+  - Library
+description: A repository of Polkadot node database snapshots
+readiness:
+  technology: Discontinued
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://polkashots.io
+treasury_funded: false
+audit: false

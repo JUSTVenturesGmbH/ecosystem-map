@@ -1,0 +1,26 @@
+name: Open runtime modules
+category:
+  - Infra
+  - Library
+  - XCM
+description: community maintained collection of Substrate runtime modules
+readiness:
+  business: Verified in market/high adoption
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+  - Acala Network
+  - Astar Network
+  - Moonbeam Network
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://github.com/open-web3-stack/open-runtime-module-library
+  github: https://github.com/open-web3-stack/open-runtime-module-library
+  documentation: 
+treasury_funded: false
+audit: false

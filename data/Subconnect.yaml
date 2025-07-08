@@ -1,0 +1,22 @@
+name: SubConnect
+category:
+  - Infra
+  - Library
+  - EVM
+description: The connector provides an efficient and easy solution for connecting Polkadot, Substrate, & Ethereum wallets
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-3
+web:
+  logo: default.png
+  site: https://github.com/Koniverse/SubConnect-v2
+  github: https://github.com/Koniverse/SubConnect-v2
+  documentation: 
+treasury_funded: false
+audit: false

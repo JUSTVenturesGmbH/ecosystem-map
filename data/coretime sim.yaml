@@ -1,0 +1,19 @@
+name: Coretime Market Simulator
+category:
+  - Infra
+  - Dapp
+description: Coretime market simulator Dapp
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-3
+web:
+  logo: default.png
+  site: https://jonas-coretime.jedda.eu
+treasury_funded: false
+audit: false

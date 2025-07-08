@@ -1,0 +1,40 @@
+name: Ledger
+category:
+  - Wallet
+  - Dapp
+  - DeFi
+  - EVM
+description: Hardware wallet that stores the user's private key in it's secure enclave storage.
+readiness:
+  business: Verified in market/high adoption
+  technology: In production
+target_audience:
+  - Individuals
+  - Personal investors
+  - Institutional investors
+  - Community DAO
+ecosystem:
+  - Polkadot
+  - Ethereum
+  - Kusama
+  - Ethereum
+  - Polygon
+  - Cosmos
+  - Solana
+  - Tezos
+  - BNB Chain
+  - Cardano
+  - Sui
+layer:
+  - Layer-4
+web:
+  logo: default.png
+  site: https://www.ledger.com
+  twitter: Ledger
+  discord: https://discord.com/invite/Ledger
+  github: https://github.com/LedgerHQ/ledger-live
+  documentation: https://developers.ledger.com/dev-tracks/quickstart
+  contact: media@ledger.com
+treasury_funded: true
+audit: true
+metrics:

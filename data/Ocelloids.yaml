@@ -1,0 +1,24 @@
+name: Ocelloids
+category:
+  - Infra
+  - Library
+  - Data
+  - API
+  - XCM
+description: Aggregated Data APIs and Real-time Streams, XCM tracker
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://www.ocelloids.net
+  github: https://github.com/sodazone/ocelloids-services/tree/main?tab=readme-ov-file
+  documentation: https://www.ocelloids.net/docs/
+treasury_funded: false
+audit: false

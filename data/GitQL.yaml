@@ -1,0 +1,20 @@
+name: GitQL
+category:
+  - Infra
+  - Library
+description: Polkadot binary updater with Github GraphQL API v4, JQ, CURL and without Git
+readiness:
+  technology: Discontinued
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://github.com/ksmnetwork/GitQL
+  github: https://github.com/ksmnetwork/GitQL
+treasury_funded: false
+audit: false

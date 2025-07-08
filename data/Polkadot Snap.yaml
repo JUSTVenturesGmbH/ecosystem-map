@@ -1,0 +1,21 @@
+name: Polkadot Snap
+category:
+  - Infra
+  - Library
+description: Polkadot Snap package
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://snapcraft.io/polkadot
+  github: github.com/dwellir-public/snap-polkadot/
+  contact: info@dwellir.com
+treasury_funded: false
+audit: false

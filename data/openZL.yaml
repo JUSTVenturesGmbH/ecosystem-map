@@ -1,0 +1,21 @@
+name: OpenZL
+category:
+  - Infra
+  - Library
+description: Common Good Zero-Knowledge-Proof Library for Substrate Builders
+readiness:
+  business: Verified in market/high adoption
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://github.com/openzklib/openzl/tree/main
+  github: https://github.com/openzklib/openzl/tree/main
+treasury_funded: false
+audit: false

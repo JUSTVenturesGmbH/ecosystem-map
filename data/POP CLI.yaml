@@ -1,0 +1,22 @@
+name: POP
+category:
+  - Infra
+  - Library
+  - Tools
+description: the Web3 development platform
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://onpop.io
+  github: https://github.com/r0gue-io/pop-cli
+  twitter: onpopio 
+treasury_funded: false
+audit: false

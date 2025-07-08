@@ -1,0 +1,21 @@
+name: С++ API for Polkadot
+category:
+  - Infra
+  - Library
+  - API
+description: Polkadot Substrate C++ API
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://github.com/usetech-llc/polkadot_api_cpp
+  github: https://github.com/usetech-llc/polkadot_api_cpp
+treasury_funded: false
+audit: false

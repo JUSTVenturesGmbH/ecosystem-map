@@ -1,0 +1,23 @@
+name: Ceres
+category:
+  - DeFi
+  - Exchange
+  - Governance
+  - Dapp
+description: one of the first DeFi service providers in the DotSama ecosystem
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+  - Astar
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://cerestoken.io
+  twitter: TokenCeres
+treasury_funded: false
+audit: false

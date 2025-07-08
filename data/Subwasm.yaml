@@ -1,0 +1,22 @@
+name: Subwasm
+category:
+  - Infra
+  - Library
+  - Tools
+description: Subwasm is a cli utility inside a Substrate WASM Runtime. It can inspect and compare the metadata of Substrate based runtimes such as Polkadot or Kusama.
+readiness:
+  business: Verified in market/high adoption
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://github.com/chevdor/subwasm
+  github: https://github.com/chevdor/subwasm
+treasury_funded: false
+audit: false

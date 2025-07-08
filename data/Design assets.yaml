@@ -1,0 +1,19 @@
+name: Nova Assets
+category:
+  - Infra
+  - Library
+description: Design Assets for Polkadot ecosystem — tokens, networks, DApps
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-3
+web:
+  logo: default.png
+  site: https://www.figma.com/community/file/1039874427311142565/nova-assets-tokens-networks-dapps
+treasury_funded: false
+audit: false

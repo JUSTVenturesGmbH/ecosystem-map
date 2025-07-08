@@ -77,6 +77,7 @@ properties:
         - Aave
         - TON
         - Arweave
+        - Aptos
 
   layer:
     type: array
@@ -131,7 +132,7 @@ properties:
         - Identity
         - Indexer
         - Infra
-        - Linrary
+        - Library
         - Marketplace
         - Newsletter
         - NFT

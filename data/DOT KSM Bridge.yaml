@@ -1,0 +1,19 @@
+name: DOT-KSM Bridge
+category:
+  - Bridge
+description: trustless bridge between Polkadot and Kusama
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://wiki.polkadot.network/learn/learn-guides-dot-ksm-bridge/
+  documentation: https://wiki.polkadot.network/learn/learn-guides-dot-ksm-bridge/
+treasury_funded: false
+audit: false
