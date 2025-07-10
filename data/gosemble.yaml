@@ -1,0 +1,22 @@
+name: Gosemble
+category:
+  - Infra
+  - Tools
+  - Library
+description: Go-based Polkadot/Substrate Runtimes
+readiness:
+  technology: In development
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-0
+web:
+  logo: default.png
+  site: https://limechain.github.io/gosemble/
+  github: https://github.com/LimeChain/gosemble
+  documentation: https://limechain.github.io/gosemble/development/onboarding/
+treasury_funded: false
+audit: false

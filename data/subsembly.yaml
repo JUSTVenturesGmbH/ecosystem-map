@@ -1,0 +1,22 @@
+name: Subsembly
+category:
+  - Infra
+  - Tools
+  - Library
+description: Framework for building AssemblyScript Substrate Runtimes
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-0
+web:
+  logo: default.png
+  site: https://subsembly.gitbook.io/subsembly/
+  github: https://github.com/LimeChain/subsembly
+  documentation: https://subsembly.gitbook.io/subsembly/
+treasury_funded: false
+audit: false

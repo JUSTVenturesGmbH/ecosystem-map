@@ -5,20 +5,23 @@ category:
   - DAO
   - Dapp
   - Smart Contracts
-description: Consulting and developing infrastructure, host implementation in Java
+description: Consulting and developing infrastructure, Substrate runtime written in Assemblyscript, host implementation in Java
 readiness:
   business: Business concept/low adoption
   technology: In development
 target_audience:
   - Startup
   - Established corp
+  - Dev teams
 ecosystem:
   - Polkadot
+  - Kusama
   - Polygon
   - Avalanche
   - NEAR
 layer:
   - Layer-1
+  - Layer-0
 web:
   logo: default.png
   site: https://limechain.tech/
@@ -26,7 +29,7 @@ web:
   contact: hi@limechain.tech
   discord: https://discord.com/invite/95y4kzh5mJ
   github: https://github.com/LimeChain/Fruzhin
-treasury_funded: false
+treasury_funded: true
 audit: false
 metrics:
   twitter:
