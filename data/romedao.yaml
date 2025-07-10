@@ -15,5 +15,6 @@ web:
   logo: default.png
   discord: https://discord.com/invite/housesofrome
   twitter: housesofrome 
+  site: https://discord.com/invite/housesofrome
 treasury_funded: false
 audit: false

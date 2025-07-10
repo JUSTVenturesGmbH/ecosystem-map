@@ -78,6 +78,7 @@ properties:
         - TON
         - Arweave
         - Aptos
+        - Optimism
 
   layer:
     type: array

@@ -1,0 +1,24 @@
+name: Destore
+category:
+  - Dapp
+  - NFT
+description: We verify Real World Assets using Blockchain
+readiness:
+  technology: In production
+  business: 
+target_audience:
+  - Startup
+  - Community DAO
+ecosystem:
+  - Astar Network
+layer:
+  - Layer-3
+web:
+  logo: default.png
+  site: https://destore.network
+  github: https://github.com/DeStore-Network/.github
+  contact: info@destore.network
+  twitter: DeStore_Network
+  discord: https://discord.com/invite/Kyrmmg6mTc 
+treasury_funded: false
+audit: false
