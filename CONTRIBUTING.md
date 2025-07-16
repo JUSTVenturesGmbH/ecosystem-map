@@ -134,12 +134,12 @@ Only input what is applicable for what you are adding.
        - Layer-4
        - None
 
-[^1]: Layer definitions
-   - Layer 0 - protocol
-   - Layer 1 - consensus (consensus, node operators, parachains)
-   - Layer 2 - scaling (off-chain computing, messages, governance, bridges)
-   - Layer 3 - smart contracts, dApps
-   - Layer 4 - identity, keys
+[^1]: Layer definitions.
+Layer 0 : protocol. 
+Layer 1 : consensus (consensus, node operators, parachains).
+Layer 2 : scaling (off-chain computing, messages, governance, bridges).
+Layer 3 : smart contracts, dApps.
+Layer 4 : identity, keys.
 
 - `logo`: WIP
 - `website`: URL to the project website
