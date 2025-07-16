@@ -1,0 +1,21 @@
+name: DOT memo
+category:
+  - NFT
+  - Dapp
+description: allows users to create and collect digital memories as NFTs
+readiness:
+  technology: In production
+target_audience:
+  - Individuals
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://dotmemo.xyz
+  github: https://github.com/dotmemoxyz/app
+  twitter: polkadotmemo 
+treasury_funded: false
+audit: false

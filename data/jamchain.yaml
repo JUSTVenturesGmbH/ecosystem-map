@@ -1,0 +1,21 @@
+name: JAMChain
+category:
+  - Analytics
+  - Education
+description: Tracking teams that are working on JAM implementations in different languages
+readiness:
+  technology: In production
+target_audience:
+  - Individuals
+  - Dev teams
+ecosystem:
+  - Polkadot
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://jamcha.in/clients
+  github: https://github.com/JamBrains/jam-chain
+  documentation: https://docs.jamcha.in
+treasury_funded: false
+audit: false

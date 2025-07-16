@@ -1,0 +1,21 @@
+name: GraphQL Endpoint
+category:
+  - Infra
+  - Library
+  - API
+description: Graphql endpoint for Polkadot & Kusama
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://github.com/interweb-it/dotsama-grapql
+  github: https://github.com/interweb-it/dotsama-grapql
+treasury_funded: false
+audit: false

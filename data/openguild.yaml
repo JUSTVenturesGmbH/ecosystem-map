@@ -1,0 +1,24 @@
+name: Open Guild
+category:
+  - Social
+  - Education
+description: An open community driven by Web 3.0 elevating builders on Polkadot
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+  - Individuals
+  - Startup
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://openguild.wtf
+  contact: openguildteam@gmail.com
+  twitter: openguildwtf
+  github: https://github.com/openguild-labs/polkadot-education-hub
+treasury_funded: false
+audit: false

@@ -1,0 +1,22 @@
+name: Somnode
+category:
+  - Infra
+  - Library
+description: Simulation Testing Framework for Parachains and Standalone Substrate Based Chains
+readiness:
+  business: Verified in market/high adoption
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://github.com/polytope-labs/sc-simnode?tab=readme-ov-file
+  github: https://github.com/polytope-labs/sc-simnode?tab=readme-ov-file
+  documentation: https://simnode.polytope.technology
+treasury_funded: false
+audit: false

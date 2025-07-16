@@ -1,0 +1,22 @@
+name: API
+category:
+  - Infra
+  - Library
+  - API
+description: Novasama API for Polkadot/Kusama ecosystem networks & solochains, implemented & hosted on SubQuery. Includes Operations, Staking analytics, Governance, Multistaking APIs
+readiness:
+  business: Verified in market/high adoption
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://api.novasama.io
+  github: https://github.com/novasamatech/subquery-history
+treasury_funded: false
+audit: false

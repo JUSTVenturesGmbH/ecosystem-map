@@ -1,0 +1,19 @@
+name: Demeter
+category:
+  - DeFi
+description: A first Ceres airdrop token with its platform called Demeter Farming Platform and The play-to-Earn game is called DEO Arena.
+readiness:
+  technology: In production
+target_audience:
+  - Personal investors
+ecosystem:
+  - Sora
+  - Polkadot
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://farming.deotoken.io
+  twitter: TokenCeres
+treasury_funded: false
+audit: false

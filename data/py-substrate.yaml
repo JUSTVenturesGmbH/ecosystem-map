@@ -1,0 +1,22 @@
+name: Python Polkadot SDK
+category:
+  - Infra
+  - Library
+description: This library specializes in interfacing with a Substrate node; querying storage, composing extrinsics, SCALE encoding/decoding and providing additional convenience methods to deal with the features and metadata of the Substrate runtime.
+readiness:
+  business: Verified in market/high adoption
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-1
+web:
+  logo: default.png
+  site: https://github.com/JAMdotTech/py-polkadot-sdk
+  github: https://github.com/JAMdotTech/py-polkadot-sdk
+  documentation: https://jamdottech.github.io/py-polkadot-sdk/
+treasury_funded: false
+audit: false

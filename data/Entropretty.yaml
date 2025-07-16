@@ -1,0 +1,20 @@
+name: Entropretty
+category:
+  - Dapp
+  - Social
+description: A new tool to create algorithm based tattoo art for Web3Citizenship app
+readiness:
+  technology: In production
+target_audience:
+  - Individuals
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-4
+web:
+  logo: default.png
+  site: https://entropretty.com
+  twitter: entropretty
+treasury_funded: false
+audit: false

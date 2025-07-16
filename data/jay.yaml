@@ -1,0 +1,12 @@
+name: The Kusamarian Youtube channel
+category:
+  - Education
+  - Video
+description: All things Polkadot - interviews, governance, regulatory.
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://www.youtube.com/c/JayChrawnna
+  twitter: TheKusamarian
+treasury_funded: false

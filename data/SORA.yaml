@@ -4,6 +4,7 @@ category:
   - Wallet
   - Bridge
   - Game
+  - Validator provider
 description: level-1 blockchain for Defi with bridges, swap and wallet
 readiness:
   business: Scaling/Alliance

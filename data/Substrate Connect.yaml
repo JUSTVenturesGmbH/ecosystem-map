@@ -1,0 +1,23 @@
+name: Substrate Connect
+category:
+  - Infra
+  - Library
+  - API
+description: Provides a way to interact with substrate based blockchains in the browser without using an RPC server. It uses a smoldot WASM light client to securely connect to the blockchain network without relying on specific 3rd parties.
+readiness:
+  business: Verified in market/high adoption
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://github.com/paritytech/substrate-connect
+  github: https://github.com/paritytech/substrate-connect
+  documentation: https://paritytech.github.io/substrate-connect/
+treasury_funded: false
+audit: false

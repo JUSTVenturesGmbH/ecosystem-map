@@ -1,0 +1,33 @@
+name: Kuma
+category:
+  - Wallet
+  - Dapp
+  - DeFi
+  - EVM
+description: cross-chain wallet that offers seamless management and transfer of assets between EVM and WASM chains
+readiness:
+  business: Business concept/low adoption
+  technology: In production
+target_audience:
+  - Individuals
+  - Personal investors
+  - Institutional investors
+  - Community DAO
+ecosystem:
+  - Moonbeam
+  - Astar Network
+  - Polkadot
+  - Ethereum
+  - Kusama
+layer:
+  - Layer-4
+web:
+  logo: default.png
+  site: https://kumawallet.io
+  twitter: getkuma
+  discord: https://discord.com/invite/pAXKfPAAaK
+  github: https://github.com/kumawallet/extension
+  documentation: https://info.kumawallet.io
+  webstore: https://chromewebstore.google.com/detail/kuma-wallet/hbinmkhlebcnghpikoekkbeljbealbje
+treasury_funded: false
+audit: false

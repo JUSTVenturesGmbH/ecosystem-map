@@ -1,0 +1,20 @@
+name: Follow the Dot
+category:
+  - Infra
+  - Library
+description: Balance transfer graph visualization application for Polkadot
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://followthedot.live
+  github: https://github.com/helikon-labs/followthedot
+treasury_funded: false
+audit: false

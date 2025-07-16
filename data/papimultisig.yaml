@@ -1,0 +1,21 @@
+name: Multisig tool
+category:
+  - Tools
+description: A multisig tool built with PAPI that’s completely stateless
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+  - Individuals
+  - Startup
+  - Community DAO
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://multisig.usepapi.app
+treasury_funded: false
+audit: false

@@ -1,0 +1,26 @@
+name: Certhum
+category:
+  - Library
+  - Analytics
+  - Indexer
+  - Validator provider
+description: Validator and Collator Geo-Location, database backups
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+  - Individuals
+  - Startup
+ecosystem:
+  - Polkadot
+  - Kusama
+  - Moonbeam
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://www.certhum.com/maps
+  contact: contact@certhum.com
+  twitter: CertHum 
+treasury_funded: false
+audit: false

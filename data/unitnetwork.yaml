@@ -1,0 +1,11 @@
+name: Unit network Youtube channel
+category:
+  - Education
+  - Video
+description: Learn about the fundamentals of Polkadot
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://www.youtube.com/@UnitNetwork
+treasury_funded: false

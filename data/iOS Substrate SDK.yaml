@@ -1,0 +1,21 @@
+name: iOS Substrate SDK
+category:
+  - Infra
+  - Library
+description: Native iOS SDK for developing client apps for Substrate-based networks
+readiness:
+  business: Verified in market/high adoption
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://github.com/novasamatech/substrate-sdk-ios
+  github: https://github.com/novasamatech/substrate-sdk-ios
+treasury_funded: false
+audit: false

@@ -1,0 +1,20 @@
+name: Polkadot Next.js template
+category:
+  - Infra
+  - Library
+description: A starter template for building frontend applications on the Polkadot network
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://github.com/niklasp/polkadot-nextjs-starter
+  github: https://github.com/niklasp/polkadot-nextjs-starter
+treasury_funded: false
+audit: false

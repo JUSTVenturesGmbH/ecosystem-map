@@ -1,0 +1,20 @@
+name: Polkastore
+category:
+  - Infra
+  - Library
+description: Store chain-related data in a database
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://github.com/TheGoldenEye/polka-store
+  github: https://github.com/TheGoldenEye/polka-store
+treasury_funded: false
+audit: false

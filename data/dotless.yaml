@@ -1,0 +1,18 @@
+name: Dotless
+category:
+  - Dapp
+description: Interactive visualization of Polkadot's economic model
+readiness:
+  technology: In production
+target_audience:
+  - Individuals
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://dotless.xyz
+treasury_funded: false
+audit: false

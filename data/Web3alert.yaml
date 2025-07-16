@@ -1,0 +1,24 @@
+name: Web3Alert
+category:
+  - Infra
+  - Library
+  - Staking
+  - Dapp
+  - Alerts
+description: Get instant alert of your favorite blockchain.
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://web3alert.io
+  twitter: web3alert
+  documentation: https://docs.web3alert.io/developer/getting-started
+treasury_funded: false
+audit: false

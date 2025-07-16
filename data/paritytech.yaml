@@ -1,0 +1,22 @@
+name: Paritytech
+category:
+  - Infra
+  - Tools
+  - Library
+description: Rust implementation of Polkadot SDK which provides all the resources needed to start building on the Polkadot.
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-0
+web:
+  logo: default.png
+  site: https://polkadot.com
+  github: https://github.com/paritytech/polkadot-sdk
+  documentation: https://docs.polkadot.com
+treasury_funded: false
+audit: true

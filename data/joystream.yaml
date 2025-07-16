@@ -1,0 +1,27 @@
+name: Joystream
+category:
+  - Social
+  - NFT
+  - DAO
+description: video platform controlled, owned, and operated by its users
+readiness:
+  technology: In production
+  business: Verified in market/high adoption
+target_audience:
+  - Community DAO
+  - Individuals
+  - Startup
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-1
+web:
+  logo: default.png
+  site: https://www.joystream.org
+  github: https://github.com/Joystream/joystream
+  documentation: https://handbook.joystream.org
+  twitter: JoystreamDAO
+  discord: https://discord.com/invite/NaNzysB5YZ
+treasury_funded: false
+audit: true

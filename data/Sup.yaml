@@ -1,0 +1,21 @@
+name: Substrate package manager
+category:
+  - Infra
+  - Library
+description: Substrate package manager
+readiness:
+  technology: Discontinued
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://github.com/clearloop/sup
+  github: https://github.com/clearloop/sup
+  documentation: https://github.com/clearloop/sup/blob/master/GUIDE.md
+treasury_funded: false
+audit: false

@@ -1,0 +1,25 @@
+name: Solarbeam
+category:
+  - Bridge
+  - Exchange
+  - DeFi
+description: A decentralized exchange, providing liquidity and enabling peer to peer transactions on the Moonriver network and Moonbeam network.
+readiness:
+  technology: In production
+target_audience:
+  - Individuals
+  - Institutional investors
+  - Personal investors
+ecosystem:
+  - Moonbeam
+layer:
+  - Layer-3
+web:
+  logo: default.png
+  site: https://solarbeam.io
+  github: https://github.com/solarbeamio
+  documentation: https://docs.solarbeam.io
+  twitter: Solarbeamio
+  discord: https://discord.com/invite/solarbeam
+treasury_funded: false
+audit: false

@@ -1,0 +1,23 @@
+name: Sign-In with Substrate
+category:
+  - Infra
+  - Library
+  - Privacy
+description: Sign-In with Substrate
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-3
+web:
+  logo: default.png
+  site: https://siws.xyz
+  github: https://github.com/TalismanSociety/siws
+  documentation: https://docs.siws.xyz/
+  contact: https://matrix.to/#/#siws-general:matrix.org
+treasury_funded: false
+audit: false

@@ -1,0 +1,23 @@
+name: Validator selector
+category:
+  - Infra
+  - Dapp
+description: Validator selector
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+  - Individuals
+  - Institutional investors
+  - Personal investors
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-4
+web:
+  logo: default.png
+  site: https://w3f.github.io/validator-selection-tool/
+  contact: jonas@web3.foundation
+treasury_funded: false
+audit: false

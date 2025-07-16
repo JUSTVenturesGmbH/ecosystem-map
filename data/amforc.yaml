@@ -1,0 +1,23 @@
+name: Amforc
+category:
+  - Validator provider
+  - Staking
+description: Public validator provider
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+  - Individuals
+  - Startup
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://amforc.com/
+  github: https://github.com/amforc/spammening
+  twitter: amforcag 
+treasury_funded: false
+audit: false

@@ -1,0 +1,21 @@
+name: Paranodes
+category:
+  - Validator provider
+  - Tools
+description: Validator provider, validator tooling
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://paranodes.io
+  github: https://github.com/paradox-tt/CrunchPayees
+  twitter: ParaNodes 
+treasury_funded: false
+audit: false

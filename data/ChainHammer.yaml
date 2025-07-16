@@ -1,0 +1,21 @@
+name: ChainHammer
+category:
+  - Infra
+  - Library
+  - Tools
+description: Multi-chain performance testing tool
+readiness:
+  technology: Discontinued
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-1
+web:
+  logo: default.png
+  site: https://github.com/drandreaskrueger/chainhammer
+  github: https://github.com/drandreaskrueger/chainhammer
+treasury_funded: false
+audit: false

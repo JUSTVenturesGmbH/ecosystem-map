@@ -1,0 +1,13 @@
+name: Promo team Youtube channel
+category:
+  - Education
+  - Video
+  - DAO
+description: PromoTeam DAO — we are an international team of Web3 enthusiasts. 
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://www.youtube.com/@PolkadotPromoTeam
+  twitter: PromoTeamPD
+treasury_funded: false

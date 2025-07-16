@@ -1,0 +1,21 @@
+name: Submap
+category:
+  - Tools
+description: Map out all the extrinsic of your account
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+  - Individuals
+  - Startup
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://playing-with-dust.github.io/submap/
+  github: https://github.com/playing-with-dust/submap
+treasury_funded: true
+audit: false

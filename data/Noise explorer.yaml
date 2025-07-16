@@ -1,0 +1,21 @@
+name: Noise explorer
+category:
+  - Infra
+  - Library
+description: Online engine for reasoning about the Noise Protocol Framework
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://noiseexplorer.com
+  github: https://github.com/SymbolicSoft/noiseexplorer
+  documentation: https://github.com/SymbolicSoft/noiseexplorer
+treasury_funded: false
+audit: false

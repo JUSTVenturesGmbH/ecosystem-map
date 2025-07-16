@@ -1,0 +1,21 @@
+name: Substrate Debug
+category:
+  - Infra
+  - Library
+description: A collection of debug tools, scripts and libraries on top of substrate.
+readiness:
+  business: Verified in market/high adoption
+  technology: Discontinued
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://github.com/paritytech/substrate-debug-kit
+  github: https://github.com/paritytech/substrate-debug-kit
+treasury_funded: false
+audit: false

@@ -1,0 +1,27 @@
+name: Staking dashboard
+category:
+  - Dapp
+  - Staking
+description: Fully featured dashboard for staking and nomination pools on Polkadot.
+readiness:
+  business: Verified in market/high adoption
+  technology: In production
+target_audience:
+  - Personal investors
+  - Institutional investors
+  - Community DAO
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://staking.polkadot.cloud/#/overview
+  github: https://github.com/polkadot-cloud/polkadot-staking-dashboard
+  discord: https://discord.com/invite/QY7CSSJm3D
+  contact: staking@polkadot.cloud
+  documentation: https://github.com/polkadot-cloud/polkadot-staking-dashboard/blob/main/docs/EN.md
+treasury_funded: false
+audit: false

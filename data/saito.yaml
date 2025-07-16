@@ -1,0 +1,27 @@
+name: Saito network
+category:
+  - Social
+  - Game
+  - Dapp
+  - Data
+  - Privacy
+  - Wallet
+description: Decentralized messaging, gaming, videocalls and social.
+readiness:
+  technology: In production
+target_audience:
+  - Individuals
+  - Startup
+ecosystem:
+  - Kusama
+layer:
+  - Layer-1
+web:
+  logo: default.png
+  site: https://saito.io
+  github: https://github.com/SaitoTech/saito-lite-rust
+  documentation: https://wiki.saito.io
+  contact: info@saito.tech
+  twitter: SaitoOfficial
+treasury_funded: false
+audit: false

@@ -1,0 +1,21 @@
+name: Polkadart
+category:
+  - Infra
+  - Library
+description: Dart library to fully interact with any Polkadot-based blockchain.
+readiness:
+  business: Verified in market/high adoption
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://github.com/leonardocustodio/polkadart
+  github: https://github.com/leonardocustodio/polkadart
+treasury_funded: false
+audit: false

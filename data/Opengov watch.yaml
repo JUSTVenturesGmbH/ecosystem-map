@@ -1,0 +1,18 @@
+name: Opengov watch
+category:
+  - Governance
+description: We help OpenGov grow up and develop structures and culture. We monitor ongoing developments, publish reports, consult OpenGov participants and provide thought leadership through curating a community-developed strategy for ecosystem development.
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-4
+web:
+  logo: default.png
+  site: https://www.opengov.watch
+treasury_funded: false
+audit: false

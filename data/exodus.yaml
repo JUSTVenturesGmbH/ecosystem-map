@@ -1,0 +1,11 @@
+name: Exodus Youtube channel
+category:
+  - Education
+  - Video
+description: Kusama & Polkadot parachains explained in simple terms.
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://www.youtube.com/watch?v=i6AP6zkhOkA
+treasury_funded: false

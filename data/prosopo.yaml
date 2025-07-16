@@ -1,0 +1,17 @@
+name: Prosopo
+category:
+  - Dapp
+  - Privacy
+description: Prosopo is a decentralized bot protection platform built on Polkadot
+layer:
+  - Layer-3
+ecosystem:
+  - Polkadot
+web:
+  logo: default.png
+  site: https://prosopo.io
+  documentation: https://docs.prosopo.io/en/basics/
+  github: https://github.com/prosopo/captcha
+  twitter: prosopo_
+  discord: https://discord.com/invite/dwQx2w9Tgm
+treasury_funded: false

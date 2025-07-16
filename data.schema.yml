@@ -77,6 +77,9 @@ properties:
         - Aave
         - TON
         - Arweave
+        - Aptos
+        - Optimism
+        - Sora
 
   layer:
     type: array
@@ -131,7 +134,7 @@ properties:
         - Identity
         - Indexer
         - Infra
-        - Linrary
+        - Library
         - Marketplace
         - Newsletter
         - NFT
@@ -142,6 +145,7 @@ properties:
         - Staking
         - Tools
         - Validator provider
+        - Video
         - Wallet
         - XCM
 

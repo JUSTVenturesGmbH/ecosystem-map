@@ -1,0 +1,22 @@
+name: Dedot
+category:
+  - Infra
+  - Library
+description: Delightful JavaScript/TypeScript client for Polkadot & Polkadot SDK-based blockchains
+readiness:
+  business: Verified in market/high adoption
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://docs.dedot.dev
+  github: https://github.com/dedotdev/dedot
+  documentation: https://docs.dedot.dev
+treasury_funded: false
+audit: false

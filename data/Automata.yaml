@@ -1,0 +1,25 @@
+name: Automata
+category:
+  - Infra
+  - DAO
+  - Bridge
+  - EVM
+  - Privacy
+description: machine attestation layer built by humans, designed for machines
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Optimism
+  - Kusama
+layer:
+  - Layer-1
+web:
+  logo: default.png
+  site: https://www.ata.network
+  github: https://github.com/automata-network/automata-dcap-attestation
+  documentation: https://docs.ata.network
+  twitter: AutomataNetwork
+treasury_funded: false
+audit: false

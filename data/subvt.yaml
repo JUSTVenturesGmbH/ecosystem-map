@@ -1,0 +1,26 @@
+name: SubVT
+category:
+  - Dapp
+  - Tools
+  - Analytics
+  - Validator provider
+description: SubVT (Substrate Validator Toolkit) is an open-source native mobile application for iOS and Android phones, tablets and wearables that provides node operators with tools that aid them in running their validators on Substrate-based blockchain networks.
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+  - Individuals
+  - Startup
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://subvt.io
+  github: https://github.com/helikon-labs/subvt-backend
+  appstore: https://apps.apple.com/app/subvt/id1602653455
+  contact: info@helikon.io
+treasury_funded: true
+audit: false

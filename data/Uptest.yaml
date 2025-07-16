@@ -1,0 +1,21 @@
+name: Uptest
+category:
+  - Infra
+  - Library
+description: Uptest aims to be an easy stand-alone library for testing runtime upgrades before they are deployed.
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://github.com/uptest-sc/uptest/tree/main
+  github: https://github.com/uptest-sc/uptest/tree/main
+  documentation: https://uptest-sc.github.io
+treasury_funded: true
+audit: false

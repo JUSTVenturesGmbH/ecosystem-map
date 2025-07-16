@@ -1,0 +1,23 @@
+name: Sprinter (former Sygma)
+category:
+  - Infra
+  - EVM
+  - Bridge
+description: A substrate to EVM Bridge, the interoperability layer for cross-blockchain applications
+readiness:
+  technology: Discontinued
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-3
+web:
+  logo: default.png
+  site: https://buildwithsygma.com
+  documentation: https://docs.buildwithsygma.com
+  twitter: buildwithsygma
+  discord: https://discord.com/invite/Qdf6GyNB5J
+treasury_funded: false
+audit: false

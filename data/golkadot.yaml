@@ -1,0 +1,21 @@
+name: Golkadot
+category:
+  - Infra
+  - Tools
+  - Library
+description: Polkadot Substrate implementation in Go
+readiness:
+  technology: Discontinued
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-0
+web:
+  logo: default.png
+  site: https://github.com/opennetsys/golkadot
+  github: https://github.com/opennetsys/golkadot
+treasury_funded: false
+audit: false

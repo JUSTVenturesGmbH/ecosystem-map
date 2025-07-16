@@ -1,0 +1,21 @@
+name: tapDOT
+category:
+  - Infra
+  - Library
+  - DeFi
+  - Dapp
+description: One click blockchain actions for Polkadot
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://tapdot.xyz
+treasury_funded: false
+audit: false

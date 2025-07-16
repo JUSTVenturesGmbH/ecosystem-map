@@ -1,0 +1,19 @@
+name: Polkadot.wtf
+category:
+  - Indexer
+description: Real Time dashboard for all the chains in Polkadot
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://polkadot.wtf
+  github: https://github.com/lovelaced/polkadotwtf
+treasury_funded: false
+audit: false

@@ -1,0 +1,21 @@
+name: Smoldot
+category:
+  - Infra
+  - Library
+description: an alternative client of Substrate-based chains, including Polkadot
+readiness:
+  business: Verified in market/high adoption
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://github.com/smol-dot/smoldot
+  github: https://github.com/smol-dot/smoldot
+treasury_funded: false
+audit: false

@@ -1,0 +1,21 @@
+name: ChaosDAO Governance bot
+category:
+  - Governance
+description: OpenGov Community Voting Discord Bot
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+  - Individuals
+  - Community DAO
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://github.com/ChaosDAO-org/InternalGov-2.0
+  github: https://github.com/ChaosDAO-org/InternalGov-2.0
+treasury_funded: true
+audit: false

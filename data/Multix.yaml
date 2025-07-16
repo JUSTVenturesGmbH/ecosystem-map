@@ -1,0 +1,27 @@
+name: Multix
+category:
+  - Wallet
+  - Dapp
+  - DeFi
+  - EVM
+description: an interface to easily manage complex multisigs
+readiness:
+  business: Business concept/low adoption
+  technology: In production
+target_audience:
+  - Individuals
+  - Personal investors
+  - Institutional investors
+  - Community DAO
+ecosystem:
+  - Acala Network
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-4
+web:
+  logo: default.png
+  site: https://multix.cloud/?network=polkadot
+  github: https://github.com/Tbaut/Multix
+treasury_funded: false
+audit: false

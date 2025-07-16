@@ -1,0 +1,21 @@
+name: Skilltree
+category:
+  - Education
+description: Visual map of cool stuff you can do on Polkadot
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+  - Individuals
+  - Startup
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://karimjedda.github.io/polkadot-skilltree/
+  github: https://github.com/KarimJedda/polkadot-skilltree
+treasury_funded: false
+audit: false

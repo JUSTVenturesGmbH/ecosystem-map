@@ -1,0 +1,24 @@
+name: 1kv insights by Math crypto
+category:
+  - Infra
+  - Tools
+  - Validator provider
+  - Staking
+  - Governance
+description: Tools for staking, validators, 1kv insights
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://insights.math-crypto.com/polkadot/
+  github: https://github.com/MathCryptoDoc/dotsama-snippets?tab=readme-ov-file
+  documentation: https://www.math-crypto.com
+treasury_funded: false
+audit: false

@@ -1,0 +1,21 @@
+name: Polkatax
+category:
+  - Tools
+  - Dapp
+  - Staking
+description: Export your staking rewards as CSV or JSON
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-4
+web:
+  logo: default.png
+  site: https://polkatax.com/staking-rewards
+  github: https://github.com/polkatax-project/polkatax
+treasury_funded: false
+audit: false

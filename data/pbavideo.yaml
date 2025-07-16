@@ -1,0 +1,10 @@
+name: Polkadot Blockchain Academy
+category:
+  - Education
+description: This book is the home of the majority of materials used within the Polkadot Blockchain Academy.
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://polkadot-blockchain-academy.github.io/pba-book/
+treasury_funded: false

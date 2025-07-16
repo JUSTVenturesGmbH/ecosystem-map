@@ -1,0 +1,23 @@
+name: One-T
+category:
+  - Infra
+  - Indexer
+  - API
+  - Validator provider
+  - Alerts
+description:  an indexer and performance reporting matrix bot for the Polkadot and Kusama networks with special focus on the Decentralized Nodes programme previously known as One Thousand validator programme. 
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://github.com/turboflakes/one-t
+  github: https://github.com/turboflakes/one-t
+treasury_funded: false
+audit: false

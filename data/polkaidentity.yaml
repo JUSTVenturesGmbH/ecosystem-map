@@ -1,0 +1,23 @@
+name: Polka Identity
+category:
+  - Dapp
+  - Privacy
+  - Data
+description: A decentralized identity provider on Polkadot
+readiness:
+  technology: In production
+target_audience:
+  - Individuals
+  - Community DAO
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-4
+web:
+  logo: default.png
+  site: https://www.polkaidentity.com/
+  twitter: polkaidentity
+  contact: hello@polkaidentity.com
+treasury_funded: false
+audit: false

@@ -1,0 +1,37 @@
+name: Enkrypt
+category:
+  - Wallet
+  - Dapp
+  - DeFi
+  - EVM
+description: A multichain browser extension by myetherwallet team
+readiness:
+  business: Scaling/Alliance
+  technology: In production
+target_audience:
+  - Individuals
+  - Personal investors
+  - Institutional investors
+  - Community DAO
+ecosystem:
+  - Moonbeam
+  - Astar Network
+  - Polkadot
+  - Ethereum
+  - Kusama
+  - TON
+  - BNB Chain
+  - Bitcoin
+layer:
+  - Layer-4
+web:
+  logo: default.png
+  site: https://www.enkrypt.com/#security
+  twitter: enkrypt
+  discord: https://discord.com/invite/Gz8vBneyKe
+  github: https://github.com/enkryptcom/enKrypt
+  documentation: https://myetherwallet.gitbook.io/enkrypt-documentation/
+  appstore: https://apps.apple.com/ru/app/enkrypt-eth-btc-sol-wallet/id1640164309?l=en-GB&mt=12
+  webstore: https://chromewebstore.google.com/detail/enkrypt-eth-btc-and-solan/kkpllkodjeloidieedojogacfhpaihoh
+treasury_funded: false
+audit: false

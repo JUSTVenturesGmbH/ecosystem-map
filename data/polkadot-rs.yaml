@@ -1,0 +1,20 @@
+name: Polkadot-rs
+category:
+  - Infra
+  - Library
+description: Minimal Rust implementation of @polkadot-js/api. (Made by OpenGuild Community)
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://github.com/chungquantin/polkadot-rs
+  github: https://github.com/chungquantin/polkadot-rs
+treasury_funded: false
+audit: false
