@@ -1,0 +1,10 @@
+name: Kusama Academy
+category:
+  - Education
+description: Learn about Polkadot and different Parachains.
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://kusama.academy/en/learn/
+treasury_funded: false

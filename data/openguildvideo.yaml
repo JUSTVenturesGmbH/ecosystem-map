@@ -1,0 +1,13 @@
+name: OpenGuild Youtube channel
+category:
+  - Education
+  - Video
+description: An open community driven by Web 3.0 builders elevating Polkadot ecosystem - learn, contribute, connect.
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://www.youtube.com/@openguildwtf
+  discord: discord.gg/D7R5E9cwb2
+  twitter: openguildwtf
+treasury_funded: false

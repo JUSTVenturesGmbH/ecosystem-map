@@ -1,0 +1,25 @@
+name: OpenTGov
+category:
+  - Library
+  - Governance
+  - Social
+description: Participate in Polkadot Opengov through Telegram
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+  - Individuals
+  - Startup
+  - Community DAO
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://opentgov.com
+  github: https://github.com/mar1/opentgov
+  twitter: opentgov
+treasury_funded: true
+audit: false

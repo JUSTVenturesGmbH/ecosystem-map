@@ -1,0 +1,13 @@
+name: Polkadot official Youtube channel
+category:
+  - Education
+  - Video
+description: Polkadot official channel
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://www.youtube.com/@PolkadotNetwork
+  twitter: polkadot
+  discord: https://discord.com/invite/polkadot
+treasury_funded: false

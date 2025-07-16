@@ -1,0 +1,26 @@
+name: Proof of chaos
+category:
+  - Library
+  - NFT
+  - Governance
+  - Tools
+description: Tools for incentivized voting
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+  - Individuals
+  - Startup
+  - Community DAO
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://www.proofofchaos.app
+  github: https://github.com/Proof-Of-Chaos/website
+  twitter: GovPartRewKSM
+treasury_funded: true
+audit: false

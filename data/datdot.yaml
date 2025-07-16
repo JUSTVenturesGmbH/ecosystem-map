@@ -1,0 +1,22 @@
+name: Datdot
+category:
+  - Data
+  - Library
+description: DatDot enables peer-to-peer sharing of storage space and data seeding to make data sovereignity and portability more accessible and reliable for users.
+readiness:
+  business: Business concept/low adoption
+  technology: Discontinued
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-3
+web:
+  logo: default.png
+  site: https://datdot.org/#package
+  github: https://github.com/datdotorg/datdot-node-rust
+  documentation: https://datdot.org/#package
+treasury_funded: true
+audit: false

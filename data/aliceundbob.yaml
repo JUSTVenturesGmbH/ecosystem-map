@@ -1,0 +1,12 @@
+name: Alice und Bob Youtube channel
+category:
+  - Education
+  - Video
+description: Polkadot ecosystem agent, follow for DOT News, Projects & Governance
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://www.youtube.com/channel/UC0alQ35JKnMo_ctzYITthbw
+  twitter: alice_und_bob
+treasury_funded: false

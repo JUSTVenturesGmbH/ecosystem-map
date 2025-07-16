@@ -1,0 +1,20 @@
+name: Dotrollups
+category:
+  - Education
+description: Tailored decentralized services without compromises
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+  - Individuals
+  - Startup
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-1
+web:
+  logo: default.png
+  site: https://dotrollups.com/#
+treasury_funded: false
+audit: false

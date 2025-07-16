@@ -1,0 +1,11 @@
+name: Polkadot Newsletter
+category:
+  - Education
+  - Newsletter
+description: Subscribe for the latest news, technical updates and helpful developer resources.
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://substrate.io/ecosystem/connect/newsletter/
+treasury_funded: false

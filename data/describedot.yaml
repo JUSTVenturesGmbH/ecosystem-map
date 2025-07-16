@@ -1,0 +1,11 @@
+name: Describedot
+category:
+  - Education
+  - Video
+description: This channel provides an easy explanation about Polkadot in Hindi language
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://www.youtube.com/channel/UCMLbuHyF7gFb1A0U4WE7cXQ
+treasury_funded: false

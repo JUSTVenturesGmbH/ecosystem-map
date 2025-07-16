@@ -1,0 +1,26 @@
+name: Seascape
+category:
+  - Social
+  - Game
+  - NFT
+  - DeFi
+  - Dapp
+  - Smart Contracts
+description: a gaming platform with a focus on bringing true fun and working infrastructure to the Web 3.0 space.
+readiness:
+  technology: In production
+target_audience:
+  - Individuals
+  - Startup
+ecosystem:
+  - Moonbeam
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://game.seascape.network
+  github: https://github.com/seascapenetwork/seascape-smartcontracts
+  documentation: https://docs.seascape.network/
+  twitter: seascapenetwork
+treasury_funded: false
+audit: true

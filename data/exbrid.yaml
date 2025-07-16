@@ -1,0 +1,21 @@
+name: Exbrid
+category:
+  - Tools
+description: Ethereum <> Polkadot messaging experiment using Reth ExEx
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+  - Individuals
+  - Startup
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://github.com/blockdeep/exbrid
+  github: https://github.com/blockdeep/exbrid
+treasury_funded: false
+audit: false

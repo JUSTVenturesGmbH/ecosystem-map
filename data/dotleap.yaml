@@ -1,0 +1,11 @@
+name: DotLeap
+category:
+  - Education
+  - Newsletter
+description: The most comprehensive weekly newsletter for the Polkadot ecosystem
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://newsletter.dotleap.com/
+treasury_funded: false

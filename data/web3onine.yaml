@@ -1,0 +1,13 @@
+name: Web3 Online Youtube channel
+category:
+  - Education
+  - Video
+description: Learn about Rust and Polkadot ecosystem.
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://www.youtube.com/@web3online
+  github: rgithub.com/rustninja
+  twitter: web3online
+treasury_funded: false

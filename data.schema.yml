@@ -79,6 +79,7 @@ properties:
         - Arweave
         - Aptos
         - Optimism
+        - Sora
 
   layer:
     type: array
@@ -144,6 +145,7 @@ properties:
         - Staking
         - Tools
         - Validator provider
+        - Video
         - Wallet
         - XCM
 

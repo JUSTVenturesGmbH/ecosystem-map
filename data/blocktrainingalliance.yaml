@@ -1,0 +1,10 @@
+name: Blockchain Training Alliance
+category:
+  - Education
+description: A course for developers to learn how to effectively build on Polkadot
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://blockchaintrainingalliance.com/collections/self-paced-training/products/developing-on-polkadot-with-substrate
+treasury_funded: false

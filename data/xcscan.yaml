@@ -1,0 +1,21 @@
+name: Xscan
+category:
+  - Analytics
+  - Indexer
+description: Cross chain visualization tool
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+  - Individuals
+  - Startup
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://xcscan.io/analytics/
+treasury_funded: false
+audit: false

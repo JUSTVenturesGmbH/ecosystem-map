@@ -1,0 +1,22 @@
+name: Nominumbers
+category:
+  - Analytics
+  - Indexer
+description: Experimental kusama staking analysis
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+  - Individuals
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://playing-with-dust.github.io/nominumbers/
+  github: https://github.com/playing-with-dust/nominumbers#readme
+  documentation: https://github.com/playing-with-dust/nominumbers#readme
+treasury_funded: false
+audit: false

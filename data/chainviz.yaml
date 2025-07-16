@@ -1,0 +1,21 @@
+name: Chainviz
+category:
+  - Analytics
+  - Dapp
+description: Realtime chain visualization WebGL application for Kusama
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+  - Individuals
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://alpha.chainviz.app
+  github: https://github.com/helikon-labs/chainviz
+treasury_funded: true
+audit: false

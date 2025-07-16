@@ -1,0 +1,11 @@
+name: Cryptor Youtube channel
+category:
+  - Education
+  - Video
+description: Russian speaking everything crypto
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://www.youtube.com/c/Cryptor
+treasury_funded: false

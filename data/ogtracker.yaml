@@ -1,0 +1,23 @@
+name: OGtracker
+category:
+  - Analytics
+  - Governance
+description: The Tracking tool for OpenGov deliverables
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+  - Individuals
+  - Startup
+  - Community DAO
+ecosystem:
+  - Polkadot
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://ogtracker.io
+  twitter: og_tracker
+  documentation: https://docs.ogtracker.io/overview/
+treasury_funded: true
+audit: false

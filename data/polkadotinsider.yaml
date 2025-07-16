@@ -1,0 +1,12 @@
+name: Polkadot Insider
+category:
+  - Education
+  - Newsletter
+description: Get insightful analytics and updates about Polkadot
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://link3.to/polkadot_insider
+  twitter: PolkadotInsider
+treasury_funded: false

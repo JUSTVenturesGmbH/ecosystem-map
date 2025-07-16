@@ -1,0 +1,21 @@
+name: Dot bounties Hub
+category:
+  - Education
+  - Analytics
+description: Discover all the bounties on the Polkadot ecosystem
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+  - Individuals
+  - Startup
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://dotbountieshub.online
+treasury_funded: false
+audit: false

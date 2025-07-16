@@ -1,0 +1,11 @@
+name: Dot.Alert
+category:
+  - Education
+  - Newsletter
+description: A knowledgebase that provides practical guidelines for managing assets safely across the Polkadot ecosystem
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://dot-alert.gitbook.io/dot.alert/
+treasury_funded: false

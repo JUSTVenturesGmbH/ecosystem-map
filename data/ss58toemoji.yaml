@@ -1,0 +1,21 @@
+name: SS58-Emoji
+category:
+  - Library
+  - Game
+description: Convert Polkadot addresses to unique emoji sequences for easy visual identification
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+  - Individuals
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://karimjedda.github.io/ss58-emoji/
+  github: https://github.com/KarimJedda/ss58-emoji
+treasury_funded: false
+audit: false
