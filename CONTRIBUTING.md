@@ -93,17 +93,17 @@ Only input what is applicable for what you are adding.
 
        - Business concept/low adoption
        - Verified in market/high adoption
-      - Scaling/Alliance
+       - Scaling/Alliance
 
 - `Technology readiness`: 
 
-          - In research
-          - Validated POC / testnet
-          - In development
-          - In production
-          - Connected to Relay chain
-          - Connected to Parachain
-          - Discontinued
+       - In research
+       - Validated POC / testnet
+       - In development
+       - In production
+       - Connected to Relay chain
+       - Connected to Parachain
+       - Discontinued
 
 - `Target audience`: A list of provisional users, each starts by dash and on the new line. 
 
@@ -117,29 +117,29 @@ Only input what is applicable for what you are adding.
   
 - `ecosystem`: List of ecosystems. To add more, please reach out to the team.
 
-        - Polkadot
-        - Kusama
-        - Acala Network
-        - Moonbeam
-        - Astar Network
-        - Aleph Zero
-        - Sora
+       - Polkadot
+       - Kusama
+       - Acala Network
+       - Moonbeam
+       - Astar Network
+       - Aleph Zero
+       - Sora
 
 - `Layer`: List of layers, each starts by dash and on the new line. [^1]
 
-     - Layer-0 
-     - Layer-1
-     - Layer-2
-     - Layer-3
-     - Layer-4
-     - None
+       - Layer-0 
+       - Layer-1
+       - Layer-2
+       - Layer-3
+       - Layer-4
+       - None
 
 [^1]: Layer definitions
-    Layer 0 - protocol
-    Layer 1 - consensus (consensus, node operators, parachains)
-    Layer 2 - scaling (off-chain computing, messages, governance, bridges)
-    Layer 3 - smart contracts, dApps
-    Layer 4 - identity, keys
+   - Layer 0 - protocol
+   - Layer 1 - consensus (consensus, node operators, parachains)
+   - Layer 2 - scaling (off-chain computing, messages, governance, bridges)
+   - Layer 3 - smart contracts, dApps
+   - Layer 4 - identity, keys
 
 - `logo`: WIP
 - `website`: URL to the project website
