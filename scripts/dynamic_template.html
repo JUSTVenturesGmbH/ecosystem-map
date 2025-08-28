@@ -443,13 +443,14 @@
         .table-wrapper {
             margin: 24px;
             border-radius: 8px;
-            overflow: hidden;
+            overflow-x: auto;
+            overflow-y: auto;
             border: 1px solid #e9ecef;
             max-height: 70vh;
-            overflow-y: auto;
         }
         table {
             width: 100%;
+            min-width: 800px;
             border-collapse: collapse;
             background: white;
         }
@@ -463,12 +464,16 @@
             position: sticky;
             top: 0;
             z-index: 10;
+            white-space: nowrap;
+            min-width: 150px;
         }
         td {
             padding: 12px;
             border-bottom: 1px solid #f1f3f4;
             font-size: 12px;
             vertical-align: top;
+            white-space: nowrap;
+            min-width: 150px;
         }
         tr:hover {
             background-color: #f8f9fa;
@@ -557,10 +562,6 @@
             </div>
         </div>
         
-        <!-- Controls Toolbar -->
-        <div class="controls-toolbar">
-            <button class="btn" onclick="clearAllFilters()">🔄 Clear All Filters</button>
-        </div>
         
         <!-- Table -->
         <div class="table-wrapper">

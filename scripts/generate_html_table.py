@@ -18,7 +18,7 @@ YAML_DIR = "../data"
 OUTPUT_FILE = "ecosystem_table.html"
 
 def load_yaml_files() -> List[Dict[str, Any]]:
-    """Load 20 random YAML files from the data directory for testing."""
+    """Load all YAML files from the data directory."""
     projects = []
     data_path = Path(YAML_DIR)
     
@@ -26,11 +26,10 @@ def load_yaml_files() -> List[Dict[str, Any]]:
         print(f"Error: Data directory {YAML_DIR} not found")
         sys.exit(1)
     
-    # Get all YAML files and randomly select 20
+    # Get all YAML files
     yaml_files = list(data_path.glob("*.yaml"))
-    selected_files = random.sample(yaml_files, min(20, len(yaml_files)))
     
-    for yaml_file in selected_files:
+    for yaml_file in yaml_files:
         try:
             with open(yaml_file, 'r', encoding='utf-8') as f:
                 project_data = yaml.load(f)
