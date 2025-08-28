@@ -544,6 +544,42 @@ def generate_dynamic_html_table() -> str:
         
         template_content = before + dynamic_render + after
     
+    # Option to embed JSON data directly to avoid CORS issues
+    # Read the JSON data
+    json_file = OUTPUT_FILE.replace('.html', '_projects.json')
+    if os.path.exists(json_file):
+        with open(json_file, 'r', encoding='utf-8') as f:
+            json_data = f.read()
+        
+        # Embed JSON data directly in HTML
+        embed_js = f'''
+    <script>
+        // Embedded project data to avoid CORS issues
+        const embeddedProjects = {json_data};
+        
+        // Override the loadProjectsFromJSON function to use embedded data
+        async function loadProjectsFromJSON() {{
+            try {{
+                console.log('Using embedded project data...');
+                projects = embeddedProjects;
+                console.log('Total projects loaded:', projects.length);
+                
+                // Initialize UI
+                initializeFilterOptions();
+                renderProjects();
+                updateProjectCount();
+                
+                console.log('Projects loaded successfully');
+            }} catch (error) {{
+                console.error('Error loading projects:', error);
+                document.getElementById('table-body').innerHTML = '<tr><td colspan="5">Error loading projects. Please check console.</td></tr>';
+            }}
+        }}
+    </script>'''
+        
+        # Insert before closing body tag
+        template_content = template_content.replace('</body>', embed_js + '\n</body>')
+    
     return template_content
 
 def main():
