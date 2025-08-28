@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git clone:*)",
+      "Bash(mv:*)",
+      "Bash(rmdir:*)",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(start ecosystem_table.html)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(start ui_mockups.html)",
+      "Bash(start mixed_ui_options.html)",
+      "Bash(start synthesized_ui.html)",
+      "Bash(start final_ui_design.html)",
+      "mcp__browsermcp__browser_navigate",
+      "mcp__browsermcp__browser_screenshot",
+      "mcp__browsermcp__browser_click",
+      "mcp__browsermcp__browser_snapshot",
+      "mcp__browsermcp__browser_press_key",
+      "mcp__browsermcp__browser_get_console_logs",
+      "mcp__browsermcp__browser_type",
+      "mcp__browsermcp__browser_wait",
+      "Bash(sed:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

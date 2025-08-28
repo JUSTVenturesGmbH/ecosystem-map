@@ -1,0 +1,890 @@
+[
+  {
+    "name": "Validator selector",
+    "category": [
+      "Infra",
+      "Dapp"
+    ],
+    "description": "Validator selector",
+    "readiness": {
+      "technology": "In production"
+    },
+    "target_audience": [
+      "Dev teams",
+      "Individuals",
+      "Institutional investors",
+      "Personal investors"
+    ],
+    "ecosystem": [
+      "Polkadot",
+      "Kusama"
+    ],
+    "layer": [
+      "Layer-4"
+    ],
+    "web": {
+      "logo": "default.png",
+      "site": "https://w3f.github.io/validator-selection-tool/",
+      "contact": "jonas@web3.foundation"
+    },
+    "treasury_funded": false,
+    "audit": false
+  },
+  {
+    "name": "Gafi Network",
+    "category": [
+      "EVM",
+      "Game",
+      "NFT"
+    ],
+    "description": "Blockchain gaming platform",
+    "readiness": {
+      "technology": "In development"
+    },
+    "target_audience": [
+      "Startup",
+      "Dev teams"
+    ],
+    "ecosystem": [
+      "Polkadot"
+    ],
+    "layer": [
+      "Layer-1"
+    ],
+    "web": {
+      "logo": "default.png",
+      "site": "https://gafi.network/",
+      "twitter": "GafiNetwork",
+      "contact": "hello@grindy.io"
+    },
+    "treasury_funded": false,
+    "audit": false,
+    "metrics": {
+      "twitter": [
+        {
+          "date": "2023-12-31",
+          "value": 240
+        }
+      ],
+      "youtube": [],
+      "github": [
+        {
+          "date": "2023-12-31",
+          "value": 5
+        }
+      ],
+      "discord": [],
+      "blog": [],
+      "app_downloads": []
+    }
+  },
+  {
+    "name": "Velocity Labs",
+    "category": [
+      "Infra"
+    ],
+    "description": "A cross-functional team of Polkadot veterans and DeFi experts commited to buildingcritical market infrastructure and tooling to unlock Polkadot's full potential.",
+    "readiness": {
+      "business": "Business concept/low adoption",
+      "technology": "In development"
+    },
+    "target_audience": [
+      "Startup",
+      "Dev teams"
+    ],
+    "ecosystem": [
+      "Kusama",
+      "Polkadot"
+    ],
+    "layer": [
+      "Layer-3"
+    ],
+    "web": {
+      "logo": "default.png",
+      "site": "https://www.velocitylabs.org",
+      "twitter": "v_labs",
+      "github": "https://github.com/velocitylabs-org/turtle"
+    },
+    "treasury_funded": false,
+    "audit": false,
+    "metrics": {
+      "twitter": [],
+      "youtube": [],
+      "github": [
+        {
+          "date": "2025-06-01",
+          "value": 11
+        }
+      ],
+      "discord": [],
+      "blog": [],
+      "app_downloads": [],
+      "github_pushed_at": [
+        {
+          "date": "2025-06-01",
+          "value": 1748626367
+        }
+      ]
+    }
+  },
+  {
+    "name": "Polkaproject / Kusamaproject",
+    "category": [
+      "Aggregator"
+    ],
+    "description": "ecosystem projects database",
+    "readiness": {
+      "business": "Verified in market/high adoption",
+      "technology": "In production"
+    },
+    "target_audience": [
+      "Dev teams",
+      "Startup",
+      "Personal investors"
+    ],
+    "ecosystem": [
+      "Polkadot",
+      "Kusama"
+    ],
+    "layer": [
+      "None"
+    ],
+    "web": {
+      "logo": "default.png",
+      "site": "https://polkaproject.com/",
+      "twitter": "polkaprojectcom"
+    },
+    "treasury_funded": false,
+    "audit": false,
+    "metrics": {
+      "twitter": [
+        {
+          "date": "2023-12-31",
+          "value": 72850
+        }
+      ],
+      "youtube": [],
+      "github": [],
+      "discord": [],
+      "blog": [
+        {
+          "date": "2023-12-31",
+          "value": 248
+        }
+      ],
+      "app_downloads": []
+    }
+  },
+  {
+    "name": "Proof of chaos",
+    "category": [
+      "Library",
+      "NFT",
+      "Governance",
+      "Tools"
+    ],
+    "description": "Tools for incentivized voting",
+    "readiness": {
+      "technology": "In production"
+    },
+    "target_audience": [
+      "Dev teams",
+      "Individuals",
+      "Startup",
+      "Community DAO"
+    ],
+    "ecosystem": [
+      "Polkadot",
+      "Kusama"
+    ],
+    "layer": [
+      "None"
+    ],
+    "web": {
+      "logo": "default.png",
+      "site": "https://www.proofofchaos.app",
+      "github": "https://github.com/Proof-Of-Chaos/website",
+      "twitter": "GovPartRewKSM"
+    },
+    "treasury_funded": true,
+    "audit": false
+  },
+  {
+    "name": "Polkadot Newsletter",
+    "category": [
+      "Education",
+      "Newsletter"
+    ],
+    "description": "Subscribe for the latest news, technical updates and helpful developer resources.",
+    "layer": [
+      "None"
+    ],
+    "web": {
+      "logo": "default.png",
+      "site": "https://substrate.io/ecosystem/connect/newsletter/"
+    },
+    "treasury_funded": false
+  },
+  {
+    "name": "1kv dashboard",
+    "category": [
+      "Infra",
+      "Indexer",
+      "Validator provider"
+    ],
+    "description": "Thousand Validator Performance dashboard",
+    "readiness": {
+      "technology": "In production"
+    },
+    "target_audience": [
+      "Dev teams"
+    ],
+    "ecosystem": [
+      "Polkadot",
+      "Kusama"
+    ],
+    "layer": [
+      "Layer-2"
+    ],
+    "web": {
+      "logo": "default.png",
+      "site": "https://1k.hirish.net/kusama"
+    },
+    "treasury_funded": false,
+    "audit": false
+  },
+  {
+    "name": "Laminar",
+    "category": [
+      "Oracle",
+      "DeFi"
+    ],
+    "description": "Decentralised financial protocols, oracles",
+    "readiness": {
+      "technology": "Discontinued"
+    },
+    "target_audience": [
+      "Dev teams"
+    ],
+    "ecosystem": [
+      "Polkadot"
+    ],
+    "layer": [
+      "Layer-1"
+    ],
+    "web": {
+      "logo": "default.png",
+      "site": "https://laminar.one/",
+      "twitter": "LaminarProtocol",
+      "contact": "hello@laminar.one",
+      "github": "https://github.com/laminar-protocol/laminar-chain"
+    },
+    "treasury_funded": false,
+    "audit": false,
+    "metrics": {
+      "twitter": [
+        {
+          "date": "2023-12-31",
+          "value": 11922
+        }
+      ],
+      "youtube": [],
+      "github": [
+        {
+          "date": "2025-01-23",
+          "value": 89
+        }
+      ],
+      "discord": [],
+      "blog": [],
+      "app_downloads": [],
+      "github_pushed_at": [
+        {
+          "date": "2025-01-23",
+          "value": 1681251141
+        }
+      ]
+    }
+  },
+  {
+    "name": "Paritytech",
+    "category": [
+      "Infra",
+      "Tools",
+      "Library"
+    ],
+    "description": "Rust implementation of Polkadot SDK which provides all the resources needed to start building on the Polkadot.",
+    "readiness": {
+      "technology": "In production"
+    },
+    "target_audience": [
+      "Dev teams"
+    ],
+    "ecosystem": [
+      "Polkadot",
+      "Kusama"
+    ],
+    "layer": [
+      "Layer-0"
+    ],
+    "web": {
+      "logo": "default.png",
+      "site": "https://polkadot.com",
+      "github": "https://github.com/paritytech/polkadot-sdk",
+      "documentation": "https://docs.polkadot.com"
+    },
+    "treasury_funded": false,
+    "audit": true
+  },
+  {
+    "name": "SubIdentity",
+    "category": [
+      "Infra"
+    ],
+    "description": "Identity directory web app and code",
+    "readiness": {
+      "technology": "Discontinued"
+    },
+    "target_audience": [
+      "Dev teams"
+    ],
+    "ecosystem": [],
+    "layer": [
+      "Layer-4"
+    ],
+    "web": {
+      "logo": "default.png",
+      "site": "https://github.com/TDSoftware/subidentity-webapp"
+    },
+    "metrics": {
+      "twitter": [],
+      "youtube": [],
+      "github": [
+        {
+          "date": "2023-12-31",
+          "value": 2
+        }
+      ],
+      "discord": [],
+      "blog": [],
+      "app_downloads": []
+    }
+  },
+  {
+    "name": "Polkalert",
+    "category": [
+      "Infra",
+      "Tools",
+      "Alerts"
+    ],
+    "description": "Polkadot / Substrate-based node monitoring",
+    "readiness": {
+      "technology": "In production"
+    },
+    "target_audience": [
+      "Dev teams"
+    ],
+    "ecosystem": [
+      "Polkadot",
+      "Kusama"
+    ],
+    "layer": [
+      "Layer-2"
+    ],
+    "web": {
+      "logo": "default.png",
+      "site": "https://github.com/galacticcouncil/polkalert",
+      "github": "https://github.com/galacticcouncil/polkalert"
+    },
+    "treasury_funded": false,
+    "audit": false
+  },
+  {
+    "name": "t3rn",
+    "category": [
+      "Smart Contracts"
+    ],
+    "description": "smart contract interoperability protocol, XBI standard",
+    "readiness": {
+      "business": "Verified in market/high adoption",
+      "technology": "In production"
+    },
+    "target_audience": [
+      "Dev teams"
+    ],
+    "ecosystem": [
+      "Polkadot"
+    ],
+    "layer": [
+      "Layer-1"
+    ],
+    "web": {
+      "logo": "t3rn.jpg",
+      "site": "https://www.t3rn.io/",
+      "twitter": "t3rn_io",
+      "discord": "https://discord.com/invite/T3sJYkEvPY",
+      "contact": "https://www.t3rn.io/",
+      "github": "https://github.com/t3rn/t3rn",
+      "documentation": "https://docs.t3rn.io/intro"
+    },
+    "treasury_funded": false,
+    "audit": false,
+    "metrics": {
+      "twitter": [
+        {
+          "date": "2023-12-31",
+          "value": 37134
+        }
+      ],
+      "youtube": [
+        {
+          "date": "2023-12-31",
+          "value": 83
+        }
+      ],
+      "github": [
+        {
+          "date": "2025-06-01",
+          "value": 159
+        }
+      ],
+      "discord": [
+        {
+          "date": "2025-06-01",
+          "value": 88254
+        }
+      ],
+      "blog": [
+        {
+          "date": "2023-12-31",
+          "value": 1073
+        }
+      ],
+      "app_downloads": [],
+      "github_pushed_at": [
+        {
+          "date": "2025-06-01",
+          "value": 1748614719
+        }
+      ]
+    }
+  },
+  {
+    "name": "Deeper Network",
+    "category": [
+      "Data",
+      "Privacy",
+      "DePIN"
+    ],
+    "description": "security- and privacy-first network and devices",
+    "readiness": {
+      "business": "Verified in market/high adoption",
+      "technology": "In production"
+    },
+    "target_audience": [
+      "Individuals"
+    ],
+    "ecosystem": [
+      "Polkadot"
+    ],
+    "layer": [
+      "Layer-1"
+    ],
+    "web": {
+      "logo": "default.png",
+      "site": "https://www.deeper.network/",
+      "twitter": "deeper_network",
+      "discord": "https://discord.com/invite/EWUyAJyH2B",
+      "contact": "marketing@deeper.network",
+      "github": "https://github.com/deeper-chain/deeper-chain",
+      "documentation": "https://deeper-network-inc.gitbook.io/deeper-connect-knowledge-base"
+    },
+    "treasury_funded": false,
+    "audit": false,
+    "metrics": {
+      "twitter": [
+        {
+          "date": "2023-12-31",
+          "value": 49346
+        }
+      ],
+      "youtube": [
+        {
+          "date": "2023-12-31",
+          "value": 6680
+        }
+      ],
+      "github": [
+        {
+          "date": "2025-05-01",
+          "value": 145
+        }
+      ],
+      "discord": [
+        {
+          "date": "2025-06-01",
+          "value": 9673
+        }
+      ],
+      "blog": [
+        {
+          "date": "2023-12-31",
+          "value": 5835
+        }
+      ],
+      "app_downloads": [],
+      "github_pushed_at": [
+        {
+          "date": "2025-05-01",
+          "value": 1743782466
+        }
+      ]
+    }
+  },
+  {
+    "name": "Ajuna/Bajun",
+    "category": [
+      "Game",
+      "NFT"
+    ],
+    "description": "hosting and support for Unity games",
+    "readiness": {
+      "business": "Scaling/Alliance",
+      "technology": "Connected to Relay chain"
+    },
+    "target_audience": [
+      "Startup"
+    ],
+    "ecosystem": [
+      "Polkadot",
+      "Kusama"
+    ],
+    "layer": [
+      "Layer-2"
+    ],
+    "web": {
+      "logo": "Ajuna-Bajun.jpg",
+      "site": "https://ajuna.io/baju/",
+      "twitter": "AjunaNetwork",
+      "discord": "https://discord.com/invite/cE72GYcFgY",
+      "contact": "https://ajuna.io/contact/",
+      "github": "https://github.com/ajuna-network/Ajuna",
+      "documentation": "https://wiki.ajuna.io"
+    },
+    "treasury_funded": false,
+    "audit": false,
+    "metrics": {
+      "twitter": [
+        {
+          "date": "2023-12-31",
+          "value": 21256
+        }
+      ],
+      "youtube": [
+        {
+          "date": "2023-12-31",
+          "value": 360
+        }
+      ],
+      "github": [
+        {
+          "date": "2025-01-08",
+          "value": 25
+        }
+      ],
+      "discord": [
+        {
+          "date": "2025-06-01",
+          "value": 8989
+        }
+      ],
+      "blog": [
+        {
+          "date": "2023-12-31",
+          "value": 3500
+        }
+      ],
+      "app_downloads": [
+        {
+          "date": "2023-12-31",
+          "value": 0
+        }
+      ],
+      "github_pushed_at": [
+        {
+          "date": "2025-01-08",
+          "value": 1715755670
+        }
+      ]
+    }
+  },
+  {
+    "name": "Subscrape",
+    "category": [
+      "Infra",
+      "Library"
+    ],
+    "description": "A Python scraper for Substrate chains",
+    "readiness": {
+      "technology": "In production"
+    },
+    "target_audience": [
+      "Dev teams"
+    ],
+    "ecosystem": [
+      "Polkadot",
+      "Kusama",
+      "Moonbeam"
+    ],
+    "layer": [
+      "Layer-2"
+    ],
+    "web": {
+      "logo": "default.png",
+      "site": "https://github.com/ChaosDAO-org/subscrape",
+      "github": "https://github.com/ChaosDAO-org/subscrape",
+      "documentation": "https://github.com/ChaosDAO-org/subscrape/blob/main/docs/configuration.md"
+    },
+    "treasury_funded": false,
+    "audit": false
+  },
+  {
+    "name": "Radiumblock",
+    "category": [
+      "Infra",
+      "Validator provider"
+    ],
+    "description": "Dotsama validator snapshot service",
+    "readiness": {
+      "technology": "In production"
+    },
+    "target_audience": [
+      "Dev teams"
+    ],
+    "ecosystem": [
+      "Polkadot",
+      "Kusama",
+      "Ethereum",
+      "Solana"
+    ],
+    "layer": [
+      "Layer-2"
+    ],
+    "web": {
+      "logo": "default.png",
+      "site": "https://radiumblock.com/snapshots.html",
+      "twitter": "RadiumBlock"
+    },
+    "treasury_funded": false,
+    "audit": false
+  },
+  {
+    "name": "Polkadot Snap",
+    "category": [
+      "Infra",
+      "Library"
+    ],
+    "description": "Polkadot Snap package",
+    "readiness": {
+      "technology": "In production"
+    },
+    "target_audience": [
+      "Dev teams"
+    ],
+    "ecosystem": [
+      "Polkadot",
+      "Kusama"
+    ],
+    "layer": [
+      "Layer-2"
+    ],
+    "web": {
+      "logo": "default.png",
+      "site": "https://snapcraft.io/polkadot",
+      "github": "github.com/dwellir-public/snap-polkadot/",
+      "contact": "info@dwellir.com"
+    },
+    "treasury_funded": false,
+    "audit": false
+  },
+  {
+    "name": "Moonbeam / Moonriver",
+    "category": [
+      "Smart Contracts",
+      "EVM"
+    ],
+    "description": "An Ethereum-compatible smart contract platform",
+    "readiness": {
+      "business": "Scaling/Alliance",
+      "technology": "Connected to Relay chain"
+    },
+    "target_audience": [
+      "Startup",
+      "Dev teams",
+      "Personal investors"
+    ],
+    "ecosystem": [
+      "Polkadot",
+      "Moonbeam",
+      "Kusama"
+    ],
+    "layer": [
+      "Layer-3",
+      "Layer-1"
+    ],
+    "web": {
+      "logo": "Moonbeam - Moonriver.jpg",
+      "site": "https://moonbeam.network/",
+      "twitter": "MoonbeamNetwork",
+      "discord": "https://discord.com/invite/PfpUATX",
+      "contact": "https://moonbeam.network/contact/",
+      "github": "https://github.com/moonbeam-foundation/moonbeam",
+      "documentation": "https://docs.moonbeam.network"
+    },
+    "treasury_funded": false,
+    "audit": true,
+    "metrics": {
+      "twitter": [
+        {
+          "date": "2023-12-31",
+          "value": 303782
+        }
+      ],
+      "youtube": [
+        {
+          "date": "2023-12-31",
+          "value": 8300
+        }
+      ],
+      "github": [
+        {
+          "date": "2025-06-01",
+          "value": 940
+        }
+      ],
+      "discord": [
+        {
+          "date": "2025-06-01",
+          "value": 53989
+        }
+      ],
+      "blog": [
+        {
+          "date": "2023-12-31",
+          "value": 16500
+        }
+      ],
+      "app_downloads": [],
+      "github_pushed_at": [
+        {
+          "date": "2025-06-01",
+          "value": 1748467563
+        }
+      ]
+    }
+  },
+  {
+    "name": "Kagla Finance",
+    "category": [
+      "DeFi",
+      "Exchange",
+      "Dapp"
+    ],
+    "description": "native stable swap on Astar Network. a DEX that focuses on stablecoins.",
+    "readiness": {
+      "business": "Verified in market/high adoption",
+      "technology": "Connected to Parachain"
+    },
+    "target_audience": [
+      "Personal investors",
+      "Institutional investors"
+    ],
+    "ecosystem": [
+      "Astar Network"
+    ],
+    "layer": [
+      "Layer-3"
+    ],
+    "web": {
+      "logo": "default.png",
+      "site": "https://kagla.finance/",
+      "twitter": "kagla_fi",
+      "discord": "https://discord.com/invite/sukbYgNjgc",
+      "github": "https://github.com/kagla-finance/kagla-api",
+      "documentation": "https://docs.kagla.finance"
+    },
+    "treasury_funded": false,
+    "audit": true,
+    "metrics": {
+      "twitter": [
+        {
+          "date": "2023-12-31",
+          "value": 65600
+        }
+      ],
+      "youtube": [],
+      "github": [
+        {
+          "date": "2023-12-31",
+          "value": 2
+        }
+      ],
+      "discord": [
+        {
+          "date": "2025-06-01",
+          "value": 32696
+        }
+      ],
+      "blog": [
+        {
+          "date": "2023-12-31",
+          "value": 785
+        }
+      ],
+      "app_downloads": [],
+      "github_pushed_at": [
+        {
+          "date": "2025-01-08",
+          "value": 1734075821
+        }
+      ]
+    }
+  },
+  {
+    "name": "Dot Scanner",
+    "category": [
+      "Infra"
+    ],
+    "description": "blockchain explorer",
+    "readiness": {
+      "technology": "Discontinued"
+    },
+    "target_audience": [
+      "Dev teams"
+    ],
+    "ecosystem": [],
+    "layer": [
+      "None"
+    ],
+    "web": {
+      "logo": "default.png",
+      "site": "https://dotscanner.com/",
+      "twitter": "TheDotScanner"
+    },
+    "treasury_funded": false,
+    "audit": false,
+    "metrics": {
+      "twitter": [
+        {
+          "date": "2023-12-31",
+          "value": 62
+        }
+      ],
+      "youtube": [],
+      "github": [],
+      "discord": [],
+      "blog": [],
+      "app_downloads": []
+    }
+  }
+]
