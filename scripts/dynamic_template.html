@@ -439,6 +439,134 @@
             background: #f8f9fa;
         }
         
+        /* Column Selection Section */
+        .column-selection-section {
+            margin: 16px 24px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+        }
+        
+        .column-header {
+            padding: 12px 16px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            user-select: none;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 8px 8px 0 0;
+        }
+        
+        .column-toggle-icon {
+            margin-right: 8px;
+            transition: transform 0.3s ease;
+            font-size: 12px;
+            color: #6c757d;
+        }
+        
+        .column-toggle-icon.expanded {
+            transform: rotate(90deg);
+        }
+        
+        .column-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #343a40;
+            margin-right: auto;
+        }
+        
+        .column-status {
+            font-size: 11px;
+            color: #6c757d;
+            padding: 4px 8px;
+            background: white;
+            border-radius: 4px;
+        }
+        
+        .column-controls {
+            padding: 16px;
+            border-top: 1px solid #e9ecef;
+            background: white;
+            border-radius: 0 0 8px 8px;
+        }
+        
+        .column-tree {
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        
+        .tree-node {
+            margin-bottom: 12px;
+        }
+        
+        .tree-item {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            padding: 8px;
+            border-radius: 4px;
+            transition: background-color 0.2s;
+        }
+        
+        .tree-item:hover {
+            background: #f8f9fa;
+        }
+        
+        .tree-toggle {
+            margin-right: 8px;
+            font-size: 10px;
+            color: #6c757d;
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+        
+        .tree-toggle.collapsed {
+            transform: rotate(-90deg);
+        }
+        
+        .tree-item input[type="checkbox"] {
+            margin-right: 8px;
+            cursor: pointer;
+        }
+        
+        .tree-item label {
+            font-weight: 500;
+            font-size: 13px;
+            color: #495057;
+            cursor: pointer;
+            user-select: none;
+        }
+        
+        .tree-children {
+            margin-left: 24px;
+            border-left: 1px solid #e9ecef;
+            padding-left: 16px;
+        }
+        
+        .tree-leaf {
+            display: flex;
+            align-items: center;
+            padding: 4px 8px;
+            margin: 2px 0;
+        }
+        
+        .tree-leaf input[type="checkbox"] {
+            margin-right: 8px;
+            cursor: pointer;
+        }
+        
+        .tree-leaf label {
+            font-size: 12px;
+            color: #6c757d;
+            cursor: pointer;
+            user-select: none;
+        }
+        
+        .tree-leaf:hover {
+            background: #f8f9fa;
+            border-radius: 4px;
+        }
+
         /* Table Styles */
         .table-wrapper {
             margin: 24px;
@@ -450,9 +578,10 @@
         }
         table {
             width: 100%;
-            min-width: 800px;
+            min-width: 1200px;
             border-collapse: collapse;
             background: white;
+            table-layout: fixed;
         }
         th {
             background: #f8f9fa;
@@ -464,16 +593,27 @@
             position: sticky;
             top: 0;
             z-index: 10;
-            white-space: nowrap;
-            min-width: 150px;
+            white-space: normal;
+            word-wrap: break-word;
+            width: 180px;
+            min-width: 180px;
+            max-width: 180px;
+            line-height: 1.3;
+            overflow-wrap: break-word;
         }
         td {
             padding: 12px;
             border-bottom: 1px solid #f1f3f4;
             font-size: 12px;
             vertical-align: top;
-            white-space: nowrap;
-            min-width: 150px;
+            white-space: normal;
+            word-wrap: break-word;
+            word-break: break-word;
+            width: 180px;
+            min-width: 180px;
+            max-width: 180px;
+            line-height: 1.4;
+            overflow-wrap: break-word;
         }
         tr:hover {
             background-color: #f8f9fa;
@@ -562,17 +702,154 @@
             </div>
         </div>
         
+        <!-- Column Selection Section -->
+        <div class="column-selection-section">
+            <div class="column-header" onclick="toggleColumnSelection()" role="button" tabindex="0" aria-label="Toggle Column Selection">
+                <span class="column-toggle-icon" id="column-toggle-icon">▶</span>
+                <span class="column-title">COLUMNS</span>
+                <div class="column-status" id="column-status">5 columns selected</div>
+            </div>
+            
+            <div class="column-controls" id="column-controls" style="display: none;">
+                <div class="column-tree">
+                    <!-- Basic Fields -->
+                    <div class="tree-node">
+                        <div class="tree-item" onclick="toggleBranch('basic')">
+                            <span class="tree-toggle">▼</span>
+                            <input type="checkbox" id="basic-branch" checked onchange="toggleBranchCheckboxes('basic')">
+                            <label for="basic-branch">Basic Information</label>
+                        </div>
+                        <div class="tree-children" id="basic-children">
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-name" checked onchange="toggleColumn('name')">
+                                <label for="col-name">Name</label>
+                            </div>
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-description" checked onchange="toggleColumn('description')">
+                                <label for="col-description">Description</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Categories -->
+                    <div class="tree-node">
+                        <div class="tree-item" onclick="toggleBranch('categories')">
+                            <span class="tree-toggle">▼</span>
+                            <input type="checkbox" id="categories-branch" checked onchange="toggleBranchCheckboxes('categories')">
+                            <label for="categories-branch">Categories</label>
+                        </div>
+                        <div class="tree-children" id="categories-children">
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-category" checked onchange="toggleColumn('category')">
+                                <label for="col-category">Category</label>
+                            </div>
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-ecosystem" checked onchange="toggleColumn('ecosystem')">
+                                <label for="col-ecosystem">Ecosystem</label>
+                            </div>
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-layer" onchange="toggleColumn('layer')">
+                                <label for="col-layer">Layer</label>
+                            </div>
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-target-audience" onchange="toggleColumn('target_audience')">
+                                <label for="col-target-audience">Target Audience</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Web Links -->
+                    <div class="tree-node">
+                        <div class="tree-item" onclick="toggleBranch('web')">
+                            <span class="tree-toggle">▼</span>
+                            <input type="checkbox" id="web-branch" onchange="toggleBranchCheckboxes('web')">
+                            <label for="web-branch">Web Links</label>
+                        </div>
+                        <div class="tree-children" id="web-children" style="display: none;">
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-website" checked onchange="toggleColumn('website')">
+                                <label for="col-website">Website</label>
+                            </div>
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-github" onchange="toggleColumn('github')">
+                                <label for="col-github">GitHub</label>
+                            </div>
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-twitter" onchange="toggleColumn('twitter')">
+                                <label for="col-twitter">Twitter</label>
+                            </div>
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-discord" onchange="toggleColumn('discord')">
+                                <label for="col-discord">Discord</label>
+                            </div>
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-documentation" onchange="toggleColumn('documentation')">
+                                <label for="col-documentation">Documentation</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Readiness -->
+                    <div class="tree-node">
+                        <div class="tree-item" onclick="toggleBranch('readiness')">
+                            <span class="tree-toggle">▼</span>
+                            <input type="checkbox" id="readiness-branch" onchange="toggleBranchCheckboxes('readiness')">
+                            <label for="readiness-branch">Readiness</label>
+                        </div>
+                        <div class="tree-children" id="readiness-children" style="display: none;">
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-tech-readiness" onchange="toggleColumn('tech_readiness')">
+                                <label for="col-tech-readiness">Technology Readiness</label>
+                            </div>
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-business-readiness" onchange="toggleColumn('business_readiness')">
+                                <label for="col-business-readiness">Business Readiness</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Status -->
+                    <div class="tree-node">
+                        <div class="tree-item" onclick="toggleBranch('status')">
+                            <span class="tree-toggle">▼</span>
+                            <input type="checkbox" id="status-branch" onchange="toggleBranchCheckboxes('status')">
+                            <label for="status-branch">Status</label>
+                        </div>
+                        <div class="tree-children" id="status-children" style="display: none;">
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-treasury-funded" onchange="toggleColumn('treasury_funded')">
+                                <label for="col-treasury-funded">Treasury Funded</label>
+                            </div>
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-audit" onchange="toggleColumn('audit')">
+                                <label for="col-audit">Audited</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         
         <!-- Table -->
         <div class="table-wrapper">
             <table id="projects-table">
                 <thead id="table-header">
                     <tr>
-                        <th>Project Name</th>
-                        <th>Description</th>
-                        <th>Category</th>
-                        <th>Ecosystem</th>
-                        <th>Website</th>
+                        <th class="col-name">Project Name</th>
+                        <th class="col-description">Description</th>
+                        <th class="col-category">Category</th>
+                        <th class="col-ecosystem">Ecosystem</th>
+                        <th class="col-website">Website</th>
+                        <th class="col-layer hidden-column">Layer</th>
+                        <th class="col-target-audience hidden-column">Target Audience</th>
+                        <th class="col-github hidden-column">GitHub</th>
+                        <th class="col-twitter hidden-column">Twitter</th>
+                        <th class="col-discord hidden-column">Discord</th>
+                        <th class="col-documentation hidden-column">Documentation</th>
+                        <th class="col-tech-readiness hidden-column">Tech Readiness</th>
+                        <th class="col-business-readiness hidden-column">Business Readiness</th>
+                        <th class="col-treasury-funded hidden-column">Treasury Funded</th>
+                        <th class="col-audit hidden-column">Audited</th>
                     </tr>
                 </thead>
                 <tbody id="table-body">
@@ -626,41 +903,74 @@
             tbody.innerHTML = '';
             
             if (projects.length === 0) {
-                tbody.innerHTML = '<tr><td colspan="5" class="loading">No projects found</td></tr>';
+                tbody.innerHTML = '<tr><td colspan="15" class="loading">No projects found</td></tr>';
                 return;
             }
             
             projects.forEach(project => {
                 const row = document.createElement('tr');
                 
-                // Create cells
-                const nameCell = document.createElement('td');
-                nameCell.textContent = project.name || 'Unnamed Project';
+                // Create all cells with proper classes for column visibility
+                const cells = [
+                    createCell('col-name', project.name || 'Unnamed Project'),
+                    createCell('col-description', project.description || ''),
+                    createCell('col-category', Array.isArray(project.category) ? project.category.join(', ') : (project.category || '')),
+                    createCell('col-ecosystem', Array.isArray(project.ecosystem) ? project.ecosystem.join(', ') : (project.ecosystem || '')),
+                    createCell('col-website', createWebsiteLink(project.web?.site), true),
+                    createCell('col-layer', Array.isArray(project.layer) ? project.layer.join(', ') : (project.layer || '')),
+                    createCell('col-target-audience', Array.isArray(project.target_audience) ? project.target_audience.join(', ') : (project.target_audience || '')),
+                    createCell('col-github', createLink(project.web?.github, 'GitHub'), true),
+                    createCell('col-twitter', createLink(project.web?.twitter, 'Twitter'), true),
+                    createCell('col-discord', createLink(project.web?.discord, 'Discord'), true),
+                    createCell('col-documentation', createLink(project.web?.documentation, 'Docs'), true),
+                    createCell('col-tech-readiness', project.readiness?.technology || ''),
+                    createCell('col-business-readiness', project.readiness?.business || ''),
+                    createCell('col-treasury-funded', project.treasury_funded ? 'Yes' : (project.treasury_funded === false ? 'No' : '')),
+                    createCell('col-audit', project.audit ? 'Yes' : (project.audit === false ? 'No' : ''))
+                ];
                 
-                const descCell = document.createElement('td');
-                descCell.textContent = project.description || '';
-                
-                const categoryCell = document.createElement('td');
-                categoryCell.textContent = Array.isArray(project.category) ? project.category.join(', ') : (project.category || '');
-                
-                const ecosystemCell = document.createElement('td');
-                ecosystemCell.textContent = Array.isArray(project.ecosystem) ? project.ecosystem.join(', ') : (project.ecosystem || '');
-                
-                const websiteCell = document.createElement('td');
-                if (project.web && project.web.website) {
-                    websiteCell.innerHTML = `<a href="${project.web.website}" target="_blank">${project.web.website}</a>`;
-                } else {
-                    websiteCell.textContent = '';
-                }
-                
-                row.appendChild(nameCell);
-                row.appendChild(descCell);
-                row.appendChild(categoryCell);
-                row.appendChild(ecosystemCell);
-                row.appendChild(websiteCell);
-                
+                cells.forEach(cell => row.appendChild(cell));
                 tbody.appendChild(row);
             });
+            
+            // Apply initial column visibility
+            updateColumnVisibility();
+        }
+        
+        // Helper function to create table cell
+        function createCell(className, content, isHtml = false) {
+            const cell = document.createElement('td');
+            cell.className = className;
+            if (isHtml) {
+                cell.innerHTML = content;
+            } else {
+                cell.textContent = content;
+            }
+            // Apply initial visibility - convert class name back to field path
+            const fieldPath = className.replace('col-', '').replace(/-/g, '.');
+            // Handle special cases where underscores should remain as underscores
+            const correctedPath = fieldPath.replace('target.audience', 'target_audience')
+                                           .replace('treasury.funded', 'treasury_funded')
+                                           .replace('github.pushed.at', 'github_pushed_at')
+                                           .replace('app.downloads', 'app_downloads');
+            
+            if (!visibleColumns.has(correctedPath)) {
+                cell.classList.add('hidden-column');
+            }
+            return cell;
+        }
+        
+        // Helper function to create website link
+        function createWebsiteLink(url) {
+            if (!url) return '';
+            return `<a href="${url}" target="_blank" rel="noopener">${url}</a>`;
+        }
+        
+        // Helper function to create generic link
+        function createLink(url, text) {
+            if (!url) return '';
+            const fullUrl = url.startsWith('http') ? url : `https://${url}`;
+            return `<a href="${fullUrl}" target="_blank" rel="noopener">${text}</a>`;
         }
         
         
@@ -700,6 +1010,26 @@
         
         // Global variable to track active filter groups
         let activeFilterGroups = new Set();
+        
+        // Global variables for column management
+        let visibleColumns = new Set(['name', 'description', 'category', 'ecosystem', 'website']);
+        let columnMapping = {
+            'name': 0,
+            'description': 1, 
+            'category': 2,
+            'ecosystem': 3,
+            'website': 4,
+            'layer': 5,
+            'target_audience': 6,
+            'github': 7,
+            'twitter': 8,
+            'discord': 9,
+            'documentation': 10,
+            'tech_readiness': 11,
+            'business_readiness': 12,
+            'treasury_funded': 13,
+            'audit': 14
+        };
 
         // Initialize filter options (no longer populates all filters immediately)
         function initializeFilterOptions() {
@@ -856,6 +1186,132 @@
                     <label for="${filterType}-${option.replace(/\s+/g, '-').replace(/\//g, '-')}">${option}</label>
                 </div>
             `).join('');
+        }
+        
+        // Column Selection Functions
+        
+        // Toggle column selection section
+        function toggleColumnSelection() {
+            const controls = document.getElementById('column-controls');
+            const icon = document.getElementById('column-toggle-icon');
+            
+            if (controls.style.display === 'none') {
+                controls.style.display = 'block';
+                icon.classList.add('expanded');
+                icon.textContent = '▼';
+            } else {
+                controls.style.display = 'none';
+                icon.classList.remove('expanded');
+                icon.textContent = '▶';
+            }
+        }
+        
+        // Toggle tree branch visibility
+        function toggleBranch(branchId) {
+            const children = document.getElementById(`${branchId}-children`);
+            const toggle = event.target.closest('.tree-item').querySelector('.tree-toggle');
+            
+            if (children.style.display === 'none') {
+                children.style.display = 'block';
+                toggle.textContent = '▼';
+                toggle.classList.remove('collapsed');
+            } else {
+                children.style.display = 'none';
+                toggle.textContent = '▶';
+                toggle.classList.add('collapsed');
+            }
+        }
+        
+        // Toggle all checkboxes in a branch
+        function toggleBranchCheckboxes(branchId) {
+            const branchCheckbox = document.getElementById(`${branchId}-branch`);
+            const children = document.getElementById(`${branchId}-children`);
+            const childCheckboxes = children.querySelectorAll('input[type="checkbox"]');
+            
+            childCheckboxes.forEach(checkbox => {
+                checkbox.checked = branchCheckbox.checked;
+                // Trigger the column toggle for each child
+                const columnId = checkbox.id.replace('col-', '').replace('-', '_');
+                if (branchCheckbox.checked) {
+                    visibleColumns.add(columnId);
+                } else {
+                    visibleColumns.delete(columnId);
+                }
+            });
+            
+            updateColumnVisibility();
+            updateColumnStatus();
+        }
+        
+        // Toggle individual column
+        function toggleColumn(columnId) {
+            if (visibleColumns.has(columnId)) {
+                visibleColumns.delete(columnId);
+            } else {
+                visibleColumns.add(columnId);
+            }
+            
+            updateColumnVisibility();
+            updateColumnStatus();
+            updateBranchCheckboxState();
+        }
+        
+        // Update branch checkbox state based on children
+        function updateBranchCheckboxState() {
+            const branches = ['basic', 'categories', 'web', 'readiness', 'status'];
+            
+            branches.forEach(branchId => {
+                const branchCheckbox = document.getElementById(`${branchId}-branch`);
+                const children = document.getElementById(`${branchId}-children`);
+                const childCheckboxes = children.querySelectorAll('input[type="checkbox"]');
+                
+                const checkedCount = Array.from(childCheckboxes).filter(cb => cb.checked).length;
+                
+                if (checkedCount === 0) {
+                    branchCheckbox.checked = false;
+                    branchCheckbox.indeterminate = false;
+                } else if (checkedCount === childCheckboxes.length) {
+                    branchCheckbox.checked = true;
+                    branchCheckbox.indeterminate = false;
+                } else {
+                    branchCheckbox.checked = false;
+                    branchCheckbox.indeterminate = true;
+                }
+            });
+        }
+        
+        // Update column status display
+        function updateColumnStatus() {
+            const statusElement = document.getElementById('column-status');
+            const count = visibleColumns.size;
+            statusElement.textContent = `${count} column${count !== 1 ? 's' : ''} selected`;
+        }
+        
+        // Update table column visibility
+        function updateColumnVisibility() {
+            const table = document.getElementById('projects-table');
+            
+            // Update all columns based on visibleColumns set
+            Object.keys(columnMapping).forEach(columnPath => {
+                const className = `col-${columnPath.replace(/\./g, '-').replace(/_/g, '-')}`;
+                const elements = table.querySelectorAll(`.${className}`);
+                
+                elements.forEach(element => {
+                    if (visibleColumns.has(columnPath)) {
+                        element.classList.remove('hidden-column');
+                    } else {
+                        element.classList.add('hidden-column');
+                    }
+                });
+            });
+        }
+        
+        // Get column name by table index
+        function getColumnNameByIndex(index) {
+            for (const [name, colIndex] of Object.entries(columnMapping)) {
+                if (colIndex === index) return name;
+            }
+            return null;
         }
         
         // Create static filter chip (no dropdown)
