@@ -69,8 +69,14 @@ class EcosystemProject:
 
     def to_dict(self) -> dict:
         updated_data = copy.deepcopy(self._original_data)
+        # Ensure the 'metrics' container exists and is a dict
+        metrics_container = updated_data.get("metrics")
+        if not isinstance(metrics_container, dict):
+            metrics_container = {}
+            updated_data["metrics"] = metrics_container
+
         for key, entries in self.metrics.items():
-            updated_data["metrics"][key] = [entry.to_dict() for entry in entries]
+            metrics_container[key] = [entry.to_dict() for entry in entries]
         return updated_data
 
     def get_metric(self, name: str) -> tuple[bool, str]:
