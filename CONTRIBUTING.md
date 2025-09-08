@@ -72,7 +72,7 @@ Only input what is applicable for what you are adding.
         - Identity
         - Indexer
         - Infra
-        - Linrary
+        - Library
         - Marketplace
         - Newsletter
         - NFT

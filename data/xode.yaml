@@ -1,0 +1,20 @@
+name: Xode
+category:
+  - Infra
+  - Game
+description: Xode enables developers to build web3 games and apps for various lines of business (LOB) and decentralized applications (dApps) using Rust and Solidity.
+readiness:
+  technology: In production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-2
+web:
+  logo: default.png
+  site: https://www.xode.net/
+  twitter: https://x.com/xodenet
+treasury_funded: false
+audit: false

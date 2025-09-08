@@ -1,0 +1,12 @@
+handle: alice_und_bob
+name: Tommi Einenkel
+refID: 32
+role: Governance researcher
+category:
+  - Governance
+  - Tooling
+group: opengov.watch, ChaosDAO, Mangata Finance, Polkalytics
+web:
+  github: https://github.com/Tomen
+  twitter: alice_und_bob
+  contact: alice_und_bob:matrix.org
