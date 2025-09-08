@@ -1,5 +1,6 @@
 name: Staking dashboard
-team: 26
+team:
+  - ross
 category:
   - Dapp
   - Staking

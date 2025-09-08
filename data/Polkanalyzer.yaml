@@ -1,4 +1,6 @@
 name: Polkanalyzer
+team:
+  - filippoweb3
 category:
   - Infra
   - Validator provider

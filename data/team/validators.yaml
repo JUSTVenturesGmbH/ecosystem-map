@@ -1,5 +1,5 @@
 name: Validator alliance
-refID: 52
+id: validators
 handle: Validator alliance
 category:
   - Tooling

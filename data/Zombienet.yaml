@@ -1,5 +1,6 @@
 name: Zombienet
-team: 54
+team:
+  - paritytech
 category:
   - Infra
   - Library

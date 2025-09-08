@@ -1,5 +1,7 @@
 name: Nova Wallet / Spektr / Vault
-team: 55, 4
+team: 
+  - novasamatech
+  - antontheday7
 category:
   - Wallet
   - NFT

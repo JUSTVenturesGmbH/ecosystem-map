@@ -1,5 +1,6 @@
 name: Gossamer
-team: 39
+team: 
+  - chainsafe
 category:
   - Infra
   - Tools

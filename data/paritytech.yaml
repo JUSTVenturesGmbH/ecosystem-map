@@ -1,4 +1,7 @@
 name: Paritytech
+team:
+  - paritytech
+  - bkchr
 category:
   - Infra
   - Tools

@@ -1,5 +1,7 @@
-name: API
-team: 55, 4
+name: Novasama API
+team: 
+  - novasamatech
+  - antontheday7
 category:
   - Infra
   - Library

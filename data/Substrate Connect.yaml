@@ -1,4 +1,6 @@
 name: Substrate Connect
+team:
+  - paritytech
 category:
   - Infra
   - Library

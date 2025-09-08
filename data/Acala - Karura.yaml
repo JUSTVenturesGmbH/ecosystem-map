@@ -1,5 +1,6 @@
 name: Acala / Karura
-team: 31
+team: 
+  - xlc
 category:
   - DeFi
 description: DeFi platform that offers a suite of financial products and services,

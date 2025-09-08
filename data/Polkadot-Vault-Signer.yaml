@@ -1,5 +1,7 @@
 name: Polkadot Vault / Parity Signer
-team: 55, 4
+team: 
+  - novasamatech
+  - antontheday7
 category:
   - Wallet
 description: non-custodial cold secure mobile wallet

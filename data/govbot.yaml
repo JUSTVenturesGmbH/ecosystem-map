@@ -1,4 +1,6 @@
 name: ChaosDAO Governance bot
+team:
+  - chaosdao
 category:
   - Governance
 description: OpenGov Community Voting Discord Bot
