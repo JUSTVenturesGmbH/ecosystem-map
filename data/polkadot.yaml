@@ -11,3 +11,7 @@ web:
   twitter: polkadot
   discord: https://discord.com/invite/polkadot
 treasury_funded: false
+metrics:
+  discord:
+    - date: 2025-11-18
+      value: 26037

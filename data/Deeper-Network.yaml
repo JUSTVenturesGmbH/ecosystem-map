@@ -31,11 +31,11 @@ metrics:
     - date: 2023-12-31
       value: 6680
   github:
-    - date: 2025-05-01
-      value: 145
+    - date: 2025-11-18
+      value: 153
   discord:
-    - date: 2025-06-01
-      value: 9673
+    - date: 2025-11-18
+      value: 8982
   blog:
     - date: 2023-12-31
       value: 5835

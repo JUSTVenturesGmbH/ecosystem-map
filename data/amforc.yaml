@@ -18,6 +18,13 @@ web:
   logo: default.png
   site: https://amforc.com/
   github: https://github.com/amforc/spammening
-  twitter: amforcag 
+  twitter: amforcag
 treasury_funded: false
 audit: false
+metrics:
+  github:
+    - date: 2025-11-18
+      value: 2
+  github_pushed_at:
+    - date: 2025-11-18
+      value: 1732151804

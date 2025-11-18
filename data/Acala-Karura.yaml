@@ -1,5 +1,5 @@
 name: Acala / Karura
-team: 
+team:
   - xlc
 category:
   - DeFi
@@ -39,8 +39,8 @@ metrics:
     - date: 2023-12-31
       value: 17300
   github:
-    - date: 2025-06-01
-      value: 755
+    - date: 2025-11-18
+      value: 765
   discord:
     - date: 2023-12-31
       value: 3537
@@ -51,5 +51,5 @@ metrics:
     - date: 2023-12-31
       value: 0
   github_pushed_at:
-    - date: 2025-06-01
-      value: 1748243319
+    - date: 2025-11-18
+      value: 1763340445

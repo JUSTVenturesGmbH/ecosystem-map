@@ -16,3 +16,7 @@ web:
   documentation: https://docs.phala.network
   discord: https://discord.com/invite/phala-network
 treasury_funded: false
+metrics:
+  discord:
+    - date: 2025-11-18
+      value: 12069

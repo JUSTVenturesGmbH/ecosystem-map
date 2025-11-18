@@ -2,7 +2,8 @@ name: Dedot
 category:
   - Infra
   - Library
-description: Delightful JavaScript/TypeScript client for Polkadot & Polkadot SDK-based blockchains
+description: Delightful JavaScript/TypeScript client for Polkadot & Polkadot SDK-based
+  blockchains
 readiness:
   business: Verified in market/high adoption
   technology: In production
@@ -20,3 +21,10 @@ web:
   documentation: https://docs.dedot.dev
 treasury_funded: false
 audit: false
+metrics:
+  github:
+    - date: 2025-11-18
+      value: 67
+  github_pushed_at:
+    - date: 2025-11-18
+      value: 1763447401

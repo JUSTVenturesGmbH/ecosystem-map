@@ -19,6 +19,16 @@ web:
   github: https://github.com/DeStore-Network/.github
   contact: info@destore.network
   twitter: DeStore_Network
-  discord: https://discord.com/invite/Kyrmmg6mTc 
+  discord: https://discord.com/invite/Kyrmmg6mTc
 treasury_funded: false
 audit: false
+metrics:
+  discord:
+    - date: 2025-11-18
+      value: 10417
+  github:
+    - date: 2025-11-18
+      value: 0
+  github_pushed_at:
+    - date: 2025-11-18
+      value: 1719580806

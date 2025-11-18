@@ -1,5 +1,5 @@
 name: Nova Wallet / Spektr / Vault
-team: 
+team:
   - novasamatech
   - antontheday7
 category:
@@ -44,8 +44,8 @@ metrics:
     - date: 2023-12-31
       value: 426
   github:
-    - date: 2025-05-01
-      value: 44
+    - date: 2025-11-18
+      value: 51
   discord: []
   blog:
     - date: 2023-12-31
@@ -54,5 +54,5 @@ metrics:
     - date: 2023-12-31
       value: 50000
   github_pushed_at:
-    - date: 2025-06-01
-      value: 1748623041
+    - date: 2025-11-18
+      value: 1763463324

@@ -4,7 +4,8 @@ category:
   - Library
   - Dapp
   - DeFi
-description:  Simple command line application to control the payouts of Substrate validators (Polkadot and Kusama among others)
+description: Simple command line application to control the payouts of Substrate validators
+  (Polkadot and Kusama among others)
 readiness:
   business: Verified in market/high adoption
   technology: In production
@@ -21,3 +22,10 @@ web:
   github: https://github.com/stakelink/substrate-payctl
 treasury_funded: false
 audit: false
+metrics:
+  github:
+    - date: 2025-11-18
+      value: 33
+  github_pushed_at:
+    - date: 2025-11-18
+      value: 1715263141

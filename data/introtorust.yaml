@@ -1,4 +1,4 @@
-name: Introduction to Rust 
+name: Introduction to Rust
 category:
   - Education
 description: WebZero Hackerhouse Rust Workshop - An Intro to Rust
@@ -9,3 +9,10 @@ web:
   site: https://github.com/CrackTheCode016/intro-to-rust-workshop
   github: https://github.com/CrackTheCode016/intro-to-rust-workshop
 treasury_funded: false
+metrics:
+  github:
+    - date: 2025-11-18
+      value: 3
+  github_pushed_at:
+    - date: 2025-11-18
+      value: 1709229157

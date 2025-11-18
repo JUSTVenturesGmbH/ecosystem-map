@@ -4,7 +4,8 @@ category:
   - Dapp
   - DeFi
   - EVM
-description: Hardware wallet that stores the user's private key in it's secure enclave storage.
+description: Hardware wallet that stores the user's private key in it's secure enclave
+  storage.
 readiness:
   business: Verified in market/high adoption
   technology: In production
@@ -36,3 +37,13 @@ web:
   contact: media@ledger.com
 treasury_funded: true
 audit: true
+metrics:
+  discord:
+    - date: 2025-11-18
+      value: 29218
+  github:
+    - date: 2025-11-18
+      value: 536
+  github_pushed_at:
+    - date: 2025-11-18
+      value: 1763469744

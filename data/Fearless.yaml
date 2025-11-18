@@ -30,6 +30,14 @@ web:
   documentation: https://wiki.fearlesswallet.io
   playstore: https://play.google.com/store/apps/details?id=jp.co.soramitsu.fearless
   appstore: https://apps.apple.com/us/app/fearless-wallet-defi-wallet/id1537251089
-  webstore: https://chromewebstore.google.com/detail/nhlnehondigmgckngjomcpcefcdplmgc?utm_source=item-share-cb
+  webstore: 
+    https://chromewebstore.google.com/detail/nhlnehondigmgckngjomcpcefcdplmgc?utm_source=item-share-cb
 treasury_funded: false
 audit: false
+metrics:
+  github:
+    - date: 2025-11-18
+      value: 98
+  github_pushed_at:
+    - date: 2025-11-18
+      value: 1756916021

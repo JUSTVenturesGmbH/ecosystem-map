@@ -9,7 +9,8 @@ category:
   - Infra
   - Tools
   - Library
-description: Rust implementation of Polkadot SDK which provides all the resources needed to start building on the Polkadot.
+description: Rust implementation of Polkadot SDK which provides all the resources
+  needed to start building on the Polkadot.
 readiness:
   technology: In production
 target_audience:
@@ -26,3 +27,10 @@ web:
   documentation: https://docs.polkadot.com
 treasury_funded: false
 audit: true
+metrics:
+  github:
+    - date: 2025-11-18
+      value: 2535
+  github_pushed_at:
+    - date: 2025-11-18
+      value: 1763469498
