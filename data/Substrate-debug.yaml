@@ -1,4 +1,6 @@
 name: Substrate Debug
+team:
+  - paritytech
 category:
   - Infra
   - Library
