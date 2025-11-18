@@ -1,4 +1,6 @@
 name: Polkadot Blockchain Academy
+team:
+  - pba
 category:
   - Education
 description: This book is the home of the majority of materials used within the Polkadot Blockchain Academy.

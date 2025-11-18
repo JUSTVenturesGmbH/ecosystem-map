@@ -3,8 +3,7 @@ category:
   - Data
 description: Prediction markets protocol
 readiness:
-  business: Verified in market/high adoption
-  technology: Connected to Relay chain
+  technology: Discontinued
 target_audience:
   - Community DAO
   - Personal investors

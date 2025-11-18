@@ -1,4 +1,6 @@
 name: Opengov watch
+team:
+  - alice_und_bob
 category:
   - Governance
 description: We help OpenGov grow up and develop structures and culture. We monitor ongoing developments, publish reports, consult OpenGov participants and provide thought leadership through curating a community-developed strategy for ecosystem development.

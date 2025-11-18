@@ -1,4 +1,6 @@
 name: Chopsticks
+team: 
+  - xlc
 category:
   - Infra
   - Library

@@ -1,4 +1,6 @@
 name: Alice und Bob Youtube channel
+team: 
+  - alice_und_bob
 category:
   - Education
   - Video

@@ -1,4 +1,6 @@
 name: Hyperbridge
+team:
+  - seunlanlege
 category:
   - Bridge
 description: Interoperability protocol connecting blockchain networks.

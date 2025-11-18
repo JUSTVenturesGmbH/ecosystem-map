@@ -110,6 +110,12 @@ properties:
         - Research institute
         - Startup
 
+  team:
+    type: array
+    uniqueItems: true
+    items:
+      type: string
+
   category:
     type: array
     uniqueItems: true

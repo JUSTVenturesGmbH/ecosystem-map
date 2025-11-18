@@ -1,4 +1,4 @@
-name: SubSocial / Grill.chat
+name: SubSocial
 category:
   - Social
   - Privacy
@@ -6,8 +6,7 @@ category:
   - DeFi
 description: platform for decentralized social networks, chat,  donations
 readiness:
-  business: Scaling/Alliance
-  technology: Connected to Relay chain
+  technology: Discontinued
 target_audience:
   - Individuals
   - Community DAO

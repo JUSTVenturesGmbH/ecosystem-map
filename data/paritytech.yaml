@@ -1,4 +1,10 @@
 name: Paritytech
+team:
+  - paritytech
+  - bkchr
+  - shawntabrizi
+  - gavofyork
+  - joepetrowski
 category:
   - Infra
   - Tools

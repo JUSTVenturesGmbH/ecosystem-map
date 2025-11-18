@@ -1,4 +1,6 @@
 name: iOS Substrate SDK
+team: 
+  - novasamatech
 category:
   - Infra
   - Library

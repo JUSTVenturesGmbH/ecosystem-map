@@ -1,4 +1,6 @@
 name: Android Substrate SDK
+team:
+  - novasamatech
 category:
   - Infra
   - Library

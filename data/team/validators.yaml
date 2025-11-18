@@ -1,0 +1,8 @@
+name: Validator alliance
+id: validators
+handle: Validator alliance
+category:
+  - Tooling
+group: none
+web:
+  site: https://dotvalidators.org/#about
