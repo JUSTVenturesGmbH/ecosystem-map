@@ -4,7 +4,8 @@ team:
 category:
   - Infra
   - Library
-description: A testing framework, build in nodeJS, for Substrate based blockchains, providing a simple cli tool that allows users to spawn and test ephemeral networks.
+description: A testing framework, build in nodeJS, for Substrate based blockchains,
+  providing a simple cli tool that allows users to spawn and test ephemeral networks.
 readiness:
   business: Verified in market/high adoption
   technology: In production
@@ -21,3 +22,10 @@ web:
   github: https://github.com/paritytech/zombienet
 treasury_funded: false
 audit: false
+metrics:
+  github:
+    - date: 2025-11-18
+      value: 179
+  github_pushed_at:
+    - date: 2025-11-18
+      value: 1763442422

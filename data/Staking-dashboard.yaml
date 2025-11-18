@@ -25,6 +25,17 @@ web:
   github: https://github.com/polkadot-cloud/polkadot-staking-dashboard
   discord: https://discord.com/invite/QY7CSSJm3D
   contact: staking@polkadot.cloud
-  documentation: https://github.com/polkadot-cloud/polkadot-staking-dashboard/blob/main/docs/EN.md
+  documentation: 
+    https://github.com/polkadot-cloud/polkadot-staking-dashboard/blob/main/docs/EN.md
 treasury_funded: false
 audit: false
+metrics:
+  discord:
+    - date: 2025-11-18
+      value: 296
+  github:
+    - date: 2025-11-18
+      value: 174
+  github_pushed_at:
+    - date: 2025-11-18
+      value: 1763414291

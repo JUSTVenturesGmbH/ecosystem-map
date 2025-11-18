@@ -2,7 +2,7 @@ name: Substrate Crond
 category:
   - Infra
   - Tools
-description:  a tool that allows tasks to be executed based on substrate events
+description: a tool that allows tasks to be executed based on substrate events
 readiness:
   technology: In production
 target_audience:
@@ -18,3 +18,10 @@ web:
   github: https://github.com/stakelink/substrate-crond
 treasury_funded: false
 audit: false
+metrics:
+  github:
+    - date: 2025-11-18
+      value: 2
+  github_pushed_at:
+    - date: 2025-11-18
+      value: 1694029914

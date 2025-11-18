@@ -4,7 +4,8 @@ category:
   - Library
   - API
   - XCM
-description: The Hub of XCM Tools, Seamlessly Integrate Interoperability into Your Application Within Seconds. XCM API, XCM SDK
+description: The Hub of XCM Tools, Seamlessly Integrate Interoperability into Your
+  Application Within Seconds. XCM API, XCM SDK
 readiness:
   technology: In production
 target_audience:
@@ -21,3 +22,10 @@ web:
   contact: info.paraspell@gmail.com
 treasury_funded: false
 audit: false
+metrics:
+  github:
+    - date: 2025-11-18
+      value: 54
+  github_pushed_at:
+    - date: 2025-11-18
+      value: 1763461853

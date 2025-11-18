@@ -2,7 +2,8 @@ name: Talisman Connect
 category:
   - Infra
   - Library
-description: Connect your DApp to Ethereum and Polkadot wallets with Talisman Connect. A minimal SDK to connect your DApp with your users' favourite EOA wallets.
+description: Connect your DApp to Ethereum and Polkadot wallets with Talisman Connect.
+  A minimal SDK to connect your DApp with your users' favourite EOA wallets.
 readiness:
   business: Verified in market/high adoption
   technology: In production
@@ -19,3 +20,10 @@ web:
   github: https://github.com/TalismanSociety/talisman-connect
 treasury_funded: false
 audit: false
+metrics:
+  github:
+    - date: 2025-11-18
+      value: 39
+  github_pushed_at:
+    - date: 2025-11-18
+      value: 1731645307

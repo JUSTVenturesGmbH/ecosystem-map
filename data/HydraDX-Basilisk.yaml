@@ -1,5 +1,5 @@
 name: Hydration
-team: 
+team:
   - lolmcshizz
   - leemo
   - jkub
@@ -36,15 +36,15 @@ metrics:
       value: 30116
   youtube: []
   github:
-    - date: 2025-06-01
-      value: 182
+    - date: 2025-11-18
+      value: 199
   discord:
-    - date: 2025-06-01
-      value: 5787
+    - date: 2025-11-18
+      value: 6779
   blog:
     - date: 2023-12-31
       value: 44
   app_downloads: []
   github_pushed_at:
-    - date: 2025-06-01
-      value: 1748614527
+    - date: 2025-11-18
+      value: 1763470060

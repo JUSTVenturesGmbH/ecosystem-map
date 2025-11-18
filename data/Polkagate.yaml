@@ -31,13 +31,13 @@ metrics:
       value: 471
   youtube: []
   github:
-    - date: 2025-01-23
-      value: 2
+    - date: 2025-11-18
+      value: 3
   discord: []
   blog: []
   app_downloads:
     - date: 2023-12-31
       value: 1000
   github_pushed_at:
-    - date: 2025-06-01
-      value: 1748678657
+    - date: 2025-11-18
+      value: 1763453816

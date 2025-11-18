@@ -4,7 +4,8 @@ category:
   - Library
   - Wallet
   - Tools
-description: Developed by SubWallet, this offline tool can be used to export accounts on Polkadot-SDK networks from a Ledger device using seed phrases
+description: Developed by SubWallet, this offline tool can be used to export accounts
+  on Polkadot-SDK networks from a Ledger device using seed phrases
 readiness:
   technology: In production
 target_audience:
@@ -20,3 +21,10 @@ web:
   github: https://github.com/Koniverse/Ledger-Account-Recovery-Tool
 treasury_funded: false
 audit: false
+metrics:
+  github:
+    - date: 2025-11-18
+      value: 5
+  github_pushed_at:
+    - date: 2025-11-18
+      value: 1706929424

@@ -2,7 +2,9 @@ name: Python Polkadot SDK
 category:
   - Infra
   - Library
-description: This library specializes in interfacing with a Substrate node; querying storage, composing extrinsics, SCALE encoding/decoding and providing additional convenience methods to deal with the features and metadata of the Substrate runtime.
+description: This library specializes in interfacing with a Substrate node; querying
+  storage, composing extrinsics, SCALE encoding/decoding and providing additional
+  convenience methods to deal with the features and metadata of the Substrate runtime.
 readiness:
   business: Verified in market/high adoption
   technology: In production
@@ -20,3 +22,10 @@ web:
   documentation: https://jamdottech.github.io/py-polkadot-sdk/
 treasury_funded: false
 audit: false
+metrics:
+  github:
+    - date: 2025-11-18
+      value: 257
+  github_pushed_at:
+    - date: 2025-11-18
+      value: 1749712593

@@ -19,3 +19,10 @@ web:
   github: https://github.com/interweb-it/dotsama-grapql
 treasury_funded: false
 audit: false
+metrics:
+  github:
+    - date: 2025-11-18
+      value: 0
+  github_pushed_at:
+    - date: 2025-11-18
+      value: 1746484985

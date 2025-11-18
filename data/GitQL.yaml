@@ -2,7 +2,8 @@ name: GitQL
 category:
   - Infra
   - Library
-description: Polkadot binary updater with Github GraphQL API v4, JQ, CURL and without Git
+description: Polkadot binary updater with Github GraphQL API v4, JQ, CURL and without
+  Git
 readiness:
   technology: Discontinued
 target_audience:
@@ -18,3 +19,10 @@ web:
   github: https://github.com/ksmnetwork/GitQL
 treasury_funded: false
 audit: false
+metrics:
+  github:
+    - date: 2025-11-18
+      value: 0
+  github_pushed_at:
+    - date: 2025-11-18
+      value: 1639398971

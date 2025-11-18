@@ -20,3 +20,10 @@ web:
   documentation: https://subsembly.gitbook.io/subsembly/
 treasury_funded: false
 audit: false
+metrics:
+  github:
+    - date: 2025-11-18
+      value: 30
+  github_pushed_at:
+    - date: 2025-11-18
+      value: 1629292159
