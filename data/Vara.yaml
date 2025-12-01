@@ -41,5 +41,5 @@ metrics:
       value: 3801
   app_downloads: []
   github_pushed_at:
-    - date: 2025-11-18
-      value: 1763373771
+    - date: 2025-12-01
+      value: 1764158906
