@@ -1,5 +1,7 @@
 black==24.10.0
 requests==2.32.3
+# Image handling is needed by fetch_discord_logos.py to normalise formats
+Pillow==11.0.0
 ruamel.yaml==0.18.6
 # the optional C extension does not build on Python >= 3.12
 ruamel.yaml.clib==0.2.12; python_version < "3.12"
