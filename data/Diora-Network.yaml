@@ -2,8 +2,7 @@ name: Diora Network
 category:
   - EVM
   - DeFi
-description: Fully EVM compatible parachain built with Substrate for Polkadot and
-  Kusama
+description: Fully EVM compatible parachain built with Substrate for Polkadot and Kusama
 readiness:
   business: Business concept/low adoption
   technology: Discontinued
@@ -17,7 +16,7 @@ layer:
   - Layer-1
   - Layer-2
 web:
-  logo: default.png
+  logo: Diora-Network.png
   site: https://diora.network/
   twitter: DioraNetwork
   discord: https://discord.com/invite/2bVwpwF9aq

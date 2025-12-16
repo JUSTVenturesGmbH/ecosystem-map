@@ -15,7 +15,7 @@ ecosystem:
 layer:
   - Layer-3
 web:
-  logo: default.png
+  logo: Paralink-Network.png
   site: https://paralink.network
   twitter: ParalinkNetwork
   discord: https://discord.com/invite/QzaZAqJT6B

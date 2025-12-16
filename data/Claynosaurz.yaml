@@ -13,7 +13,7 @@ ecosystem:
 layer:
   - Layer-3
 web:
-  logo: default.png
+  logo: Claynosaurz.png
   site: https://claynosaurz.com/
   twitter: Claynosaurz
   discord: https://discord.com/invite/claynosaurz

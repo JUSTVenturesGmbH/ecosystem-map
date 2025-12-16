@@ -16,7 +16,7 @@ layer:
   - Layer-4
   - Layer-1
 web:
-  logo: default.png
+  logo: Dock-Trouvera.png
   site: https://www.dock.io
   twitter: docknetwork
   discord: https://discord.com/invite/feW8KGf7r3

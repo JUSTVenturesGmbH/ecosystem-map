@@ -13,7 +13,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: Arthswap.png
   site: https://www.arthswap.org
   twitter: arthswap
   discord: https://discord.com/invite/jvRMAGkPGc

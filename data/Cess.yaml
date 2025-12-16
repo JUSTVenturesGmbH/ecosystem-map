@@ -3,8 +3,7 @@ category:
   - DePIN
   - Data
   - Infra
-description: Layer 1 for Infinite Data Storage & Millisecond Execution Powering DeSci,
-  AI and DePIN Innovation
+description: Layer 1 for Infinite Data Storage & Millisecond Execution Powering DeSci, AI and DePIN Innovation
 readiness:
   business: Verified in market/high adoption
   technology: In development
@@ -18,7 +17,7 @@ ecosystem:
 layer:
   - Layer-1
 web:
-  logo: default.png
+  logo: CESS.png
   site: https://cess.network/#
   twitter: CESS_Storage
   discord: https://discord.com/invite/cess

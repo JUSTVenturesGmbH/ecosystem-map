@@ -17,7 +17,7 @@ ecosystem:
 layer:
   - Layer-3
 web:
-  logo: default.png
+  logo: Moonbeans.png
   site: https://moonbeans.io/
   twitter: MoonbeansIO
   contact: contact@moonbeans.io

@@ -17,7 +17,7 @@ ecosystem:
 layer:
   - Layer-1
 web:
-  logo: default.png
+  logo: Joystream.png
   site: https://www.joystream.org
   github: https://github.com/Joystream/joystream
   documentation: https://handbook.joystream.org

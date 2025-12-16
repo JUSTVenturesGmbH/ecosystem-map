@@ -7,8 +7,7 @@ category:
   - NFT
   - EVM
   - Indexer
-description: decentralized lending, staking, and borrowing protocol, wallet, DAO wallet
-  (https://parax.ai/Products/Polkadot)
+description: decentralized lending, staking, and borrowing protocol, wallet, DAO wallet (https://parax.ai/Products/Polkadot)
 readiness:
   business: Scaling/Alliance
   technology: Connected to Relay chain
@@ -22,7 +21,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: Parallel-Finance-Heiko.png
   site: https://parallel.fi
   twitter: ParallelFi
   discord: https://discord.com/invite/buKKx4dySW

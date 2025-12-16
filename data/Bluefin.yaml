@@ -13,7 +13,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: Bluefin-ex-Firefly.png
   site: https://bluefin.io/
   twitter: bluefinapp
   discord: https://discord.com/invite/bluefinapp

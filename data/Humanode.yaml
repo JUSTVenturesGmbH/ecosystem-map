@@ -3,9 +3,7 @@ category:
   - Smart Contracts
   - EVM
   - DAO
-description: a standalone Substrate chain, the first crypto-biometric network where
-  One human = One node that brings sybil resistance and innovative governance models
-  to the crypto industry using private biometric technology.
+description: a standalone Substrate chain, the first crypto-biometric network where One human = One node that brings sybil resistance and innovative governance models to the crypto industry using private biometric technology.
 readiness:
   business: Business concept/low adoption
   technology: In production
@@ -17,7 +15,7 @@ layer:
   - Layer-1
   - Layer-3
 web:
-  logo: default.png
+  logo: Humanode.png
   site: https://humanode.io/
   twitter: humanode_io
   contact: core@humanode.io

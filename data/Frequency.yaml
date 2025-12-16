@@ -1,8 +1,7 @@
 name: Frequency
 category:
   - Social
-description: Layer 1 blockchain enabling builders to deliver decentralized social
-  apps
+description: Layer 1 blockchain enabling builders to deliver decentralized social apps
 readiness:
   business: Verified in market/high adoption
   technology: Connected to Relay chain
@@ -17,7 +16,7 @@ layer:
   - Layer-4
   - Layer-1
 web:
-  logo: default.png
+  logo: Frequency.png
   site: https://www.frequency.xyz/
   twitter: frequency_xyz
   discord: https://discord.com/invite/JchmHX5afV

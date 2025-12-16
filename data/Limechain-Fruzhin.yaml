@@ -5,8 +5,7 @@ category:
   - DAO
   - Dapp
   - Smart Contracts
-description: Consulting and developing infrastructure, Substrate runtime written in
-  Assemblyscript, host implementation in Java
+description: Consulting and developing infrastructure, Substrate runtime written in Assemblyscript, host implementation in Java
 readiness:
   business: Business concept/low adoption
   technology: In development
@@ -24,7 +23,7 @@ layer:
   - Layer-1
   - Layer-0
 web:
-  logo: default.png
+  logo: Limechain-Fruzhin.png
   site: https://limechain.tech/
   twitter: LimeChainHQ
   contact: hi@limechain.tech

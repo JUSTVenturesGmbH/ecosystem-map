@@ -15,7 +15,7 @@ ecosystem:
 layer:
   - Layer-3
 web:
-  logo: default.png
+  logo: Kagla-Finance.png
   site: https://kagla.finance/
   twitter: kagla_fi
   discord: https://discord.com/invite/sukbYgNjgc

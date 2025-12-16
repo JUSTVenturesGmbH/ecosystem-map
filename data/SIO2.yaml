@@ -15,7 +15,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: SIO2.png
   site: https://sio2.finance/
   twitter: SiO2_Finance
   discord: https://discord.com/invite/7u53a255Nh

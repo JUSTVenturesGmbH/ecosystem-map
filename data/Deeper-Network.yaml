@@ -14,7 +14,7 @@ ecosystem:
 layer:
   - Layer-1
 web:
-  logo: default.png
+  logo: Deeper-Network.png
   site: https://www.deeper.network/
   twitter: deeper_network
   discord: https://discord.com/invite/EWUyAJyH2B

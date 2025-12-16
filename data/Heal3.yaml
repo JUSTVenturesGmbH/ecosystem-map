@@ -13,7 +13,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: Heal3.png
   site: https://heal3.com/
   discord: https://discord.com/invite/Cy6Wt8rGgc
   twitter: Heal3official

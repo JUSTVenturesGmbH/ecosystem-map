@@ -14,7 +14,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: Bittensor-Tensor.png
   site: https://bittensor.com/
   twitter: bittensor_
   discord: https://discord.com/invite/qasY3HA9F9

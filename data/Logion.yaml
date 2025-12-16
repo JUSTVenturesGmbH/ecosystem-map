@@ -1,10 +1,7 @@
 name: Logion
 category:
   - Data
-description: Blockchain-based distributed infrastructure operated by a community of
-  Logion Legal Officers (LLO). Wallet protection through social recovery and multi-signature.
-  Digital asset protection through the Legal Officer Case (LOC) and restricted delivery
-  of digital assets to the NFT owner
+description: Blockchain-based distributed infrastructure operated by a community of Logion Legal Officers (LLO). Wallet protection through social recovery and multi-signature. Digital asset protection through the Legal Officer Case (LOC) and restricted delivery of digital assets to the NFT owner
 readiness:
   business: Business concept/low adoption
   technology: Connected to Relay chain
@@ -16,7 +13,7 @@ ecosystem:
 layer:
   - Layer-1
 web:
-  logo: default.png
+  logo: Logion.png
   site: https://logion.network/
   twitter: logion_network
   discord: https://discord.com/invite/FvnxrtCYr6

@@ -16,7 +16,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: Bluez.png
   site: https://bluez.app/
   twitter: BluezNFT
   discord: https://discord.com/invite/pBKeTSpCJC

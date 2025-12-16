@@ -16,7 +16,7 @@ ecosystem:
 layer:
   - Layer-3
 web:
-  logo: default.png
+  logo: Moonsama.png
   site: https://moonsama.com/
   twitter: MoonsamaNFT
   discord: https://discord.com/invite/sA2ccnHPMC

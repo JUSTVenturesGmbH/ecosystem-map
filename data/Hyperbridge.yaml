@@ -18,7 +18,7 @@ ecosystem:
 layer:
   - Layer-1
 web:
-  logo: default.png
+  logo: Hyperbridge.png
   site: https://hyperbridge.network
   twitter: hyperbridge
   github: https://github.com/polytope-labs/hyperbridge

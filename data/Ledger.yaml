@@ -4,8 +4,7 @@ category:
   - Dapp
   - DeFi
   - EVM
-description: Hardware wallet that stores the user's private key in it's secure enclave
-  storage.
+description: Hardware wallet that stores the user's private key in it's secure enclave storage.
 readiness:
   business: Verified in market/high adoption
   technology: In production
@@ -28,7 +27,7 @@ ecosystem:
 layer:
   - Layer-4
 web:
-  logo: default.png
+  logo: Ledger.png
   site: https://www.ledger.com
   twitter: Ledger
   discord: https://discord.com/invite/Ledger

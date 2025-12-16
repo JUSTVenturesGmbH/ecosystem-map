@@ -8,8 +8,7 @@ category:
   - Smart Contracts
   - Wallet
   - Privacy
-description: Where Government & Enterprise Applications Integrate Seamlessly with
-  Public & Retail Applications.
+description: Where Government & Enterprise Applications Integrate Seamlessly with Public & Retail Applications.
 readiness:
   business: Scaling/Alliance
   technology: In development
@@ -22,7 +21,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: Mandala-Chain.png
   site: https://www.mandalachain.io/
   twitter: MandalaChain
   discord: https://discord.com/invite/uzCWJmH6TP

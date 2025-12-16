@@ -17,7 +17,7 @@ ecosystem:
 layer:
   - Layer-3
 web:
-  logo: default.png
+  logo: REBL-Network.png
   site: https://rebl.ai/
   twitter: reblapp
   discord: https://discord.com/invite/uRRxnfAjhY
