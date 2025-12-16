@@ -150,7 +150,7 @@ export default function EcosystemMap() {
           of projects
         </div>
         <div className="sub-header">
-          Curated by JUST Open Source team. This is a preview of our database,
+          Curated by JUST Ventures team. This is a preview of our database,
           for further details please visit <a href="https://github.com/JUSTBeteiligungen/ecosystem-map">our Github</a>. Filter by category, type, ecosystem 
           and potential audience.
           <br />
