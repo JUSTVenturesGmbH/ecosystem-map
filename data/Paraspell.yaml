@@ -1,4 +1,4 @@
-name: ParaSpell
+name: ParaSpell XCM Tools
 category:
   - Infra
   - Library
@@ -16,11 +16,11 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: ParaSpell-logo.png
   site: https://paraspell.xyz
   github: https://github.com/paraspell/xcm-tools
   contact: info.paraspell@gmail.com
-treasury_funded: false
+treasury_funded: true
 audit: false
 metrics:
   github:
