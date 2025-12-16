@@ -1,12 +1,8 @@
 #!/usr/bin/env python3
-"""
-Download Discord server icons for dataset entries that still rely on the default
-logo (or have a missing image) and store the files inside img/.
-"""
+"""Download Discord icons for entries missing real logos."""
 from __future__ import annotations
 
 import argparse
-import io
 import logging
 import re
 import sys
@@ -15,11 +11,10 @@ from typing import Iterable, Optional, Tuple
 from urllib.parse import urlparse
 
 import requests
-from PIL import Image
 from ruamel.yaml import YAML
 
 INVITE_ENDPOINT = "https://discord.com/api/v10/invites/{code}"
-ICON_ENDPOINT = "https://cdn.discordapp.com/icons/{guild_id}/{icon_hash}.{extension}"
+ICON_ENDPOINT = "https://cdn.discordapp.com/icons/{guild_id}/{icon_hash}.png"
 
 
 def parse_args() -> argparse.Namespace:
@@ -41,11 +36,7 @@ def parse_args() -> argparse.Namespace:
         default=Path("img"),
         help="Directory that stores logo images (default: img/)",
     )
-    parser.add_argument(
-        "--include-team",
-        action="store_true",
-        help="Include files in data/team/.",
-    )
+    parser.add_argument("--include-team", action="store_true", help="Include files in data/team/.")
     parser.add_argument(
         "--dry-run",
         action="store_true",
@@ -92,7 +83,7 @@ def extract_invite_code(url: str) -> Optional[str]:
     return None
 
 
-def fetch_discord_icon(session: requests.Session, invite_code: str) -> Tuple[Image.Image, str]:
+def fetch_discord_icon(session: requests.Session, invite_code: str) -> Tuple[bytes, str]:
     resp = session.get(
         INVITE_ENDPOINT.format(code=invite_code),
         params={"with_counts": "true", "with_expiration": "true"},
@@ -109,21 +100,11 @@ def fetch_discord_icon(session: requests.Session, invite_code: str) -> Tuple[Ima
     if not guild_id or not icon_hash:
         raise RuntimeError("Server does not expose an icon")
 
-    extension = "gif" if icon_hash.startswith("a_") else "png"
-    icon_url = ICON_ENDPOINT.format(
-        guild_id=guild_id,
-        icon_hash=icon_hash,
-        extension=extension,
-    )
-
-    icon_resp = session.get(icon_url, timeout=20)
+    icon_url = ICON_ENDPOINT.format(guild_id=guild_id, icon_hash=icon_hash)
+    icon_resp = session.get(icon_url, params={"size": 512}, timeout=20)
     icon_resp.raise_for_status()
 
-    with Image.open(io.BytesIO(icon_resp.content)) as image:
-        # Convert all formats to RGBA for consistent downstream conversions
-        converted = image.convert("RGBA")
-
-    return converted, guild.get("name") or invite_code
+    return icon_resp.content, guild.get("name") or invite_code
 
 
 def sanitize_basename(name: str) -> str:
@@ -153,15 +134,9 @@ def pick_filename(
         counter += 1
 
 
-def save_image(image: Image.Image, destination: Path) -> None:
+def save_image(content: bytes, destination: Path) -> None:
     destination.parent.mkdir(parents=True, exist_ok=True)
-    ext = destination.suffix.lower()
-    if ext in {".jpg", ".jpeg"}:
-        rgb_image = image.convert("RGB")
-        rgb_image.save(destination, format="JPEG", quality=92)
-    else:
-        # Default to PNG to preserve transparency
-        image.save(destination, format="PNG")
+    destination.write_bytes(content)
 
 
 def main() -> int:
@@ -220,14 +195,14 @@ def main() -> int:
             continue
 
         try:
-            image, guild_name = fetch_discord_icon(session, invite_code)
+            image_bytes, guild_name = fetch_discord_icon(session, invite_code)
         except Exception as exc:  # noqa: BLE001
             logging.error("Failed to fetch icon for %s: %s", project_name, exc)
             skipped += 1
             continue
 
         target_suffix = Path(logo_name).suffix.lower()
-        if logo_name == "default.png" or target_suffix not in {".png", ".jpg", ".jpeg"}:
+        if logo_name == "default.png" or target_suffix != ".png":
             safe_base = sanitize_basename(project_name)
             target_filename = pick_filename(f"{safe_base}.png", args.img_dir, allow_overwrite=False)
         else:
@@ -243,7 +218,7 @@ def main() -> int:
                 target_path,
             )
         else:
-            save_image(image, target_path)
+            save_image(image_bytes, target_path)
             logging.info(
                 "Saved %s for %s (Discord: %s)",
                 target_path,

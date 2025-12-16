@@ -19,11 +19,18 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Show Python version
+        run: python --version
 
       - name: Install Python requirements
         working-directory: ./scripts
-        run: pip install -r requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
 
       - name: Collecting Metrics
         working-directory: ./scripts
@@ -40,4 +47,3 @@ jobs:
           add-paths: |
             data/*
             *.md
-
