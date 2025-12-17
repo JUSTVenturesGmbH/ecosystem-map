@@ -2,8 +2,7 @@ name: Polymesh
 category:
   - DeFi
   - Wallet
-description: institutional–grade permissioned blockchain built specifically for regulated
-  assets
+description: institutional–grade permissioned blockchain built specifically for regulated assets
 readiness:
   business: Verified in market/high adoption
   technology: In production
@@ -16,7 +15,7 @@ layer:
   - Layer-1
   - Layer-4
 web:
-  logo: default.png
+  logo: Polymesh.png
   site: https://polymesh.network
   twitter: PolymeshNetwork
   contact: https://polymesh.network/contact-us

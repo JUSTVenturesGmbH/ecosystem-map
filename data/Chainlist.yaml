@@ -2,8 +2,7 @@ name: SubWallet Chainlist
 category:
   - Infra
   - Library
-description: This is the repository to integrate, contain all information about projects/chains/assets
-  available on SubWallet's products.
+description: This is the repository to integrate, contain all information about projects/chains/assets available on SubWallet's products.
 readiness:
   business: Verified in market/high adoption
   technology: In production
@@ -15,7 +14,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: SubWallet-Chainlist.png
   site: https://github.com/Koniverse/SubWallet-ChainList
   github: https://github.com/Koniverse/SubWallet-ChainList
 treasury_funded: false

@@ -15,7 +15,7 @@ ecosystem:
 layer:
   - Layer-1
 web:
-  logo: default.png
+  logo: Moonwell.png
   site: https://moonwell.fi/
   twitter: MoonwellDeFi
   contact: contact@moonwell.fi

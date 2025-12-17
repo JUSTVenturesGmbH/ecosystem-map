@@ -12,7 +12,7 @@ ecosystem:
 layer:
   - Layer-1
 web:
-  logo: default.png
+  logo: Laminar.png
   site: https://laminar.one/
   twitter: LaminarProtocol
   contact: hello@laminar.one

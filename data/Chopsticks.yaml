@@ -7,10 +7,7 @@ category:
   - XCM
   - API
   - EVM
-description: Chopsticks is a testing client that enables the 1-step creation of a
-  mainnet replica of a substrate-based network, for safely testing action and reviewing
-  outcomes. Projects can test new runtime, proposal actions, XCM, different configurations,
-  dry run transactions, etc
+description: Chopsticks is a testing client that enables the 1-step creation of a mainnet replica of a substrate-based network, for safely testing action and reviewing outcomes. Projects can test new runtime, proposal actions, XCM, different configurations, dry run transactions, etc
 readiness:
   business: Verified in market/high adoption
   technology: In production
@@ -23,7 +20,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: Chopsticks.png
   site: https://github.com/AcalaNetwork/chopsticks
   github: https://github.com/AcalaNetwork/chopsticks
   documentation: https://github.com/AcalaNetwork/chopsticks/wiki

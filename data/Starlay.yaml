@@ -16,7 +16,7 @@ ecosystem:
 layer:
   - Layer-1
 web:
-  logo: default.png
+  logo: Starlay.png
   site: https://starlay.finance/
   twitter: starlay_fi
   discord: https://discord.com/invite/M4NjBJZ94b

@@ -14,7 +14,7 @@ ecosystem:
 layer:
   - Layer-0
 web:
-  logo: default.png
+  logo: Kagome.png
   site: https://kagome.readthedocs.io/en/latest/
   github: https://github.com/qdrvm/kagome
   documentation: https://kagome.readthedocs.io/en/latest/

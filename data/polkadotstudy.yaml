@@ -5,7 +5,7 @@ description: Development tutorials for Polkadot
 layer:
   - None
 web:
-  logo: default.png
+  logo: Polkadot-Study.png
   site: https://polkadot.study
   github: https://github.com/PolkadotStudy/polkadot.study
 treasury_funded: true

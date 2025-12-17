@@ -15,7 +15,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: Open-Guild.png
   site: https://openguild.wtf
   contact: openguildteam@gmail.com
   twitter: openguildwtf

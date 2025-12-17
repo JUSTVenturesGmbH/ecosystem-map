@@ -2,8 +2,7 @@ name: Mimir
 category:
   - Wallet
   - Dapp
-description: enterprise-level multi-signature account (multisig) management tool for
-  Polkadot, Kusama, and other substrate-based chains
+description: enterprise-level multi-signature account (multisig) management tool for Polkadot, Kusama, and other substrate-based chains
 readiness:
   business: Business concept/low adoption
   technology: In production
@@ -19,7 +18,7 @@ ecosystem:
 layer:
   - Layer-4
 web:
-  logo: default.png
+  logo: Mimir.png
   site: https://app.mimir.global/welcome?network=polkadot
   github: https://github.com/mimir-labs/mimir-wallet
   documentation: https://docs.mimir.global

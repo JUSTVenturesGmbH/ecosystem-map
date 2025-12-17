@@ -16,7 +16,7 @@ ecosystem:
 layer:
   - Layer-1
 web:
-  logo: default.png
+  logo: Automata.png
   site: https://www.ata.network
   github: https://github.com/automata-network/automata-dcap-attestation
   documentation: https://docs.ata.network

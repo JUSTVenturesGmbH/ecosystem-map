@@ -16,7 +16,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: Substrate-Debug.png
   site: https://github.com/paritytech/substrate-debug-kit
   github: https://github.com/paritytech/substrate-debug-kit
 treasury_funded: false

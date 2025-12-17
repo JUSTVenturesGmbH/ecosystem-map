@@ -15,7 +15,7 @@ ecosystem:
 layer:
   - Layer-3
 web:
-  logo: default.png
+  logo: PolkadotJS-extension-Apps.png
   site: https://github.com/polkadot-js
   github: https://github.com/polkadot-js/apps
   documentation: https://polkadot.js.org/docs/

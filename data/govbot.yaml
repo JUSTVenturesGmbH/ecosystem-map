@@ -16,7 +16,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: ChaosDAO-Governance-bot.png
   site: https://github.com/ChaosDAO-org/InternalGov-2.0
   github: https://github.com/ChaosDAO-org/InternalGov-2.0
 treasury_funded: true

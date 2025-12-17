@@ -16,7 +16,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: Ocelloids.png
   site: https://www.ocelloids.net
   github: https://github.com/sodazone/ocelloids-services/tree/main?tab=readme-ov-file
   documentation: https://www.ocelloids.net/docs/

@@ -16,7 +16,7 @@ target_audience:
   - Community DAO
 layer: []
 web:
-  logo: default.png
+  logo: Polkadot-Vault-Parity-Signer.png
   site: https://vault.novasama.io/
   github: https://github.com/novasamatech/parity-signer
   documentation: https://wiki.polkadot.network/docs/polkadot-vault

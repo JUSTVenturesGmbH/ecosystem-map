@@ -17,7 +17,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: doTreasury.png
   site: https://www.dotreasury.com
   github: https://github.com/opensquare-network/dotreasury
 treasury_funded: true

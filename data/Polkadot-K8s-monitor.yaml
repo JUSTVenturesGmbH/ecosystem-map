@@ -3,8 +3,7 @@ category:
   - Tools
   - Alerts
   - Validator provider
-description: A tool to deploy a Monitoring System for your Substrate based Nodes in
-  a Kubernetes cluster. The focus is specific on Validators.
+description: A tool to deploy a Monitoring System for your Substrate based Nodes in a Kubernetes cluster. The focus is specific on Validators.
 readiness:
   technology: In production
 target_audience:
@@ -15,7 +14,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: Polkadot-K8s-monitor.png
   site: https://github.com/ironoa/polkadot-k8s-monitor
   github: https://github.com/ironoa/polkadot-k8s-monitor
 treasury_funded: false

@@ -13,7 +13,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: Uptest.png
   site: https://github.com/uptest-sc/uptest/tree/main
   github: https://github.com/uptest-sc/uptest/tree/main
   documentation: https://uptest-sc.github.io

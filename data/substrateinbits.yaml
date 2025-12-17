@@ -5,7 +5,7 @@ description: Going in-depth in all-things-substrate
 layer:
   - None
 web:
-  logo: default.png
+  logo: Substrate-in-Bits.png
   site: https://github.com/Chondria/SiB
   github: https://github.com/Chondria/SiB
 treasury_funded: false

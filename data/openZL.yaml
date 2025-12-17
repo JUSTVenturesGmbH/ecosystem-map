@@ -14,7 +14,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: OpenZL.png
   site: https://github.com/openzklib/openzl/tree/main
   github: https://github.com/openzklib/openzl/tree/main
 treasury_funded: false

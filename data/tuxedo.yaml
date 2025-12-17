@@ -14,7 +14,7 @@ ecosystem:
 layer:
   - Layer-0
 web:
-  logo: default.png
+  logo: Tuxedo.png
   site: https://github.com/Off-Narrative-Labs/Tuxedo/
   github: https://github.com/Off-Narrative-Labs/Tuxedo/
   documentation: https://off-narrative-labs.github.io/Tuxedo/tuxedo_core/index.html

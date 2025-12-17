@@ -13,7 +13,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: Litescan.png
   site: https://github.com/pifragile/litescan
   github: https://github.com/pifragile/litescan
 treasury_funded: false

@@ -16,7 +16,7 @@ ecosystem:
 layer:
   - Layer-1
 web:
-  logo: default.png
+  logo: LAOS-Network.png
   site: laosnetwork.io
   twitter: laosnetwork
   discord: discord.gg/HgnVEYfX2V

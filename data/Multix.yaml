@@ -20,7 +20,7 @@ ecosystem:
 layer:
   - Layer-4
 web:
-  logo: default.png
+  logo: Multix.png
   site: https://multix.cloud/?network=polkadot
   github: https://github.com/Tbaut/Multix
 treasury_funded: false

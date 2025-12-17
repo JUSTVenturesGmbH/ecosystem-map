@@ -14,7 +14,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: С-API-for-Polkadot.png
   site: https://github.com/usetech-llc/polkadot_api_cpp
   github: https://github.com/usetech-llc/polkadot_api_cpp
 treasury_funded: false

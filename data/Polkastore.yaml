@@ -13,7 +13,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: Polkastore.png
   site: https://github.com/TheGoldenEye/polka-store
   github: https://github.com/TheGoldenEye/polka-store
 treasury_funded: false

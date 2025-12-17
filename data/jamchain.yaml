@@ -13,7 +13,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: JAMChain.png
   site: https://jamcha.in/clients
   github: https://github.com/JamBrains/jam-chain
   documentation: https://docs.jamcha.in

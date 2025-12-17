@@ -15,7 +15,7 @@ ecosystem:
 layer:
   - Layer-3
 web:
-  logo: default.png
+  logo: Raresama.png
   site: https://raresama.com/
   twitter: RaresamaNFT
   discord: https://discord.com/invite/moonsama

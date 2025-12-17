@@ -13,7 +13,7 @@ ecosystem:
 layer:
   - Layer-1
 web:
-  logo: default.png
+  logo: Phyken-network.png
   site: https://phyken.network/
   twitter: phyken_network
   contact: hello@metaquity.xyz

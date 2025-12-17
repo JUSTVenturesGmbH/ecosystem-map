@@ -13,7 +13,7 @@ ecosystem:
 layer:
   - Layer-4
 web:
-  logo: default.png
+  logo: Ponto.png
   site: https://github.com/mobr-ai/POnto
   github: https://github.com/mobr-ai/POnto
 treasury_funded: false

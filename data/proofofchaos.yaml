@@ -18,7 +18,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: Proof-of-chaos.png
   site: https://www.proofofchaos.app
   github: https://github.com/Proof-Of-Chaos/website
   twitter: GovPartRewKSM

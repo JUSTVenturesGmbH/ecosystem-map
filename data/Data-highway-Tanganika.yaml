@@ -4,9 +4,7 @@ category:
   - NFT
   - Marketplace
   - Data
-description: a decentralized Web3 organization specializing in the gathering and trading
-  of Internet of Things (IoT) Data NFTs and F-NFTs. DataHighway is currently building
-  an Inter-Chain Data Marketplace
+description: a decentralized Web3 organization specializing in the gathering and trading of Internet of Things (IoT) Data NFTs and F-NFTs. DataHighway is currently building an Inter-Chain Data Marketplace
 readiness:
   technology: Connected to Relay chain
 target_audience:
@@ -16,7 +14,7 @@ ecosystem:
 layer:
   - Layer-1
 web:
-  logo: default.png
+  logo: Data-highway-Tanganika.png
   site: https://www.datahighway.com/
   twitter: DataHighway_DHX
   github: https://github.com/DataHighway-DHX/node

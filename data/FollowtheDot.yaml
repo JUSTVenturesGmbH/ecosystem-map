@@ -13,7 +13,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: Follow-the-Dot.png
   site: https://followthedot.live
   github: https://github.com/helikon-labs/followthedot
 treasury_funded: false

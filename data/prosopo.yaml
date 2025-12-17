@@ -8,7 +8,7 @@ layer:
 ecosystem:
   - Polkadot
 web:
-  logo: default.png
+  logo: Prosopo.png
   site: https://prosopo.io
   documentation: https://docs.prosopo.io/en/basics/
   github: https://github.com/prosopo/captcha

@@ -6,8 +6,7 @@ category:
   - DeFi
   - Dapp
   - Smart Contracts
-description: a gaming platform with a focus on bringing true fun and working infrastructure
-  to the Web 3.0 space.
+description: a gaming platform with a focus on bringing true fun and working infrastructure to the Web 3.0 space.
 readiness:
   technology: In production
 target_audience:
@@ -18,7 +17,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: Seascape.png
   site: https://game.seascape.network
   github: https://github.com/seascapenetwork/seascape-smartcontracts
   documentation: https://docs.seascape.network/
