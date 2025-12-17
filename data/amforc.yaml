@@ -2,29 +2,25 @@ name: Amforc
 category:
   - Validator provider
   - Staking
-description: Public validator provider
+  - Infra
+description: Where makers meet momentum
 readiness:
   technology: In production
 target_audience:
   - Dev teams
   - Individuals
   - Startup
+  - Institutional investors
 ecosystem:
   - Polkadot
   - Kusama
 layer:
   - None
 web:
-  logo: default.png
+  logo: Amforc.png
   site: https://amforc.com/
-  github: https://github.com/amforc/spammening
+  github: https://github.com/amforc/
   twitter: amforcag
+  contact: contact@amforc.com
 treasury_funded: false
 audit: false
-metrics:
-  github:
-    - date: 2025-11-18
-      value: 2
-  github_pushed_at:
-    - date: 2025-11-18
-      value: 1732151804
