@@ -4,8 +4,7 @@ team:
 category:
   - Infra
   - Library
-description: Nova Substrate SDK is a native Android library to help developers build
-  native mobile apps for Substrate-based networks, e.g. Polkadot, Kusama & parachains
+description: Nova Substrate SDK is a native Android library to help developers build native mobile apps for Substrate-based networks, e.g. Polkadot, Kusama & parachains
 readiness:
   business: Verified in market/high adoption
   technology: In production
@@ -17,7 +16,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: Android-Substrate-SDK.png
   site: https://github.com/novasamatech/substrate-sdk-android
   github: https://github.com/novasamatech/substrate-sdk-android
 treasury_funded: false

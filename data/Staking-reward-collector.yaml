@@ -13,7 +13,7 @@ ecosystem:
 layer:
   - Layer-4
 web:
-  logo: default.png
+  logo: Staking-rewards-collector.png
   site: https://github.com/w3f/staking-rewards-collector
   github: https://github.com/w3f/staking-rewards-collector
 treasury_funded: false

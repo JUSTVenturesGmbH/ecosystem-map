@@ -2,8 +2,7 @@ name: SS58-Emoji
 category:
   - Library
   - Game
-description: Convert Polkadot addresses to unique emoji sequences for easy visual
-  identification
+description: Convert Polkadot addresses to unique emoji sequences for easy visual identification
 readiness:
   technology: In production
 target_audience:
@@ -15,7 +14,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: SS58-Emoji.png
   site: https://karimjedda.github.io/ss58-emoji/
   github: https://github.com/KarimJedda/ss58-emoji
 treasury_funded: false

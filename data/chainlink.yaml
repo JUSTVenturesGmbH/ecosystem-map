@@ -6,8 +6,7 @@ category:
   - EVM
   - Data
   - Privacy
-description: Chainlink delivers critical infrastructure for data, identity, compliance,
-  connectivity, and orchestration
+description: Chainlink delivers critical infrastructure for data, identity, compliance, connectivity, and orchestration
 readiness:
   technology: In production
   business: Verified in market/high adoption
@@ -24,7 +23,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: Chainlink.png
   site: https://chain.link
   github: https://github.com/smartcontractkit/chainlink
   documentation: https://docs.chain.link

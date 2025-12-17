@@ -13,7 +13,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: Substrate-Crond.png
   site: https://github.com/stakelink/substrate-crond
   github: https://github.com/stakelink/substrate-crond
 treasury_funded: false

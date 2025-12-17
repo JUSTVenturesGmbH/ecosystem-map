@@ -14,7 +14,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: GraphQL-Endpoint.png
   site: https://github.com/interweb-it/dotsama-grapql
   github: https://github.com/interweb-it/dotsama-grapql
 treasury_funded: false

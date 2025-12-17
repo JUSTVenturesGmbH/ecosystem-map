@@ -16,7 +16,7 @@ ecosystem:
 layer:
   - Layer-3
 web:
-  logo: default.png
+  logo: Sirius-finance.png
   site: https://www.sirius.finance/
   twitter: Sirius_Finance
   discord: https://discord.com/invite/7yHgwnWF7F

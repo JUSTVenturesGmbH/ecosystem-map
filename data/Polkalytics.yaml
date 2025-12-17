@@ -13,7 +13,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: Polkalytics.png
   site: https://polkalytics.io
   twitter: Polkalytics
   github: https://github.com/Polkalytics/Polkadot-Data-Ecosystem

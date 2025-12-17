@@ -20,7 +20,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: Polkassembly.png
   site: https://polkadot.polkassembly.io/
   twitter: polkassembly
   discord: https://discord.com/invite/CYmYWHgPha

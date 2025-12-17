@@ -5,9 +5,7 @@ category:
   - API
   - Validator provider
   - Alerts
-description: an indexer and performance reporting matrix bot for the Polkadot and
-  Kusama networks with special focus on the Decentralized Nodes programme previously
-  known as One Thousand validator programme.
+description: an indexer and performance reporting matrix bot for the Polkadot and Kusama networks with special focus on the Decentralized Nodes programme previously known as One Thousand validator programme.
 readiness:
   technology: In production
 target_audience:
@@ -18,7 +16,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: One-T.png
   site: https://github.com/turboflakes/one-t
   github: https://github.com/turboflakes/one-t
 treasury_funded: false

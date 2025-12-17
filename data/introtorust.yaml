@@ -5,7 +5,7 @@ description: WebZero Hackerhouse Rust Workshop - An Intro to Rust
 layer:
   - None
 web:
-  logo: default.png
+  logo: Introduction-to-Rust.png
   site: https://github.com/CrackTheCode016/intro-to-rust-workshop
   github: https://github.com/CrackTheCode016/intro-to-rust-workshop
 treasury_funded: false

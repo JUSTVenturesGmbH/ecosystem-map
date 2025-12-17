@@ -4,9 +4,7 @@ team:
   - nico
 category:
   - Infra
-description: A cross-functional team of Polkadot veterans and DeFi experts commited
-  to buildingcritical market infrastructure and tooling to unlock Polkadot's full
-  potential.
+description: A cross-functional team of Polkadot veterans and DeFi experts commited to buildingcritical market infrastructure and tooling to unlock Polkadot's full potential.
 readiness:
   business: Business concept/low adoption
   technology: In development
@@ -19,7 +17,7 @@ ecosystem:
 layer:
   - Layer-3
 web:
-  logo: default.png
+  logo: Velocity-Labs.png
   site: https://www.velocitylabs.org
   twitter: v_labs
   github: https://github.com/velocitylabs-org/turtle

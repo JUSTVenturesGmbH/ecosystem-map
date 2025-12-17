@@ -14,7 +14,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: Submap.png
   site: https://playing-with-dust.github.io/submap/
   github: https://github.com/playing-with-dust/submap
 treasury_funded: true

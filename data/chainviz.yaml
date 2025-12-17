@@ -14,7 +14,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: Chainviz.png
   site: https://alpha.chainviz.app
   github: https://github.com/helikon-labs/chainviz
 treasury_funded: true

@@ -3,8 +3,7 @@ category:
   - Infra
   - Library
   - API
-description: For developers to craft, evaluate, and deploy React components that seamlessly
-  interact with Polkadot.
+description: For developers to craft, evaluate, and deploy React components that seamlessly interact with Polkadot.
 readiness:
   technology: In production
 target_audience:
@@ -15,7 +14,7 @@ ecosystem:
 layer:
   - Layer-3
 web:
-  logo: default.png
+  logo: Polkadot-API-Playground.png
   site: https://papi-simulator.aipop.fun
   github: https://github.com/developerfred/papi-simulator
   documentation: https://papi.how/getting-started/

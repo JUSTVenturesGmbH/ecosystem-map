@@ -14,7 +14,7 @@ ecosystem:
 layer:
   - Layer-3
 web:
-  logo: default.png
+  logo: Destore.png
   site: https://destore.network
   github: https://github.com/DeStore-Network/.github
   contact: info@destore.network

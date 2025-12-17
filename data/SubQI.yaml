@@ -3,8 +3,7 @@ category:
   - Infra
   - Library
   - Indexer
-description: This library serve pre-computed indexes of each block for most Polkadot
-  and Kusama parachains
+description: This library serve pre-computed indexes of each block for most Polkadot and Kusama parachains
 readiness:
   business: Verified in market/high adoption
   technology: In production
@@ -16,7 +15,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: SubQuery-Dictionary.png
   site: https://github.com/subquery/subql-dictionary?tab=readme-ov-file
   github: https://github.com/subquery/subql-dictionary?tab=readme-ov-file
 treasury_funded: false

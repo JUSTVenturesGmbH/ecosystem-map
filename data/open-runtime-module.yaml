@@ -18,7 +18,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: Open-runtime-modules.png
   site: https://github.com/open-web3-stack/open-runtime-module-library
   github: https://github.com/open-web3-stack/open-runtime-module-library
 treasury_funded: false

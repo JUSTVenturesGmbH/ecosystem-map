@@ -14,7 +14,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: POP.png
   site: https://onpop.io
   github: https://github.com/r0gue-io/pop-cli
   twitter: onpopio

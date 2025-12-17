@@ -13,7 +13,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: Mixbytes-tank.png
   site: https://github.com/mixbytes/tank
   github: https://github.com/mixbytes/tank
   documentation: https://github.com/mixbytes/tank/blob/master/docs/guide/README.md

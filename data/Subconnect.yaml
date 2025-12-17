@@ -3,8 +3,7 @@ category:
   - Infra
   - Library
   - EVM
-description: The connector provides an efficient and easy solution for connecting
-  Polkadot, Substrate, & Ethereum wallets
+description: The connector provides an efficient and easy solution for connecting Polkadot, Substrate, & Ethereum wallets
 readiness:
   technology: In production
 target_audience:
@@ -15,7 +14,7 @@ ecosystem:
 layer:
   - Layer-3
 web:
-  logo: default.png
+  logo: SubConnect.png
   site: https://github.com/Koniverse/SubConnect-v2
   github: https://github.com/Koniverse/SubConnect-v2
 treasury_funded: false

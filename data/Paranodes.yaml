@@ -13,7 +13,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: Paranodes.png
   site: https://paranodes.io
   github: https://github.com/paradox-tt/CrunchPayees
   twitter: ParaNodes

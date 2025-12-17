@@ -14,7 +14,7 @@ ecosystem:
 layer:
   - Layer-3
 web:
-  logo: default.png
+  logo: Algem.png
   site: https://www.algem.io/
   twitter: Algem_io
   discord: https://discord.com/invite/Y7fQNdevV2

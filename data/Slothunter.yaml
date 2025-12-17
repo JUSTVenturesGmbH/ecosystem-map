@@ -13,7 +13,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: Slothunter.png
   site: https://github.com/hack-ink/slothunter/
   github: https://github.com/hack-ink/slothunter/
 treasury_funded: false

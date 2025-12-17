@@ -14,7 +14,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: Nominumbers.png
   site: https://playing-with-dust.github.io/nominumbers/
   github: https://github.com/playing-with-dust/nominumbers#readme
   documentation: https://github.com/playing-with-dust/nominumbers#readme

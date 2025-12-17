@@ -15,7 +15,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: Yieldbay.png
   site: https://yieldbay.io/
   twitter: yield_bay
   discord: https://discord.com/invite/AKHuvbz7q4

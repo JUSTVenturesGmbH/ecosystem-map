@@ -14,7 +14,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: Nomination-Monitoring-Audit-Tool.png
   site: https://github.com/paradox-tt/TVP_Monitor
   github: https://github.com/paradox-tt/TVP_Monitor
 treasury_funded: false

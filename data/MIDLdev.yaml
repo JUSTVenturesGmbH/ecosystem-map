@@ -13,7 +13,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: MIDL-dev.png
   site: https://midl.dev/polkadot/
   github: https://github.com/midl-dev/polkadot-k8s
 treasury_funded: false

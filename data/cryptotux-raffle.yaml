@@ -11,7 +11,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: Cryptotux-Raffle.png
   site: https://github.com/cyphertux/cryptotux-raffle/tree/main
   github: https://github.com/cyphertux/cryptotux-raffle/tree/main
 treasury_funded: false

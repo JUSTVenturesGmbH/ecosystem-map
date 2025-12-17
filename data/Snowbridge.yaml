@@ -12,7 +12,7 @@ ecosystem:
 layer:
   - Layer-1
 web:
-  logo: default.png
+  logo: Snowbridge.png
   site: https://app.snowbridge.network
   twitter: snowfork_inc
   discord: https://discord.com/invite/CH7D8mhwRy

@@ -17,7 +17,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: OpenTGov.png
   site: https://opentgov.com
   github: https://github.com/mar1/opentgov
   twitter: opentgov

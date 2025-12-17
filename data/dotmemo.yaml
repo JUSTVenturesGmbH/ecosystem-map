@@ -13,7 +13,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: DOT-memo.png
   site: https://dotmemo.xyz
   github: https://github.com/dotmemoxyz/app
   twitter: polkadotmemo

@@ -16,7 +16,7 @@ ecosystem:
 layer:
   - Layer-0
 web:
-  logo: default.png
+  logo: Gossamer.png
   site: http://gossamer.chainsafe.io
   github: https://github.com/ChainSafe/gossamer
   documentation: https://gossamer.chainsafe.io/getting-started/installation/

@@ -15,7 +15,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: Amforc.png
   site: https://amforc.com/
   github: https://github.com/amforc/spammening
   twitter: amforcag

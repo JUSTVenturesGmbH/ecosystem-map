@@ -14,7 +14,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: Subscrape.png
   site: https://github.com/ChaosDAO-org/subscrape
   github: https://github.com/ChaosDAO-org/subscrape
   documentation: https://github.com/ChaosDAO-org/subscrape/blob/main/docs/configuration.md

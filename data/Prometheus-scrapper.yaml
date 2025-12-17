@@ -13,7 +13,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: Prometheus-logger.png
   site: https://github.com/ksmnetwork/polkadot-prometheus-logger
   github: https://github.com/ksmnetwork/polkadot-prometheus-logger
 treasury_funded: false

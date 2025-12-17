@@ -4,8 +4,7 @@ category:
   - Tools
   - Wallet
   - DAO
-description: product development studio building products with Move on Aptos and other
-  L1s, framework to connect Polkadot to Meta's Diem
+description: product development studio building products with Move on Aptos and other L1s, framework to connect Polkadot to Meta's Diem
 readiness:
   technology: In production
 target_audience:
@@ -18,7 +17,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: Pontem-network.png
   site: https://pontem.network
   github: https://github.com/pontem-network/liquidswap
   documentation: https://docs.pontem.network
