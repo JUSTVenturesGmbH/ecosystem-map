@@ -20,7 +20,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: Standard-Unorthodox.png
   site: https://www.standardweb3.com/
   twitter: standardweb3
   discord: https://discord.com/invite/DxQyWX2mHg
@@ -38,8 +38,8 @@ metrics:
     - date: 2025-05-01
       value: 15
   discord:
-    - date: 2025-11-18
-      value: 82321
+    - date: 2025-12-01
+      value: 80352
   blog:
     - date: 2023-12-31
       value: 233

@@ -14,7 +14,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: Exbrid.png
   site: https://github.com/blockdeep/exbrid
   github: https://github.com/blockdeep/exbrid
 treasury_funded: false

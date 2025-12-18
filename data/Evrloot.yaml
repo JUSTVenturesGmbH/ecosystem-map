@@ -12,7 +12,7 @@ ecosystem:
 layer:
   - Layer-3
 web:
-  logo: default.png
+  logo: Evrloot.png
   site: https://evrloot.io/
   twitter: EVRL00T
   discord: https://discord.com/invite/vYrRmk2Jpf
@@ -26,7 +26,7 @@ metrics:
   youtube: []
   github: []
   discord:
-    - date: 2025-11-18
-      value: 1246
+    - date: 2025-12-01
+      value: 1222
   blog: []
   app_downloads: []

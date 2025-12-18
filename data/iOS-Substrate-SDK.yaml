@@ -16,7 +16,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: iOS-Substrate-SDK.png
   site: https://github.com/novasamatech/substrate-sdk-ios
   github: https://github.com/novasamatech/substrate-sdk-ios
 treasury_funded: false
@@ -26,5 +26,5 @@ metrics:
     - date: 2025-11-18
       value: 26
   github_pushed_at:
-    - date: 2025-11-18
-      value: 1762640410
+    - date: 2025-12-01
+      value: 1764348889

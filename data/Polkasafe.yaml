@@ -16,7 +16,7 @@ ecosystem:
 layer:
   - Layer-4
 web:
-  logo: default.png
+  logo: Polkasafe.png
   site: https://polkasafe.xyz
   github: https://github.com/polkasafe/polkasafe-sdk
   documentation: https://docs.polkasafe.xyz/

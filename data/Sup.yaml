@@ -13,7 +13,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: Substrate-package-manager.png
   site: https://github.com/clearloop/sup
   github: https://github.com/clearloop/sup
   documentation: https://github.com/clearloop/sup/blob/master/GUIDE.md

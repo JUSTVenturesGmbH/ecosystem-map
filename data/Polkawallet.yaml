@@ -20,7 +20,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: Polkawallet.png
   site: https://polkawallet.io
   twitter: polkawallet
   contact: hello@polkawallet.io

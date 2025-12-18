@@ -5,9 +5,7 @@ category:
   - Governance
   - DAO
   - Dapp
-description: An advanced AI-powered governance platform that revolutionizes decentralized
-  decision-making through intelligent proposal analysis, real-time communication,
-  and automated voting mechanisms for DAOs mainly Polkadot ecosystem.
+description: An advanced AI-powered governance platform that revolutionizes decentralized decision-making through intelligent proposal analysis, real-time communication, and automated voting mechanisms for DAOs mainly Polkadot ecosystem.
 readiness:
   technology: In production
 target_audience:
@@ -19,7 +17,7 @@ ecosystem:
 layer:
   - Layer-4
 web:
-  logo: default.png
+  logo: AI-Opengov-Agent.png
   site: https://ai-governance-framework-nikhilranjan2.replit.app
   github: https://github.com/niklabh/opengov-agent
 treasury_funded: false

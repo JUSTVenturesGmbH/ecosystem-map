@@ -4,8 +4,7 @@ category:
   - DeFi
   - DAO
   - NFT
-description: enables the gaming community to collaborate, fund and own high quality
-  games
+description: enables the gaming community to collaborate, fund and own high quality games
 readiness:
   business: Business concept/low adoption
   technology: Connected to Parachain
@@ -21,7 +20,7 @@ layer:
   - Layer-1
   - Layer-3
 web:
-  logo: default.png
+  logo: GameDAO.png
   site: https://gamedao.co/
   twitter: gameDAOco
   discord: https://discord.com/invite/YyrN6H6pvC
@@ -37,8 +36,8 @@ metrics:
     - date: 2023-12-31
       value: 13
   discord:
-    - date: 2025-11-18
-      value: 39
+    - date: 2025-12-01
+      value: 40
   blog:
     - date: 2023-12-31
       value: 467

@@ -12,7 +12,7 @@ ecosystem:
 layer:
   - Layer-1
 web:
-  logo: default.png
+  logo: Snowbridge.png
   site: https://app.snowbridge.network
   twitter: snowfork_inc
   discord: https://discord.com/invite/CH7D8mhwRy
@@ -27,15 +27,15 @@ metrics:
       value: 3169
   youtube: []
   github:
-    - date: 2025-11-18
-      value: 306
+    - date: 2025-12-01
+      value: 307
   discord:
-    - date: 2025-11-18
-      value: 103
+    - date: 2025-12-01
+      value: 102
   blog:
     - date: 2023-12-31
       value: 439
   app_downloads: []
   github_pushed_at:
-    - date: 2025-11-18
-      value: 1763461450
+    - date: 2025-12-01
+      value: 1764342311

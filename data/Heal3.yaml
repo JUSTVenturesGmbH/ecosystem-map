@@ -13,7 +13,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: Heal3.png
   site: https://heal3.com/
   discord: https://discord.com/invite/Cy6Wt8rGgc
   twitter: Heal3official
@@ -28,8 +28,8 @@ metrics:
   youtube: []
   github: []
   discord:
-    - date: 2025-11-18
-      value: 5007
+    - date: 2025-12-01
+      value: 5045
   blog: []
   app_downloads:
     - date: 2023-12-31

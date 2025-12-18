@@ -14,7 +14,7 @@ ecosystem:
 layer:
   - Layer-1
 web:
-  logo: default.png
+  logo: Deeper-Network.png
   site: https://www.deeper.network/
   twitter: deeper_network
   discord: https://discord.com/invite/EWUyAJyH2B
@@ -34,8 +34,8 @@ metrics:
     - date: 2025-11-18
       value: 153
   discord:
-    - date: 2025-11-18
-      value: 8982
+    - date: 2025-12-01
+      value: 8977
   blog:
     - date: 2023-12-31
       value: 5835

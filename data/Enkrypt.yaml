@@ -25,25 +25,23 @@ ecosystem:
 layer:
   - Layer-4
 web:
-  logo: default.png
+  logo: Enkrypt.png
   site: https://www.enkrypt.com/#security
   twitter: enkrypt
   discord: https://discord.com/invite/Gz8vBneyKe
   github: https://github.com/enkryptcom/enKrypt
   documentation: https://myetherwallet.gitbook.io/enkrypt-documentation/
-  appstore: 
-    https://apps.apple.com/ru/app/enkrypt-eth-btc-sol-wallet/id1640164309?l=en-GB&mt=12
-  webstore: 
-    https://chromewebstore.google.com/detail/enkrypt-eth-btc-and-solan/kkpllkodjeloidieedojogacfhpaihoh
+  appstore: https://apps.apple.com/ru/app/enkrypt-eth-btc-sol-wallet/id1640164309?l=en-GB&mt=12
+  webstore: https://chromewebstore.google.com/detail/enkrypt-eth-btc-and-solan/kkpllkodjeloidieedojogacfhpaihoh
 treasury_funded: false
 audit: false
 metrics:
   discord:
-    - date: 2025-11-18
-      value: 5862
+    - date: 2025-12-01
+      value: 5807
   github:
-    - date: 2025-11-18
-      value: 407
+    - date: 2025-12-01
+      value: 411
   github_pushed_at:
-    - date: 2025-11-18
-      value: 1762458711
+    - date: 2025-12-01
+      value: 1764205441

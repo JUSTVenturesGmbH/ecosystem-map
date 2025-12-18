@@ -3,8 +3,7 @@ category:
   - Infra
   - Tools
   - Alerts
-description: a command-line interface (CLI) to keep an eye on substrate-based chains
-  and hook things up.
+description: a command-line interface (CLI) to keep an eye on substrate-based chains and hook things up.
 readiness:
   technology: In production
 target_audience:
@@ -15,7 +14,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: Scouty.png
   site: https://github.com/turboflakes/scouty
   github: https://github.com/turboflakes/scouty
 treasury_funded: false

@@ -14,7 +14,7 @@ ecosystem:
 layer:
   - Layer-4
 web:
-  logo: default.png
+  logo: Polkatax.png
   site: https://polkatax.com/staking-rewards
   github: https://github.com/polkatax-project/polkatax
 treasury_funded: false

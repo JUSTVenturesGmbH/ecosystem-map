@@ -11,7 +11,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: Polkastats.png
   site: https://polkastats.io/
   twitter: PolkaStats
   contact: hello@polkastats.io

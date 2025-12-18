@@ -12,7 +12,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: Polkadot-wtf.png
   site: https://polkadot.wtf
   github: https://github.com/lovelaced/polkadotwtf
 treasury_funded: false

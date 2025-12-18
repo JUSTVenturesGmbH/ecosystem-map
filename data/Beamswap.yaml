@@ -5,8 +5,7 @@ category:
   - EVM
   - Bridge
   - Analytics
-description: Decentralized exchange (DEX) with an automated market maker (AMM), providing
-  liquidity and peer-to-peer transactions, built on the Moonbeam network.
+description: Decentralized exchange (DEX) with an automated market maker (AMM), providing liquidity and peer-to-peer transactions, built on the Moonbeam network.
 readiness:
   business: Verified in market/high adoption
   technology: Connected to Parachain
@@ -18,7 +17,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: Beamswap.png
   site: https://beamswap.io/
   twitter: Beamswapio
   discord: https://discord.com/invite/g38NH5TqQg
@@ -36,8 +35,8 @@ metrics:
     - date: 2025-01-23
       value: 3
   discord:
-    - date: 2025-11-18
-      value: 1823
+    - date: 2025-12-01
+      value: 1817
   blog:
     - date: 2023-12-31
       value: 16711

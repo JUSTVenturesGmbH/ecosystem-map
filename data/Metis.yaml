@@ -14,7 +14,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: Metis.png
   site: https://github.com/patractlabs/metis
   github: https://github.com/patractlabs/metis
   documentation: https://patractlabs.github.io/metis/#/./en-us/overview

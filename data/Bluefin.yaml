@@ -13,7 +13,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: Bluefin-ex-Firefly.png
   site: https://bluefin.io/
   twitter: bluefinapp
   discord: https://discord.com/invite/bluefinapp
@@ -30,8 +30,8 @@ metrics:
     - date: 2025-11-18
       value: 13
   discord:
-    - date: 2025-11-18
-      value: 91977
+    - date: 2025-12-01
+      value: 91933
   blog: []
   app_downloads: []
   github_pushed_at:

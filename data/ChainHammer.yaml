@@ -14,7 +14,7 @@ ecosystem:
 layer:
   - Layer-1
 web:
-  logo: default.png
+  logo: ChainHammer.png
   site: https://github.com/drandreaskrueger/chainhammer
   github: https://github.com/drandreaskrueger/chainhammer
 treasury_funded: false

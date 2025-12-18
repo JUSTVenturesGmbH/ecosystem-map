@@ -15,7 +15,7 @@ ecosystem:
 layer:
   - Layer-3
 web:
-  logo: default.png
+  logo: Raresama.png
   site: https://raresama.com/
   twitter: RaresamaNFT
   discord: https://discord.com/invite/moonsama
@@ -34,8 +34,8 @@ metrics:
     - date: 2025-01-21
       value: 1
   discord:
-    - date: 2025-06-01
-      value: 8123
+    - date: 2025-12-01
+      value: 17
   blog:
     - date: 2023-12-31
       value: 0

@@ -2,8 +2,7 @@ name: Polimec
 category:
   - DeFi
   - Aggregator
-description: fundraising in a decentralized, transparent, and regulatory compliant
-  manner
+description: fundraising in a decentralized, transparent, and regulatory compliant manner
 readiness:
   business: Business concept/low adoption
   technology: Validated POC / testnet
@@ -17,7 +16,7 @@ ecosystem:
 layer:
   - Layer-1
 web:
-  logo: default.png
+  logo: Polimec.png
   site: https://www.polimec.org/
   twitter: PolimecProtocol
   discord: https://discord.com/invite/4CZh8HNVuT

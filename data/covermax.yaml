@@ -14,7 +14,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: Skilltree.png
   site: https://karimjedda.github.io/polkadot-skilltree/
   github: https://github.com/KarimJedda/polkadot-skilltree?tab=readme-ov-file
 treasury_funded: false

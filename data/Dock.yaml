@@ -16,7 +16,7 @@ layer:
   - Layer-4
   - Layer-1
 web:
-  logo: default.png
+  logo: Dock-Trouvera.png
   site: https://www.dock.io
   twitter: docknetwork
   discord: https://discord.com/invite/feW8KGf7r3
@@ -36,10 +36,10 @@ metrics:
     - date: 2025-11-18
       value: 88
   discord:
-    - date: 2025-11-18
-      value: 4743
+    - date: 2025-12-01
+      value: 4740
   blog: []
   app_downloads: []
   github_pushed_at:
-    - date: 2025-11-18
-      value: 1763427726
+    - date: 2025-12-01
+      value: 1764367595

@@ -2,9 +2,7 @@ name: Ziggurat
 category:
   - Infra
   - Library
-description: A library with a set of tools that allows node developers to test three
-  layers extensively and ensure that each new release does not introduce bugs, performance
-  bottlenecks, or security flaws.
+description: A library with a set of tools that allows node developers to test three layers extensively and ensure that each new release does not introduce bugs, performance bottlenecks, or security flaws.
 readiness:
   business: Verified in market/high adoption
   technology: In production
@@ -16,7 +14,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: Ziggurat.png
   site: https://github.com/runziggurat/zcash
   github: https://github.com/runziggurat/zcash
 treasury_funded: false
@@ -26,5 +24,5 @@ metrics:
     - date: 2025-11-18
       value: 18
   github_pushed_at:
-    - date: 2025-11-18
-      value: 1733251297
+    - date: 2025-12-01
+      value: 1764490655

@@ -16,7 +16,7 @@ ecosystem:
 layer:
   - Layer-1
 web:
-  logo: default.png
+  logo: Starlay.png
   site: https://starlay.finance/
   twitter: starlay_fi
   discord: https://discord.com/invite/M4NjBJZ94b
@@ -33,8 +33,8 @@ metrics:
     - date: 2025-01-23
       value: 8
   discord:
-    - date: 2025-11-18
-      value: 36892
+    - date: 2025-12-01
+      value: 36852
   blog:
     - date: 2023-12-31
       value: 1054

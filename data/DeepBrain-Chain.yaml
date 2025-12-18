@@ -1,8 +1,7 @@
 name: DeepBrain Chain
 category:
   - Infra
-description: high-performance computing network, blockchain mainnet and GPU computing
-  mainnet.
+description: high-performance computing network, blockchain mainnet and GPU computing mainnet.
 readiness:
   business: Scaling/Alliance
   technology: In production
@@ -15,7 +14,7 @@ ecosystem:
 layer:
   - Layer-1
 web:
-  logo: default.png
+  logo: DeepBrain-Chain.png
   site: https://www.deepbrainchain.org/
   twitter: DeepBrainChain
   github: https://github.com/DeepBrainChain/DeepBrainChain-MainChain
@@ -36,5 +35,5 @@ metrics:
       value: 459
   app_downloads: []
   github_pushed_at:
-    - date: 2025-11-18
-      value: 1758859328
+    - date: 2025-12-01
+      value: 1763556411

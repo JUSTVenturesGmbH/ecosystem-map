@@ -16,7 +16,7 @@ ecosystem:
 layer:
   - Layer-3
 web:
-  logo: default.png
+  logo: Moonsama.png
   site: https://moonsama.com/
   twitter: MoonsamaNFT
   discord: https://discord.com/invite/sA2ccnHPMC
@@ -34,8 +34,8 @@ metrics:
     - date: 2025-01-23
       value: 5
   discord:
-    - date: 2025-11-18
-      value: 7798
+    - date: 2025-12-01
+      value: 7770
   blog: []
   app_downloads: []
   github_pushed_at:

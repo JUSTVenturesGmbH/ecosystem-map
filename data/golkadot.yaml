@@ -14,7 +14,7 @@ ecosystem:
 layer:
   - Layer-0
 web:
-  logo: default.png
+  logo: Golkadot.png
   site: https://github.com/opennetsys/golkadot
   github: https://github.com/opennetsys/golkadot
 treasury_funded: false

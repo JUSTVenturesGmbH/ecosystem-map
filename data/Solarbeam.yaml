@@ -3,8 +3,7 @@ category:
   - Bridge
   - Exchange
   - DeFi
-description: A decentralized exchange, providing liquidity and enabling peer to peer
-  transactions on the Moonriver network and Moonbeam network.
+description: A decentralized exchange, providing liquidity and enabling peer to peer transactions on the Moonriver network and Moonbeam network.
 readiness:
   technology: In production
 target_audience:
@@ -16,7 +15,7 @@ ecosystem:
 layer:
   - Layer-3
 web:
-  logo: default.png
+  logo: Solarbeam.png
   site: https://solarbeam.io
   github: https://github.com/solarbeamio
   documentation: https://docs.solarbeam.io

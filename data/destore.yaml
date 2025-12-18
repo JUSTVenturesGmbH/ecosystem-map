@@ -14,7 +14,7 @@ ecosystem:
 layer:
   - Layer-3
 web:
-  logo: default.png
+  logo: Destore.png
   site: https://destore.network
   github: https://github.com/DeStore-Network/.github
   contact: info@destore.network
@@ -24,8 +24,8 @@ treasury_funded: false
 audit: false
 metrics:
   discord:
-    - date: 2025-11-18
-      value: 10417
+    - date: 2025-12-01
+      value: 10407
   github:
     - date: 2025-11-18
       value: 0

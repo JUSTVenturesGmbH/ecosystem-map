@@ -17,7 +17,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: Total-Panic.png
   site: https://github.com/ksmnetwork
   github: https://github.com/ksmnetwork/Total-Panic
 treasury_funded: true

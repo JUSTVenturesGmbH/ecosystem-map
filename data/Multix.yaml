@@ -20,15 +20,15 @@ ecosystem:
 layer:
   - Layer-4
 web:
-  logo: default.png
+  logo: Multix.png
   site: https://multix.cloud/?network=polkadot
   github: https://github.com/Tbaut/Multix
 treasury_funded: false
 audit: false
 metrics:
   github:
-    - date: 2025-11-18
-      value: 32
+    - date: 2025-12-01
+      value: 34
   github_pushed_at:
-    - date: 2025-11-18
-      value: 1763318224
+    - date: 2025-12-01
+      value: 1763769888

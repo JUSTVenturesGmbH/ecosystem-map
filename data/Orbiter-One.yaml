@@ -4,8 +4,7 @@ category:
   - DAO
   - Smart Contracts
   - EVM
-description: lending protocol offering incentive rewards, Cross-Chain Deposits and
-  DAO
+description: lending protocol offering incentive rewards, Cross-Chain Deposits and DAO
 readiness:
   technology: Connected to Parachain
 target_audience:
@@ -15,7 +14,7 @@ ecosystem:
 layer:
   - Layer-3
 web:
-  logo: default.png
+  logo: Orbiter-One.png
   site: https://orbiter.one/
   twitter: OrbiterOne
   discord: https://discord.com/invite/DZeF8UTxgS
@@ -32,8 +31,8 @@ metrics:
     - date: 2025-01-08
       value: 0
   discord:
-    - date: 2025-11-18
-      value: 1188
+    - date: 2025-12-01
+      value: 1190
   blog:
     - date: 2023-12-31
       value: 24

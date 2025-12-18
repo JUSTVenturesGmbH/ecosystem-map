@@ -13,7 +13,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: Noise-explorer.png
   site: https://noiseexplorer.com
   github: https://github.com/SymbolicSoft/noiseexplorer
   documentation: https://github.com/SymbolicSoft/noiseexplorer

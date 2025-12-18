@@ -14,7 +14,7 @@ ecosystem:
 layer:
   - Layer-3
 web:
-  logo: default.png
+  logo: Sign-In-with-Substrate.png
   site: https://siws.xyz
   github: https://github.com/TalismanSociety/siws
   documentation: https://docs.siws.xyz/

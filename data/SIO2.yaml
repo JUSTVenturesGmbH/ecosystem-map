@@ -15,7 +15,7 @@ ecosystem:
 layer:
   - None
 web:
-  logo: default.png
+  logo: SIO2.png
   site: https://sio2.finance/
   twitter: SiO2_Finance
   discord: https://discord.com/invite/7u53a255Nh
@@ -32,8 +32,8 @@ metrics:
     - date: 2025-01-23
       value: 1
   discord:
-    - date: 2025-11-18
-      value: 3479
+    - date: 2025-12-01
+      value: 3478
   blog: []
   app_downloads: []
   github_pushed_at:

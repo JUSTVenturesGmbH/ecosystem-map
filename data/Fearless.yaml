@@ -23,15 +23,14 @@ ecosystem:
 layer:
   - Layer-4
 web:
-  logo: default.png
+  logo: Fearless.png
   site: https://fearlesswallet.io
   twitter: FearlessWallet
   github: https://github.com/soramitsu/fearless-Android
   documentation: https://wiki.fearlesswallet.io
   playstore: https://play.google.com/store/apps/details?id=jp.co.soramitsu.fearless
   appstore: https://apps.apple.com/us/app/fearless-wallet-defi-wallet/id1537251089
-  webstore: 
-    https://chromewebstore.google.com/detail/nhlnehondigmgckngjomcpcefcdplmgc?utm_source=item-share-cb
+  webstore: https://chromewebstore.google.com/detail/nhlnehondigmgckngjomcpcefcdplmgc?utm_source=item-share-cb
 treasury_funded: false
 audit: false
 metrics:

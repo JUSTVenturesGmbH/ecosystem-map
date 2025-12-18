@@ -14,7 +14,7 @@ ecosystem:
 layer:
   - Layer-0
 web:
-  logo: default.png
+  logo: Gosemble.png
   site: https://limechain.github.io/gosemble/
   github: https://github.com/LimeChain/gosemble
   documentation: https://limechain.github.io/gosemble/development/onboarding/

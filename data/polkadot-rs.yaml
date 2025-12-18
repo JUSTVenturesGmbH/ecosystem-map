@@ -13,7 +13,7 @@ ecosystem:
 layer:
   - Layer-2
 web:
-  logo: default.png
+  logo: Polkadot-rs.png
   site: https://github.com/chungquantin/polkadot-rs
   github: https://github.com/chungquantin/polkadot-rs
 treasury_funded: false

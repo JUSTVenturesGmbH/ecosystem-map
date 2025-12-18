@@ -14,7 +14,7 @@ ecosystem:
 layer:
   - Layer-0
 web:
-  logo: default.png
+  logo: Subsembly.png
   site: https://subsembly.gitbook.io/subsembly/
   github: https://github.com/LimeChain/subsembly
   documentation: https://subsembly.gitbook.io/subsembly/
