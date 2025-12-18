@@ -1,4 +1,4 @@
-name: ParaSpell
+name: ParaSpell XCM Tools
 category:
   - Infra
   - Library
@@ -19,7 +19,7 @@ web:
   site: https://paraspell.xyz
   github: https://github.com/paraspell/xcm-tools
   contact: info.paraspell@gmail.com
-treasury_funded: false
+treasury_funded: true
 audit: false
 metrics:
   github:
