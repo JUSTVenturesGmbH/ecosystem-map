@@ -1,0 +1,32 @@
+name: Delegit
+category:
+  - Dapp
+  - Delegation
+  - Layer-4
+description: The easiest way to delegate on Polkadot
+readiness:
+  business: Business concept/low adoption
+  technology: In production
+target_audience:
+  - Individuals
+  - Personal investors
+  - Institutional investors
+  - Community DAO
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - Layer-4
+web:
+  logo: delegit.png
+  site: https://delegit.xyz/
+  github: https://github.com/wirednkod/delegit-xyz
+treasury_funded: false
+audit: false
+metrics:
+  github:
+    - date: 2024-08-20
+      value: 7
+  github_pushed_at:
+    - date: 2024-08-20
+      value: 1724148000
