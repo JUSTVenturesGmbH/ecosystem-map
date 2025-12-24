@@ -18,7 +18,7 @@ ecosystem:
 layer:
   - Layer-4
 web:
-  logo: delegit.png
+  logo: delegit-xyz.png
   site: https://delegit.xyz/
   github: https://github.com/wirednkod/delegit-xyz
 treasury_funded: false
