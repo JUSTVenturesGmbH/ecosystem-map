@@ -1,0 +1,29 @@
+name: Polkadot Technical Fellowship
+category:
+  - Dapp
+  - Governance
+  - Layer-4
+description: A page with all info around Polkadot Technical Fellowship
+readiness:
+  business: Business concept/low adoption
+  technology: In production
+target_audience:
+  - Individuals
+  - Community DAO
+ecosystem:
+  - Polkadot
+layer:
+  - Layer-4
+web:
+  logo: Fellowship.png
+  site: https://polkadot-fellows.xyz/
+  github: https://github.com/polkadot-fellows/dashboard
+treasury_funded: false
+audit: false
+metrics:
+  github:
+    - date: 2024-08-07
+      value: 13
+  github_pushed_at:
+    - date: 2024-08-07
+      value: 1722981600
