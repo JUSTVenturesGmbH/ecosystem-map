@@ -2,7 +2,8 @@ name: SS58-Emoji
 category:
   - Library
   - Game
-description: Convert Polkadot addresses to unique emoji sequences for easy visual identification
+description: Convert Polkadot addresses to unique emoji sequences for easy visual
+  identification
 readiness:
   technology: In production
 target_audience:

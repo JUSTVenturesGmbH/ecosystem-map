@@ -4,7 +4,8 @@ category:
   - Dapp
   - DeFi
   - EVM
-description: Hardware wallet that stores the user's private key in it's secure enclave storage.
+description: Hardware wallet that stores the user's private key in it's secure enclave
+  storage.
 readiness:
   business: Verified in market/high adoption
   technology: In production
@@ -38,11 +39,11 @@ treasury_funded: true
 audit: true
 metrics:
   discord:
-    - date: 2025-12-01
-      value: 29842
+    - date: 2026-01-01
+      value: 30278
   github:
-    - date: 2025-12-01
-      value: 538
+    - date: 2026-01-01
+      value: 548
   github_pushed_at:
-    - date: 2025-12-01
-      value: 1764544221
+    - date: 2026-01-01
+      value: 1767223173

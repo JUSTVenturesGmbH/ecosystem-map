@@ -4,7 +4,9 @@ team:
   - nico
 category:
   - Infra
-description: A cross-functional team of Polkadot veterans and DeFi experts commited to buildingcritical market infrastructure and tooling to unlock Polkadot's full potential.
+description: A cross-functional team of Polkadot veterans and DeFi experts commited
+  to buildingcritical market infrastructure and tooling to unlock Polkadot's full
+  potential.
 readiness:
   business: Business concept/low adoption
   technology: In development
@@ -27,11 +29,11 @@ metrics:
   twitter: []
   youtube: []
   github:
-    - date: 2025-11-18
-      value: 13
+    - date: 2026-01-01
+      value: 14
   discord: []
   blog: []
   app_downloads: []
   github_pushed_at:
-    - date: 2025-11-18
-      value: 1762885420
+    - date: 2026-01-01
+      value: 1766505624

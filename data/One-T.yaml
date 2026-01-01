@@ -5,7 +5,9 @@ category:
   - API
   - Validator provider
   - Alerts
-description: an indexer and performance reporting matrix bot for the Polkadot and Kusama networks with special focus on the Decentralized Nodes programme previously known as One Thousand validator programme.
+description: an indexer and performance reporting matrix bot for the Polkadot and
+  Kusama networks with special focus on the Decentralized Nodes programme previously
+  known as One Thousand validator programme.
 readiness:
   technology: In production
 target_audience:
@@ -26,5 +28,5 @@ metrics:
     - date: 2025-11-18
       value: 17
   github_pushed_at:
-    - date: 2025-11-18
-      value: 1763166546
+    - date: 2026-01-01
+      value: 1767134541

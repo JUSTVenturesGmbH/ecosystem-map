@@ -5,7 +5,8 @@ category:
   - DAO
   - Dapp
   - Smart Contracts
-description: Consulting and developing infrastructure, Substrate runtime written in Assemblyscript, host implementation in Java
+description: Consulting and developing infrastructure, Substrate runtime written in
+  Assemblyscript, host implementation in Java
 readiness:
   business: Business concept/low adoption
   technology: In development
@@ -40,8 +41,8 @@ metrics:
     - date: 2025-01-21
       value: 35
   discord:
-    - date: 2025-12-01
-      value: 101
+    - date: 2026-01-01
+      value: 103
   blog:
     - date: 2023-12-31
       value: 6853

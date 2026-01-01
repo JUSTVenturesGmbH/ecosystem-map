@@ -35,11 +35,11 @@ metrics:
       value: 67540
   youtube: []
   github:
-    - date: 2025-12-01
-      value: 249
+    - date: 2026-01-01
+      value: 248
   discord:
-    - date: 2025-12-01
-      value: 4620
+    - date: 2026-01-01
+      value: 4582
   blog:
     - date: 2023-12-31
       value: 4400

@@ -3,7 +3,8 @@ category:
   - Infra
   - Library
   - Indexer
-description: This library serve pre-computed indexes of each block for most Polkadot and Kusama parachains
+description: This library serve pre-computed indexes of each block for most Polkadot
+  and Kusama parachains
 readiness:
   business: Verified in market/high adoption
   technology: In production

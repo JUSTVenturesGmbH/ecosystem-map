@@ -4,7 +4,8 @@ category:
   - Library
   - Wallet
   - Tools
-description: Developed by SubWallet, this offline tool can be used to export accounts on Polkadot-SDK networks from a Ledger device using seed phrases
+description: Developed by SubWallet, this offline tool can be used to export accounts
+  on Polkadot-SDK networks from a Ledger device using seed phrases
 readiness:
   technology: In production
 target_audience:

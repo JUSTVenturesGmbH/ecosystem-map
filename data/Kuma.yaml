@@ -4,7 +4,8 @@ category:
   - Dapp
   - DeFi
   - EVM
-description: cross-chain wallet that offers seamless management and transfer of assets between EVM and WASM chains
+description: cross-chain wallet that offers seamless management and transfer of assets
+  between EVM and WASM chains
 readiness:
   business: Business concept/low adoption
   technology: In production
@@ -28,7 +29,8 @@ web:
   discord: https://discord.com/invite/pAXKfPAAaK
   github: https://github.com/kumawallet/extension
   documentation: https://info.kumawallet.io
-  webstore: https://chromewebstore.google.com/detail/kuma-wallet/hbinmkhlebcnghpikoekkbeljbealbje
+  webstore: 
+    https://chromewebstore.google.com/detail/kuma-wallet/hbinmkhlebcnghpikoekkbeljbealbje
 treasury_funded: false
 audit: false
 metrics:

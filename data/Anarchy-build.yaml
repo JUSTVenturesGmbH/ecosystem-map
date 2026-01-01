@@ -1,7 +1,8 @@
 name: Anarchy build
 category:
   - Social
-description: a community innovation hub where creators working with ai can build in public.
+description: a community innovation hub where creators working with ai can build in
+  public.
 readiness:
   technology: In research
 target_audience:
@@ -16,7 +17,8 @@ web:
   logo: Anarchy-build.png
   site: https://anarchy.build
   github: https://github.com/anarchybuild/anarchy
-  documentation: https://marbled-push-97b.notion.site/documentation-647d34463ae84d1d9e45746dd8f836e1
+  documentation: 
+    https://marbled-push-97b.notion.site/documentation-647d34463ae84d1d9e45746dd8f836e1
   discord: https://discord.gg/3PjEjSEwfH
   twitter: anarchy_build
 treasury_funded: false

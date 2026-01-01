@@ -3,7 +3,9 @@ category:
   - Smart Contracts
   - EVM
   - DAO
-description: a standalone Substrate chain, the first crypto-biometric network where One human = One node that brings sybil resistance and innovative governance models to the crypto industry using private biometric technology.
+description: a standalone Substrate chain, the first crypto-biometric network where
+  One human = One node that brings sybil resistance and innovative governance models
+  to the crypto industry using private biometric technology.
 readiness:
   business: Business concept/low adoption
   technology: In production
@@ -33,12 +35,12 @@ metrics:
     - date: 2025-11-18
       value: 114
   discord:
-    - date: 2025-12-01
-      value: 36784
+    - date: 2026-01-01
+      value: 36938
   blog:
     - date: 2023-12-31
       value: 576
   app_downloads: []
   github_pushed_at:
-    - date: 2025-12-01
-      value: 1763733994
+    - date: 2026-01-01
+      value: 1767006843

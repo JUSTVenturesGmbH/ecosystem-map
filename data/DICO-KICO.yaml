@@ -2,7 +2,8 @@ name: DICO / KICO
 category:
   - DAO
   - DeFi
-description: DAO + ICO + Swap. DICO is positioned as a parachain of decentralized ICO+ exchange
+description: DAO + ICO + Swap. DICO is positioned as a parachain of decentralized
+  ICO+ exchange
 readiness:
   business: Business concept/low adoption
   technology: Discontinued
@@ -32,8 +33,8 @@ metrics:
     - date: 2024-12-25
       value: 17
   discord:
-    - date: 2025-11-18
-      value: 196
+    - date: 2026-01-01
+      value: 197
   blog:
     - date: 2023-12-31
       value: 60
