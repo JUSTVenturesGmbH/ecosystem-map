@@ -3,7 +3,8 @@ category:
   - Infra
   - Library
   - EVM
-description: The connector provides an efficient and easy solution for connecting Polkadot, Substrate, & Ethereum wallets
+description: The connector provides an efficient and easy solution for connecting
+  Polkadot, Substrate, & Ethereum wallets
 readiness:
   technology: In production
 target_audience:

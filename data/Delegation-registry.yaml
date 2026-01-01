@@ -4,7 +4,9 @@ category:
   - Social
   - Library
   - Governance
-description: a comprehensive directory for individuals and organizations in the Substrate ecosystem to share their delegator information in Nova Wallet's agile delegation interface
+description: a comprehensive directory for individuals and organizations in the Substrate
+  ecosystem to share their delegator information in Nova Wallet's agile delegation
+  interface
 readiness:
   technology: In production
 target_audience:

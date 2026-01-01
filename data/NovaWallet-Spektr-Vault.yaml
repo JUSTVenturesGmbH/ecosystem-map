@@ -7,7 +7,8 @@ category:
   - NFT
   - Dapp
   - DAO
-description: non-custodial mobile wallet w crowdloans  and staking, enterprise desktop wallet with multisigs, highly secure cold wallet
+description: non-custodial mobile wallet w crowdloans  and staking, enterprise desktop
+  wallet with multisigs, highly secure cold wallet
 readiness:
   business: Scaling/Alliance
   technology: In production
@@ -43,8 +44,8 @@ metrics:
     - date: 2023-12-31
       value: 426
   github:
-    - date: 2025-11-18
-      value: 51
+    - date: 2026-01-01
+      value: 52
   discord: []
   blog:
     - date: 2023-12-31
@@ -53,5 +54,5 @@ metrics:
     - date: 2023-12-31
       value: 50000
   github_pushed_at:
-    - date: 2025-12-01
-      value: 1764351604
+    - date: 2026-01-01
+      value: 1767104347

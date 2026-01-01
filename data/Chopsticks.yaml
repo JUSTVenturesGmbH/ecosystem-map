@@ -7,7 +7,10 @@ category:
   - XCM
   - API
   - EVM
-description: Chopsticks is a testing client that enables the 1-step creation of a mainnet replica of a substrate-based network, for safely testing action and reviewing outcomes. Projects can test new runtime, proposal actions, XCM, different configurations, dry run transactions, etc
+description: Chopsticks is a testing client that enables the 1-step creation of a
+  mainnet replica of a substrate-based network, for safely testing action and reviewing
+  outcomes. Projects can test new runtime, proposal actions, XCM, different configurations,
+  dry run transactions, etc
 readiness:
   business: Verified in market/high adoption
   technology: In production
@@ -28,8 +31,8 @@ treasury_funded: false
 audit: false
 metrics:
   github:
-    - date: 2025-12-01
-      value: 165
+    - date: 2026-01-01
+      value: 167
   github_pushed_at:
-    - date: 2025-12-01
-      value: 1764552948
+    - date: 2026-01-01
+      value: 1764658245

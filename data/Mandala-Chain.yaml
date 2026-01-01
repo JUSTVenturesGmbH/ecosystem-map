@@ -8,7 +8,8 @@ category:
   - Smart Contracts
   - Wallet
   - Privacy
-description: Where Government & Enterprise Applications Integrate Seamlessly with Public & Retail Applications.
+description: Where Government & Enterprise Applications Integrate Seamlessly with
+  Public & Retail Applications.
 readiness:
   business: Scaling/Alliance
   technology: In development
@@ -36,8 +37,8 @@ metrics:
     - date: 2025-11-18
       value: 2
   discord:
-    - date: 2025-12-01
-      value: 2712
+    - date: 2026-01-01
+      value: 2700
   blog: []
   app_downloads: []
   github_pushed_at:

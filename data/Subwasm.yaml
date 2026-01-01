@@ -3,7 +3,8 @@ category:
   - Infra
   - Library
   - Tools
-description: Subwasm is a cli utility inside a Substrate WASM Runtime. It can inspect and compare the metadata of Substrate based runtimes such as Polkadot or Kusama.
+description: Subwasm is a cli utility inside a Substrate WASM Runtime. It can inspect
+  and compare the metadata of Substrate based runtimes such as Polkadot or Kusama.
 readiness:
   business: Verified in market/high adoption
   technology: In production

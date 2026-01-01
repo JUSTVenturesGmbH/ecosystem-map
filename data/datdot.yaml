@@ -2,7 +2,8 @@ name: Datdot
 category:
   - Data
   - Library
-description: DatDot enables peer-to-peer sharing of storage space and data seeding to make data sovereignity and portability more accessible and reliable for users.
+description: DatDot enables peer-to-peer sharing of storage space and data seeding
+  to make data sovereignity and portability more accessible and reliable for users.
 readiness:
   business: Business concept/low adoption
   technology: Discontinued

@@ -4,7 +4,8 @@ category:
   - DAO
   - Smart Contracts
   - EVM
-description: lending protocol offering incentive rewards, Cross-Chain Deposits and DAO
+description: lending protocol offering incentive rewards, Cross-Chain Deposits and
+  DAO
 readiness:
   technology: Connected to Parachain
 target_audience:
@@ -31,8 +32,8 @@ metrics:
     - date: 2025-01-08
       value: 0
   discord:
-    - date: 2025-12-01
-      value: 1190
+    - date: 2026-01-01
+      value: 1210
   blog:
     - date: 2023-12-31
       value: 24

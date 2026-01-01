@@ -5,7 +5,8 @@ category:
   - Infra
   - Validator provider
   - Dapp
-description: A tool that allows one to easily visualize Polkadot's NPoS data and make a fair selection of validator nodes.
+description: A tool that allows one to easily visualize Polkadot's NPoS data and make
+  a fair selection of validator nodes.
 readiness:
   technology: In production
 target_audience:

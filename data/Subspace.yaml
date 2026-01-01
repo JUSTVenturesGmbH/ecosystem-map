@@ -2,7 +2,8 @@ name: Autonomys
 category:
   - Smart Contracts
   - NFT
-description: hyper-scalable permanent data storage, super fast data availability & flexible EVM-compatible decoupled execution
+description: hyper-scalable permanent data storage, super fast data availability &
+  flexible EVM-compatible decoupled execution
 readiness:
   business: Business concept/low adoption
   technology: Validated POC / testnet
@@ -33,15 +34,15 @@ metrics:
     - date: 2023-12-31
       value: 486
   github:
-    - date: 2025-12-01
-      value: 402
+    - date: 2026-01-01
+      value: 404
   discord:
-    - date: 2025-12-01
-      value: 59109
+    - date: 2026-01-01
+      value: 58630
   blog:
     - date: 2023-12-31
       value: 27
   app_downloads: []
   github_pushed_at:
-    - date: 2025-12-01
-      value: 1764382243
+    - date: 2026-01-01
+      value: 1766120463

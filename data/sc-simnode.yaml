@@ -2,7 +2,8 @@ name: Somnode
 category:
   - Infra
   - Library
-description: Simulation Testing Framework for Parachains and Standalone Substrate Based Chains
+description: Simulation Testing Framework for Parachains and Standalone Substrate
+  Based Chains
 readiness:
   business: Verified in market/high adoption
   technology: In production
@@ -25,5 +26,5 @@ metrics:
     - date: 2025-11-18
       value: 52
   github_pushed_at:
-    - date: 2025-11-18
-      value: 1762179404
+    - date: 2026-01-01
+      value: 1767096012
