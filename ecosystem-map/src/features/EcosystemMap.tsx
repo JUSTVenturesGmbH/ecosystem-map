@@ -14,6 +14,14 @@ const catMapping: { [P in keyof IFilters]: string } = {
   target_audience: "Audience",
   ecosystem: "Ecosystem"
 };
+const allowedEcosystems = new Set([
+  "Acala Network",
+  "Aleph Zero",
+  "Astar Network",
+  "Kusama",
+  "Moonbeam",
+  "Polkadot",
+]);
 
 export default function EcosystemMap() {
   const [ecosystemProjects, setEcosystemProjects] = React.useState<
@@ -27,6 +35,7 @@ export default function EcosystemMap() {
     ecosystem: {},
   });
   const [colorMap, setColorMap] = React.useState<IColorMap>({});
+  const [theme, setTheme] = React.useState<"light" | "dark">("light");
   
   const [sort] = React.useState<ISortState>({ column: "name", asc: true });
 
@@ -113,7 +122,9 @@ export default function EcosystemMap() {
 
           c?.ecosystem?.forEach((l) => {
             if (l) {
-              f.ecosystem[l] = false;
+              if (allowedEcosystems.has(l)) {
+                f.ecosystem[l] = false;
+              }
             }
           });
         });
@@ -142,47 +153,140 @@ export default function EcosystemMap() {
 
   React.useEffect(() => filterProjects(), [filters, ecosystemProjects]);
 
-  return (
-    <div className="container roboto-regular">
-      <div>
-        <div className="header">
-          Welcome to the community-sourced Polkadot/Kusama ecosystem directory
-          of projects
-        </div>
-        <div className="sub-header">
-          Curated by JUST Ventures team. This is a preview of our database,
-          for further details please visit <a href="https://github.com/JUSTBeteiligungen/ecosystem-map">our Github</a>. Filter by category, type, ecosystem 
-          and potential audience.
-          <br />
-          <i>
-            The directory is available for general information purposes only and is not an official endorsement of the projects by JUST team. Although we do our best to verify the data, there may be errors in the entries. Please check the details yourself!
-          </i>
-        </div>
-      </div>
-      <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
-        {cats.map((cat) => (
-          <ChipFilterBlock
-            key={catMapping[cat]}
-            name={catMapping[cat]}
-            colorMap={colorMap}
-            filters={filters[cat]}
-            toggle={toggleFilter[cat]}
-          />
-        ))}
-      </div>
-      <ProjectCards
-        colorMap={colorMap}
-        projects={data}
-        filters={filters}
-        toggleFilter={toggleFilter}
-      />
+  React.useEffect(() => {
+    const stored = window.localStorage.getItem("theme");
+    if (stored === "light" || stored === "dark") {
+      setTheme(stored);
+      return;
+    }
+    const prefersDark = window.matchMedia?.("(prefers-color-scheme: dark)")
+      .matches;
+    setTheme(prefersDark ? "dark" : "light");
+  }, []);
 
-      <div>
-        <div>
-          All of the data is taken from open sources (mostly social media, Github, app stores, teams websites and comms, gov proposals)
-          some fields might be empty. We welcome you to update it as well, especially if you are part of the project.
+  React.useEffect(() => {
+    document.documentElement.dataset.theme = theme;
+    window.localStorage.setItem("theme", theme);
+  }, [theme]);
+
+  const handleToggleTheme = () => {
+    setTheme((current) => (current === "light" ? "dark" : "light"));
+  };
+
+  return (
+    <div className="page">
+      <header className="site-header">
+        <nav className="nav">
+          <div className="brand">
+            Ecosystem Map
+            <span className="brand-badge">Polkadot</span>
+          </div>
+          <div className="nav-links">
+            <a href="https://github.com/JUSTBeteiligungen/ecosystem-map">
+              GitHub
+            </a>
+            <button
+              type="button"
+              className="mode-toggle"
+              onClick={handleToggleTheme}
+            >
+              {theme === "light" ? "Dark mode" : "Light mode"}
+            </button>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section className="hero">
+          <div className="hero-inner">
+            <span className="eyebrow">Community-sourced directory</span>
+            <h1 className="hero-title">
+              The living map of Polkadot &amp; Kusama ecosystem projects.
+            </h1>
+            <p className="hero-subtitle">
+              Curated by{" "}
+              <a href="https://www.justventures.eu">JUST Ventures</a>. Filter by
+              category, type, audience, and ecosystem to explore what is
+              shipping across the network. This is a preview of our database,
+              for further details please visit our Github.
+            </p>
+            <div className="hero-actions">
+              <a
+                className="primary-button"
+                href="https://github.com/JUSTBeteiligungen/ecosystem-map"
+              >
+                Contribute on GitHub
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section className="section">
+          <div className="section-inner">
+            <div className="section-header">
+              <h2 className="section-title">Explore the ecosystem</h2>
+              <p className="section-description">
+                Use the filters below to shape the data. Click chips to include
+                or exclude clusters and trace the project landscape.
+              </p>
+            </div>
+            <div className="filters-grid">
+              {cats.map((cat) => (
+                <ChipFilterBlock
+                  key={catMapping[cat]}
+                  name={catMapping[cat]}
+                  colorMap={colorMap}
+                  filters={filters[cat]}
+                  toggle={toggleFilter[cat]}
+                />
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="section alt">
+          <div className="section-inner">
+            <div className="section-header">
+              <h2 className="section-title">Project directory</h2>
+              <p className="section-description">
+                Browse every project in the dataset, including readiness status,
+                activity signals, and key social touchpoints.
+              </p>
+            </div>
+            <ProjectCards
+              colorMap={colorMap}
+              projects={data}
+              filters={filters}
+              toggleFilter={toggleFilter}
+            />
+          </div>
+        </section>
+
+        <section className="section">
+          <div className="section-inner">
+            <div className="section-header">
+              <h2 className="section-title">About the data</h2>
+              <p className="section-description">
+                All of the data is taken from open sources (mostly social media,
+                Github, app stores, teams websites and comms, gov proposals)
+                some fields might be empty. We welcome you to update it as well,
+                especially if you are part of the project.
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer className="footer">
+        <div className="footer-inner">
+          <span>
+            The directory is available for general information purposes only
+            and is not an official endorsement of the projects by JUST team.
+            Although we do our best to verify the data, there may be errors in
+            the entries. Please check the details yourself.
+          </span>
         </div>
-      </div>
+      </footer>
     </div>
   );
 }
