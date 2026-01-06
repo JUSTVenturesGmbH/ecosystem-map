@@ -2,7 +2,8 @@ name: Polkadot weighter
 category:
   - Infra
   - Tools
-description: Monitor the real-time block space utilization of all Polkadot and Kusama parachains.
+description: Monitor the real-time block space utilization of all Polkadot and Kusama
+  parachains.
 readiness:
   technology: In production
 target_audience:

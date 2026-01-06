@@ -3,7 +3,8 @@ category:
   - Bridge
   - Exchange
   - DeFi
-description: A decentralized exchange, providing liquidity and enabling peer to peer transactions on the Moonriver network and Moonbeam network.
+description: A decentralized exchange, providing liquidity and enabling peer to peer
+  transactions on the Moonriver network and Moonbeam network.
 readiness:
   technology: In production
 target_audience:
@@ -25,5 +26,5 @@ treasury_funded: false
 audit: false
 metrics:
   discord:
-    - date: 2025-11-18
-      value: 1010
+    - date: 2026-01-01
+      value: 960

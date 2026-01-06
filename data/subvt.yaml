@@ -4,7 +4,9 @@ category:
   - Tools
   - Analytics
   - Validator provider
-description: SubVT (Substrate Validator Toolkit) is an open-source native mobile application for iOS and Android phones, tablets and wearables that provides node operators with tools that aid them in running their validators on Substrate-based blockchain networks.
+description: SubVT (Substrate Validator Toolkit) is an open-source native mobile application
+  for iOS and Android phones, tablets and wearables that provides node operators with
+  tools that aid them in running their validators on Substrate-based blockchain networks.
 readiness:
   technology: In production
 target_audience:

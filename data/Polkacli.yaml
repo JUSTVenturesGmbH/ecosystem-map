@@ -3,7 +3,8 @@ category:
   - Infra
   - Library
   - Tools
-description: Bash tool for easy installation of polkadot node for Kusama, Polkadot and Westend networks.
+description: Bash tool for easy installation of polkadot node for Kusama, Polkadot
+  and Westend networks.
 readiness:
   technology: In production
 target_audience:

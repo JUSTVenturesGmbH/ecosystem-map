@@ -2,7 +2,8 @@ name: Fudge
 category:
   - Infra
   - Library
-description: FUDGE provides a simple and generic way to interact with and manipulate the database of a substrate-based blockchain
+description: FUDGE provides a simple and generic way to interact with and manipulate
+  the database of a substrate-based blockchain
 readiness:
   business: Verified in market/high adoption
   technology: In production
