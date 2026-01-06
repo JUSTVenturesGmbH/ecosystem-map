@@ -1,8 +1,7 @@
 name: Delegit
 category:
   - Dapp
-  - Delegation
-  - Layer-4
+  - Tools
 description: The easiest way to delegate on Polkadot
 readiness:
   business: Business concept/low adoption
@@ -16,7 +15,7 @@ ecosystem:
   - Polkadot
   - Kusama
 layer:
-  - Layer-4
+  - Layer-3
 web:
   logo: delegit-xyz.png
   site: https://delegit.xyz/
