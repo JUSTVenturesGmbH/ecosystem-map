@@ -2,7 +2,6 @@ name: Polkadot Technical Fellowship
 category:
   - Dapp
   - Governance
-  - Layer-4
 description: A page with all info around Polkadot Technical Fellowship
 readiness:
   business: Business concept/low adoption
@@ -13,7 +12,7 @@ target_audience:
 ecosystem:
   - Polkadot
 layer:
-  - Layer-4
+  - Layer-3
 web:
   logo: Fellowship.png
   site: https://polkadot-fellows.xyz/
