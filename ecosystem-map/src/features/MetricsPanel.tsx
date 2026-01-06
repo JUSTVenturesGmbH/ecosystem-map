@@ -112,7 +112,7 @@ export function ExternalLink({ href, children }: PropsWithChildren<ExternalLinkP
   const addr = isEmail ? `mailto:${href}` : href;
 
   return (
-    <a href={addr} target="_blank" rel="noopener noreferrer">
+    <a className="metrics-link" href={addr} target="_blank" rel="noopener noreferrer">
       {children}
     </a>
   );
@@ -129,22 +129,28 @@ export default function Metrics({ project }: { project: ProjectInfo }) {
   );
 
   return (
-    <div style={{display: 'flex', alignItems: 'center', gap: '3rem'}}>
+    <div className="metrics-panel">
       <ExternalLink href={project.web.blog}>📖</ExternalLink>
-      {/* <ExternalLink href={project.web.person}>👤</ExternalLink> */}
       <ExternalLink href={project.web.contact}>✉️</ExternalLink>
-      <ExternalLink href={project.web.twitter ? `https://x.com/${project.web.twitter}` : undefined}>
-        <TwitterLogo />{/* twitter ?? "—" */}
+      <ExternalLink
+        href={project.web.twitter ? `https://x.com/${project.web.twitter}` : undefined}
+      >
+        <TwitterLogo />
       </ExternalLink>
-      <ExternalLink href={project.web.discord}><DiscordLogo />{/* discord ?? "—" */}</ExternalLink>
+      <ExternalLink href={project.web.discord}>
+        <DiscordLogo />
+      </ExternalLink>
       <ExternalLink href={project.web.github}>
-        <span style={{display: 'flex', alignItems: 'center'}} ><GithubLogo />⭐ {github}</span>
+        <span>
+          <GithubLogo /> ⭐ {github}
+        </span>
       </ExternalLink>
       {project.treasury_funded ? (
-        <span style={{display: 'flex', alignItems: 'center', fontSize: '10px'}}>
-          <PolkadotLogo />&nbsp;&nbsp;
-          <span>Funded by<br />treasury</span>
-        </span>) : undefined}
+        <span className="metrics-funding">
+          <PolkadotLogo />
+          <span>Funded by treasury</span>
+        </span>
+      ) : undefined}
     </div>
   );
 }

@@ -17,19 +17,15 @@ export default function Chip({
   const style = filters[label]
     ? {
         "--chip-color": `rgb(${colorMap[label]})`,
-        background: "var(--chip-color)",
-        color: "var(--background)",
       }
     : {
         "--chip-color": `rgb(${colorMap[label]})`,
-        background: "var(--background)",
-        color: "var(--black)",
       };
 
   return (
     <button
       type="button"
-      className="chip"
+      className={`chip${filters[label] ? " chip--active" : ""}`}
       style={style}
       key={label}
       onClick={() => toggle(label)}

@@ -86,8 +86,8 @@ export default function Card({
 
   return (
     <div className={`project-card ${inactive}`}>
-      <div className="project-card__header">
-        <div className="project-card__header--logo">
+      <div className="card-header">
+        <div className="card-logo">
           <img
             src={`img/${card?.web?.logo}`}
             alt="logo"
@@ -97,43 +97,48 @@ export default function Card({
             }}
           />
         </div>
-        <div className="project-card__header--name">
+        <div>
           <a target="_blank" href={card.web.site} rel="noreferrer noopener">
-            {card.name} {inactive ? "[inactive]" : ""}
+            <span className="card-title">
+              {card.name} {inactive ? "[inactive]" : ""}
+            </span>
           </a>
         </div>
-        <div style={{ marginLeft: 'auto' }}>
+        <div className="card-header-meta">
           <ActivityIndicator githubPushedAt={card.metrics?.github_pushed_at?.pop()?.value} />
         </div>
       </div>
-      <div className="chip-block">
-        {cats.map((cat) => (
-            cat !== 'ecosystem' ? card[cat]?.map((i) => (
-              <Chip
-                key={i}
-                label={i}
-                filters={filters[cat]}
-                colorMap={colorMap}
-                toggle={toggleFilter[cat]}
-              />
-            )) : []
-        ))}
-        </div>
-        <div className="chip-block">
-          <span style={{ fontSize: "16px", padding: "4px 8px" }}>
-            {getReadinessStatus(card?.readiness?.technology)}
-          </span> {card.ecosystem?.map((i) => (
-              <Chip
-                key={i}
-                label={i}
-                filters={filters.ecosystem}
-                colorMap={colorMap}
-                toggle={toggleFilter.ecosystem}
-              />
-            ))}
+      <div className="card-badges">
+        {cats.map((cat) =>
+          cat !== "ecosystem"
+            ? card[cat]?.map((i) => (
+                <Chip
+                  key={i}
+                  label={i}
+                  filters={filters[cat]}
+                  colorMap={colorMap}
+                  toggle={toggleFilter[cat]}
+                />
+              ))
+            : [],
+        )}
       </div>
-      <div className="project-card__description">{card.description}</div>
-      <div style={{ marginTop: 'auto' }}>
+      <div className="card-badges">
+        <span className="status-pill">
+          <strong>Status:</strong> {getReadinessStatus(card?.readiness?.technology)}
+        </span>
+        {card.ecosystem?.map((i) => (
+          <Chip
+            key={i}
+            label={i}
+            filters={filters.ecosystem}
+            colorMap={colorMap}
+            toggle={toggleFilter.ecosystem}
+          />
+        ))}
+      </div>
+      <div className="project-description">{card.description}</div>
+      <div>
         <MetricsPanel project={card} />
       </div>
     </div>

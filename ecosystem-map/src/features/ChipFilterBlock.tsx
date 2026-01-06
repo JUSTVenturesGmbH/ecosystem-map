@@ -14,10 +14,8 @@ export default function ChipFilterBlock({
   colorMap: IColorMap;
 }) {
   return (
-    <div>
-      <div className="chip-header">
-        {name}
-      </div>
+    <div className="filter-block">
+      <h3 className="filter-title">{name}</h3>
       <div className="chip-block">
         {Object.keys(filters)
           .sort()
