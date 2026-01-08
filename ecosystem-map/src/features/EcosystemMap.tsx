@@ -335,7 +335,7 @@ export default function EcosystemMap() {
               </p>
             </div>
             <div className="filters-grid">
-              <div className="filter-block">
+              <div className="filter-block category-block">
                 <h3 className="filter-title">{catMapping.category}</h3>
                 <div className="category-groups">
                   {categoryGroups

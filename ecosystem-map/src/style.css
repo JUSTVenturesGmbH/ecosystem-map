@@ -340,6 +340,10 @@ button:focus-visible {
   gap: 24px;
 }
 
+.category-block {
+  grid-column: 1 / -1;
+}
+
 .search-bar {
   display: flex;
   flex-direction: column;
