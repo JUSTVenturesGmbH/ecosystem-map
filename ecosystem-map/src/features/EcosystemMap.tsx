@@ -120,11 +120,13 @@ export default function EcosystemMap() {
   const sortProjects = (projects = ecosystemProjects) => {
     setEcosystemProjects(
       projects.sort((a, b) => {
+        const aValue = String(a[sort.column] ?? "");
+        const bValue = String(b[sort.column] ?? "");
         let res = 0;
 
-        if (a[sort.column] < b[sort.column]) {
+        if (aValue < bValue) {
           res = -1;
-        } else if (a[sort.column] > b[sort.column]) {
+        } else if (aValue > bValue) {
           res = 1;
         }
 
@@ -264,7 +266,7 @@ export default function EcosystemMap() {
   }, []);
 
   React.useEffect(() => {
-    document.documentElement.dataset.theme = theme;
+    document.documentElement.dataset["theme"] = theme;
     window.localStorage.setItem("theme", theme);
   }, [theme]);
 
@@ -407,36 +409,50 @@ export default function EcosystemMap() {
               </div>
               {cats
                 .filter((cat) => cat !== "category")
-                .map((cat) => (
-                  <ChipFilterBlock
-                    key={catMapping[cat]}
-                    name={catMapping[cat]}
-                    colorMap={colorMap}
-                    filters={filters[cat]}
-                    toggle={toggleFilter[cat]}
-                    counts={counts[cat]}
-                    order={
-                      cat === "status"
-                        ? statusOrder
-                        : cat === "ecosystem"
-                          ? ecosystemOrder
-                          : undefined
-                    }
-                  />
-                ))}
+                .map((cat) => {
+                  let orderByCategory: string[] | null = null;
+                  if (cat === "status") {
+                    orderByCategory = statusOrder;
+                  } else if (cat === "ecosystem") {
+                    orderByCategory = ecosystemOrder;
+                  }
+                  if (orderByCategory) {
+                    return (
+                      <ChipFilterBlock
+                        key={catMapping[cat]}
+                        name={catMapping[cat]}
+                        colorMap={colorMap}
+                        filters={filters[cat]}
+                        toggle={toggleFilter[cat]}
+                        counts={counts[cat]}
+                        order={orderByCategory}
+                      />
+                    );
+                  }
+                  return (
+                    <ChipFilterBlock
+                      key={catMapping[cat]}
+                      name={catMapping[cat]}
+                      colorMap={colorMap}
+                      filters={filters[cat]}
+                      toggle={toggleFilter[cat]}
+                      counts={counts[cat]}
+                    />
+                  );
+                })}
             </div>
             <div className="search-bar">
               <label className="search-label" htmlFor="project-search">
                 Search projects
+                <input
+                  id="project-search"
+                  className="search-input"
+                  type="search"
+                  placeholder="Search by name or description"
+                  value={query}
+                  onChange={(event) => setQuery(event.target.value)}
+                />
               </label>
-              <input
-                id="project-search"
-                className="search-input"
-                type="search"
-                placeholder="Search by name or description"
-                value={query}
-                onChange={(event) => setQuery(event.target.value)}
-              />
             </div>
           </div>
         </section>

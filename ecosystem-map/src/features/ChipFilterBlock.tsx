@@ -7,8 +7,8 @@ export default function ChipFilterBlock({
   filters,
   toggle,
   colorMap,
-  order,
-  counts,
+  order = undefined,
+  counts = undefined,
 }: {
   name: string;
   filters: { [key: string]: boolean };
@@ -46,3 +46,8 @@ export default function ChipFilterBlock({
     </div>
   );
 }
+
+ChipFilterBlock.defaultProps = {
+  order: undefined,
+  counts: undefined,
+};

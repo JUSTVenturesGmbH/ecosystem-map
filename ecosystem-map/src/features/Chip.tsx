@@ -14,13 +14,9 @@ export default function Chip({
   colorMap: IColorMap;
   toggle: (key: string) => void;
 }) {
-  const style = filters[label]
-    ? {
-        "--chip-color": `rgb(${colorMap[label]})`,
-      }
-    : {
-        "--chip-color": `rgb(${colorMap[label]})`,
-      };
+  const style = {
+    "--chip-color": `rgb(${colorMap[label]})`,
+  } as React.CSSProperties;
 
   return (
     <button
