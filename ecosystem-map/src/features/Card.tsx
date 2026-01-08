@@ -83,6 +83,9 @@ export default function Card({
   };
 }) {
   const inactive = card?.readiness?.technology === "Discontinued" ? "project-card--inactive" : "";
+  const chipCategories = cats.filter(
+    (cat) => cat !== "ecosystem" && cat !== "status",
+  );
 
   return (
     <div className={`project-card ${inactive}`}>
@@ -109,18 +112,16 @@ export default function Card({
         </div>
       </div>
       <div className="card-badges">
-        {cats.map((cat) =>
-          cat !== "ecosystem"
-            ? card[cat]?.map((i) => (
-                <Chip
-                  key={i}
-                  label={i}
-                  filters={filters[cat]}
-                  colorMap={colorMap}
-                  toggle={toggleFilter[cat]}
-                />
-              ))
-            : [],
+        {chipCategories.map((cat) =>
+          card[cat]?.map((i) => (
+            <Chip
+              key={i}
+              label={i}
+              filters={filters[cat]}
+              colorMap={colorMap}
+              toggle={toggleFilter[cat]}
+            />
+          )),
         )}
       </div>
       <div className="card-badges">

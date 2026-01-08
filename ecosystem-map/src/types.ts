@@ -47,9 +47,6 @@ export interface ProjectInfo {
 }
 
 export interface IFilters {
-  layer: {
-    [key: string]: boolean;
-  };
   category: {
     [key: string]: boolean;
   };
@@ -58,7 +55,10 @@ export interface IFilters {
   };
   ecosystem: {
     [key: string]: boolean;
-  }
+  };
+  status: {
+    [key: string]: boolean;
+  };
 }
 
 export type TCategory = keyof IFilters;

@@ -241,6 +241,15 @@ button:focus-visible {
   gap: 12px;
 }
 
+.button-icon {
+  display: inline-flex;
+  align-items: center;
+}
+
+.button-icon svg {
+  fill: currentcolor;
+}
+
 .primary-button,
 .secondary-button {
   display: inline-flex;
@@ -317,13 +326,90 @@ button:focus-visible {
   margin: 0;
 }
 
+.results-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-text-tertiary);
+  margin-bottom: 16px;
+}
+
 .filters-grid {
   display: grid;
   gap: 24px;
 }
 
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.search-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-text-tertiary);
+}
+
+.search-input {
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid var(--color-border-strong);
+  background: var(--color-surface);
+  color: var(--color-text-primary);
+  padding: 12px 16px;
+  font-size: 1rem;
+  font-family: var(--font-sans);
+  transition:
+    border 200ms var(--ease-premium),
+    box-shadow 200ms var(--ease-premium);
+}
+
+.search-input::placeholder {
+  color: var(--color-text-tertiary);
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-focus);
+}
+
+.category-groups {
+  display: grid;
+  gap: 16px;
+}
+
+.category-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px;
+  border-radius: 12px;
+  background: var(--color-surface-secondary);
+  border: 1px solid var(--color-border);
+}
+
+.category-group-title {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-text-tertiary);
+}
+
 @media (width >= 900px) {
   .filters-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (width >= 1024px) {
+  .category-groups {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -352,6 +438,12 @@ button:focus-visible {
   gap: 8px;
 }
 
+.chip-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
 .chip {
   --chip-color: #ff2867;
 
@@ -370,6 +462,12 @@ button:focus-visible {
     background 200ms var(--ease-premium),
     color 200ms var(--ease-premium),
     border 200ms var(--ease-premium);
+}
+
+.chip-count-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--color-text-tertiary);
 }
 
 .chip:hover {
