@@ -6,7 +6,7 @@ description: Layman infographics for the Polkadot ecosystem
 layer:
   - None
 web:
-  logo: default.png
+  logo: dot-graphic.jpg
   site: https://x.com/dotgraphic1
   twitter: dotgraphic1
 treasury_funded: false

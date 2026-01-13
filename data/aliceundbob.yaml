@@ -8,7 +8,7 @@ description: Polkadot ecosystem agent, follow for DOT News, Projects & Governanc
 layer:
   - None
 web:
-  logo: default.png
+  logo: alice-und-bob.jpg
   site: https://www.youtube.com/channel/UC0alQ35JKnMo_ctzYITthbw
   twitter: alice_und_bob
 treasury_funded: false

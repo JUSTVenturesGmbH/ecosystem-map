@@ -6,6 +6,6 @@ description: This channel provides an easy explanation about Polkadot in Hindi l
 layer:
   - None
 web:
-  logo: default.png
+  logo: describedot.png
   site: https://www.youtube.com/channel/UCMLbuHyF7gFb1A0U4WE7cXQ
 treasury_funded: false

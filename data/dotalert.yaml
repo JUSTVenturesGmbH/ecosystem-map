@@ -6,6 +6,6 @@ description: A knowledgebase that provides practical guidelines for managing ass
 layer:
   - None
 web:
-  logo: default.png
+  logo: dotalert.avif
   site: https://dot-alert.gitbook.io/dot.alert/
 treasury_funded: false

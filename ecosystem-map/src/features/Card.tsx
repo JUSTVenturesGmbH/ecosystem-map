@@ -7,7 +7,7 @@ import Chip from "./Chip";
 
 function getReadinessStatus(technology: string | undefined) {
   if (!technology) {
-    return "❔ Unknown";
+    return null;
   }
   switch (technology) {
     case "Connected to Relay chain":
@@ -82,7 +82,11 @@ export default function Card({
     [P in TCategory]: (key: string) => void;
   };
 }) {
-  const inactive = card?.readiness?.technology === "Discontinued" ? "project-card--inactive" : "";
+  const inactive =
+    card?.readiness?.technology === "Discontinued"
+      ? "project-card--inactive"
+      : "";
+  const readinessLabel = getReadinessStatus(card?.readiness?.technology);
   const chipCategories = cats.filter(
     (cat) => cat !== "ecosystem" && cat !== "status",
   );
@@ -125,9 +129,11 @@ export default function Card({
         )}
       </div>
       <div className="card-badges">
-        <span className="status-pill">
-          <strong>Status:</strong> {getReadinessStatus(card?.readiness?.technology)}
-        </span>
+        {readinessLabel ? (
+          <span className="status-pill">
+            <strong>Status:</strong> {readinessLabel}
+          </span>
+        ) : null}
         {card.ecosystem?.map((i) => (
           <Chip
             key={i}

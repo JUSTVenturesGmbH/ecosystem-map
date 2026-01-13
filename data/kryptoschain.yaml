@@ -6,7 +6,7 @@ description: Cryptocurrency videos, from Tutorials, Reviews, Interviews and News
 layer:
   - None
 web:
-  logo: default.png
+  logo: kryptoschain.jpg
   site: https://www.youtube.com/@KryptosChain
   twitter: KryptosChain
 treasury_funded: true

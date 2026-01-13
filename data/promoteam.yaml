@@ -7,7 +7,7 @@ description: PromoTeam DAO — we are an international team of Web3 enthusiasts.
 layer:
   - None
 web:
-  logo: default.png
+  logo: promoteam.jpg
   site: https://www.youtube.com/@PolkadotPromoTeam
   twitter: PromoTeamPD
-treasury_funded: false
+treasury_funded: true

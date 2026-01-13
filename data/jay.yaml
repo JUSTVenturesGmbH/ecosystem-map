@@ -8,7 +8,7 @@ description: All things Polkadot - interviews, governance, regulatory.
 layer:
   - None
 web:
-  logo: default.png
+  logo: thekus.jpg
   site: https://www.youtube.com/c/JayChrawnna
   twitter: TheKusamarian
-treasury_funded: false
+treasury_funded: true

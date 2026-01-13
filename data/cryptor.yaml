@@ -6,6 +6,6 @@ description: Russian speaking everything crypto
 layer:
   - None
 web:
-  logo: default.png
+  logo: cryptor.jpg
   site: https://www.youtube.com/c/Cryptor
 treasury_funded: false

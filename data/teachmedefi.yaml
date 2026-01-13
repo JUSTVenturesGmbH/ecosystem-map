@@ -1,11 +1,11 @@
 name: TeachMe Defi 
 category:
   - Education
-  - Newsletter
-description: A German Educational Platform for Polkadot ecosystem.
+  - Video
+description: A German Educational channel for Polkadot ecosystem.
 layer:
   - None
 web:
-  logo: default.png
-  site: https://teachmedefi.de
+  logo: teachmedefi.jpg
+  site: https://www.youtube.com/@teachmedefi
 treasury_funded: false

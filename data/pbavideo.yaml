@@ -8,6 +8,6 @@ description: This book is the home of the majority of materials used within the 
 layer:
   - None
 web:
-  logo: default.png
-  site: https://www.youtube.com/@polkadotblockchainacademy
-treasury_funded: false
+  logo: pba.jpg
+  site: https://www.youtube.com/@polkadotblockchainacademytv
+treasury_funded: true

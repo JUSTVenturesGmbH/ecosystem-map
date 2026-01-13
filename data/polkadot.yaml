@@ -6,11 +6,11 @@ description: Polkadot official channel
 layer:
   - None
 web:
-  logo: default.png
+  logo: polkadot.jpg
   site: https://www.youtube.com/@PolkadotNetwork
   twitter: polkadot
   discord: https://discord.com/invite/polkadot
-treasury_funded: false
+treasury_funded: true
 metrics:
   discord:
     - date: 2025-12-01
