@@ -1,0 +1,25 @@
+name: Polkadot Mexico
+category:
+  - Education
+  - Social
+description: Polkadot Mexico provides support for conducting workshops at top universities in Mexico so that students, developers, and professionals can learn about the Polkadot ecosystem.
+readiness:
+  business: Non-commercial business unit
+  technology: In production
+target_audience:
+  - Individuals
+  - Personal investors
+  - Institutional investors
+  - Community DAO
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - None
+web:
+  logo: PolkadotMexico.png
+  site: https://linktr.ee/polkadotmexico_
+  youtube: https://www.youtube.com/@polkadotmexico
+  twitter: PolkadotMexico_
+treasury_funded: false
+audit: false
