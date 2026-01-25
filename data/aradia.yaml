@@ -1,0 +1,25 @@
+name: Aradia
+category:
+  - Dapp
+  - NFT
+  - EVM
+  - Smart Contracts 
+description:  All-in-one platform designed to empower creators, communities, and projects to thrive within the Astar ecosystem.
+readiness:
+  business: In development
+  technology: In development
+target_audience:
+  - Individuals
+  - Community DAO
+ecosystem:
+  - Astar
+  - Kusama
+layer:
+  - Layer-1
+web:
+  logo: aradia.png
+  site: https://aradia.app
+  github: https://github.com/AradiaPad
+  twitter: AradiaPad
+treasury_funded: false
+audit: false
