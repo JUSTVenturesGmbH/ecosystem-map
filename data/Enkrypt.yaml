@@ -39,11 +39,11 @@ treasury_funded: false
 audit: false
 metrics:
   discord:
-    - date: 2026-01-01
-      value: 5481
+    - date: 2026-02-01
+      value: 5419
   github:
-    - date: 2026-01-01
-      value: 421
+    - date: 2026-02-01
+      value: 427
   github_pushed_at:
-    - date: 2026-01-01
-      value: 1767052473
+    - date: 2026-02-01
+      value: 1769642542

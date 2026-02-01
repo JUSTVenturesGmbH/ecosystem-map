@@ -20,8 +20,8 @@ metrics:
     - date: 2026-01-01
       value: 61
   github:
-    - date: 2026-01-01
-      value: 345
+    - date: 2026-02-01
+      value: 339
   github_pushed_at:
-    - date: 2026-01-01
-      value: 1766663286
+    - date: 2026-02-01
+      value: 1769884562
