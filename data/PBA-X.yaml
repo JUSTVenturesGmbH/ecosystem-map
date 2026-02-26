@@ -1,0 +1,12 @@
+name: PBA-X
+category:
+  - Education
+description: PBA-X is the first online offering by the Polkadot Blockchain Academy. It is a fully asynchronous course, where you learn at your pace. It covers a large panel of knowledge (cryptography,economics,blockchain,governance and much more !).
+layer:
+  - None
+web:
+  logo: pba.png
+  site: https://pbax.polkadot.academy/
+  discord: https://discord.gg/JKq4VqBgp8
+  contact: pbax@polkadot.academy
+treasury_funded: true

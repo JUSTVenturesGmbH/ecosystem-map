@@ -1,0 +1,14 @@
+name: Polkadot Blockchain Academy
+category:
+  - Education
+description: Polkadot Blockchain Academy is an education entity delivering high-quality Web3 and blockchain programs. Our current offering, PBA-X, provides foundational education in blockchain and Polkadot.
+layer:
+  - None
+web:
+  logo: pba.png
+  site: https://polkadot.academy/
+  twitter: https://x.com/AcademyPolkadot
+  discord: https://discord.gg/JKq4VqBgp8
+  youtube: https://www.youtube.com/@polkadotblockchainacademytv
+  contact: Info@polkadot.academy
+treasury_funded: true
