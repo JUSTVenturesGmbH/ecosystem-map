@@ -34,8 +34,8 @@ metrics:
     - date: 2023-12-31
       value: 121
   github:
-    - date: 2023-12-31
-      value: 4
+    - date: 2026-02-01
+      value: 5
   discord:
     - date: 2026-01-01
       value: 290
@@ -44,5 +44,5 @@ metrics:
       value: 45
   app_downloads: []
   github_pushed_at:
-    - date: 2025-11-18
-      value: 1755995962
+    - date: 2026-02-01
+      value: 1769271148

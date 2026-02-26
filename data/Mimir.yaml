@@ -27,8 +27,8 @@ treasury_funded: false
 audit: false
 metrics:
   github:
-    - date: 2026-01-01
-      value: 176
+    - date: 2026-02-01
+      value: 175
   github_pushed_at:
-    - date: 2026-01-01
-      value: 1767158063
+    - date: 2026-02-01
+      value: 1769665301

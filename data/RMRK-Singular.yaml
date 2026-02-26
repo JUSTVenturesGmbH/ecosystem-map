@@ -41,12 +41,12 @@ metrics:
     - date: 2025-05-01
       value: 78
   discord:
-    - date: 2026-01-01
-      value: 11721
+    - date: 2026-02-01
+      value: 11696
   blog:
     - date: 2023-12-31
       value: 1540
   app_downloads: []
   github_pushed_at:
-    - date: 2025-01-21
-      value: 1736346933
+    - date: 2026-02-01
+      value: 1769718973
