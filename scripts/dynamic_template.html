@@ -1,0 +1,1768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polkadot Ecosystem Map - All Projects</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f7;
+            color: #1d1d1f;
+        }
+        .container {
+            max-width: calc(100vw - 40px);
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            overflow: hidden;
+        }
+        .header {
+            padding: 24px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 600;
+        }
+        .summary {
+            margin-top: 16px;
+            padding: 15px;
+            background-color: rgba(255,255,255,0.1);
+            border-radius: 8px;
+            font-size: 14px;
+        }
+        
+        /* Filter Section */
+        .filter-section {
+            margin: 16px 24px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+        }
+        
+        .filter-header {
+            padding: 12px 16px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            user-select: none;
+            border-bottom: 1px solid #e9ecef;
+            transition: background-color 0.2s ease;
+        }
+        .filter-header:hover {
+            background: #e9ecef;
+        }
+        
+        .filter-toggle-icon {
+            font-size: 12px;
+            margin-right: 8px;
+            transition: transform 0.2s ease;
+            color: #6c757d;
+        }
+        .filter-toggle-icon.expanded {
+            transform: rotate(90deg);
+        }
+        
+        .filter-title {
+            font-size: 11px;
+            color: #6c757d;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            flex: 1;
+        }
+        
+        .active-filters-display {
+            padding: 8px 16px;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px;
+            min-height: 20px;
+        }
+        
+        .filter-chip {
+            background: #007bff;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 16px;
+            font-size: 12px;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .filter-chip .remove {
+            font-size: 14px;
+            opacity: 0.8;
+            margin-left: 2px;
+            cursor: pointer;
+        }
+        .filter-chip .remove:hover {
+            opacity: 1;
+        }
+        
+        .filter-controls {
+            padding: 16px;
+            border-top: 1px solid #e9ecef;
+            background: white;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+        
+        .filter-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+            margin-bottom: 16px;
+        }
+        
+        .filter-group {
+            background: #f8f9fa;
+            border-radius: 6px;
+            padding: 12px;
+        }
+        
+        .filter-group-title {
+            font-size: 13px;
+            font-weight: 600;
+            color: #343a40;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .remove-filter-group {
+            background: none;
+            border: none;
+            color: #6c757d;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            padding: 0;
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: all 0.2s;
+        }
+        
+        .remove-filter-group:hover {
+            background: #f8f9fa;
+            color: #dc3545;
+        }
+        
+        .toggle-filter-option {
+            display: flex;
+            align-items: center;
+            font-size: 12px;
+            color: #6c757d;
+        }
+        
+        .filter-actions {
+            text-align: center;
+            padding-top: 12px;
+            border-top: 1px solid #e9ecef;
+        }
+        .status-indicator {
+            font-size: 11px;
+            color: #6c757d;
+            padding: 4px 8px;
+            background: #f8f9fa;
+            border-radius: 4px;
+            margin-left: auto;
+        }
+        
+        /* Filter Dropdown Styles */
+        .filter-dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: white;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            z-index: 100;
+            min-width: 300px;
+            max-width: 400px;
+            margin-top: 4px;
+            display: none;
+        }
+        .filter-dropdown.show {
+            display: block;
+        }
+        .filter-dropdown-header {
+            padding: 12px 16px;
+            background: #f8f9fa;
+            font-size: 12px;
+            font-weight: 600;
+            border-bottom: 1px solid #e9ecef;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .filter-dropdown-content {
+            padding: 12px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        .filter-options-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 8px;
+        }
+        .filter-option {
+            position: relative;
+            display: block;
+        }
+        
+        .filter-option input[type="checkbox"] {
+            opacity: 0;
+            position: absolute;
+            width: 0;
+            height: 0;
+        }
+        
+        .filter-option label {
+            display: block;
+            padding: 10px 12px;
+            background: white;
+            border: 1px solid #dee2e6;
+            border-radius: 6px;
+            font-size: 12px;
+            color: #495057;
+            cursor: pointer;
+            text-align: center;
+            transition: all 0.2s ease;
+            user-select: none;
+            font-weight: 500;
+        }
+        
+        .filter-option label:hover {
+            background: #e9ecef;
+            border-color: #adb5bd;
+            transform: translateY(-1px);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .filter-option input[type="checkbox"]:checked + label {
+            background: #007bff;
+            color: white;
+            border-color: #007bff;
+            box-shadow: 0 2px 8px rgba(0, 123, 255, 0.3);
+        }
+        
+        .filter-option input[type="checkbox"]:checked + label:hover {
+            background: #0056b3;
+            border-color: #0056b3;
+            transform: translateY(-1px);
+        }
+        .toggle-switch {
+            position: relative;
+            display: inline-block;
+            width: 44px;
+            height: 24px;
+            margin-right: 8px;
+        }
+        .toggle-switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: .4s;
+            border-radius: 24px;
+        }
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 18px;
+            width: 18px;
+            left: 3px;
+            bottom: 3px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+        }
+        input:checked + .slider {
+            background-color: #007bff;
+        }
+        input:checked + .slider:before {
+            transform: translateX(20px);
+        }
+        
+        /* Dropdown Styles */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background: white;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            z-index: 100;
+            min-width: 200px;
+            max-width: 300px;
+            margin-top: 4px;
+            top: 100%;
+            left: 0;
+        }
+        .dropdown-content.show {
+            display: block;
+        }
+        .dropdown-header {
+            padding: 8px 12px;
+            background: #f8f9fa;
+            font-size: 12px;
+            font-weight: 600;
+            border-bottom: 1px solid #e9ecef;
+        }
+        .add-filter-option {
+            padding: 8px 12px;
+            font-size: 12px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .add-filter-option:hover {
+            background: #f8f9fa;
+        }
+        .data-type-badge {
+            font-size: 10px;
+            padding: 2px 6px;
+            background: #007bff;
+            color: white;
+            border-radius: 10px;
+        }
+        
+        /* Controls Toolbar */
+        .controls-toolbar {
+            background: white;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 12px 16px;
+            margin: 0 24px 16px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 8px;
+        }
+        .btn {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .btn:hover {
+            background: #e9ecef;
+        }
+        
+        /* Add Filter Section */
+        .add-filter-section {
+            position: relative;
+            margin-bottom: 16px;
+        }
+        
+        .add-filter-btn {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 16px;
+            border-radius: 6px;
+            font-size: 14px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: background-color 0.2s;
+        }
+        
+        .add-filter-btn:hover {
+            background: #0056b3;
+        }
+        
+        .add-filter-dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: white;
+            border: 1px solid #dee2e6;
+            border-radius: 6px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            z-index: 1000;
+            min-width: 200px;
+        }
+        
+        .add-filter-option {
+            padding: 10px 16px;
+            cursor: pointer;
+            font-size: 14px;
+            color: #495057;
+            transition: background-color 0.2s;
+        }
+        
+        .add-filter-option:hover {
+            background: #f8f9fa;
+        }
+        
+        .add-filter-option:first-child {
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+        }
+        
+        .add-filter-option:last-child {
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+        }
+        
+        .add-filter-option.disabled {
+            color: #6c757d;
+            cursor: not-allowed;
+            background: #f8f9fa;
+        }
+        
+        /* Column Selection Section */
+        .column-selection-section {
+            margin: 16px 24px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+        }
+        
+        .column-header {
+            padding: 12px 16px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            user-select: none;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 8px 8px 0 0;
+        }
+        
+        .column-toggle-icon {
+            margin-right: 8px;
+            transition: transform 0.3s ease;
+            font-size: 12px;
+            color: #6c757d;
+        }
+        
+        .column-toggle-icon.expanded {
+            transform: rotate(90deg);
+        }
+        
+        .column-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #343a40;
+            margin-right: auto;
+        }
+        
+        .column-status {
+            font-size: 11px;
+            color: #6c757d;
+            padding: 4px 8px;
+            background: white;
+            border-radius: 4px;
+        }
+        
+        .column-controls {
+            padding: 16px;
+            border-top: 1px solid #e9ecef;
+            background: white;
+            border-radius: 0 0 8px 8px;
+        }
+        
+        .column-tree {
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        
+        .tree-node {
+            margin-bottom: 12px;
+        }
+        
+        .tree-item {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            padding: 8px;
+            border-radius: 4px;
+            transition: background-color 0.2s;
+        }
+        
+        .tree-item:hover {
+            background: #f8f9fa;
+        }
+        
+        .tree-toggle {
+            margin-right: 8px;
+            font-size: 10px;
+            color: #6c757d;
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+        
+        .tree-toggle.collapsed {
+            transform: rotate(-90deg);
+        }
+        
+        .tree-item input[type="checkbox"] {
+            margin-right: 8px;
+            cursor: pointer;
+        }
+        
+        .tree-item label {
+            font-weight: 500;
+            font-size: 13px;
+            color: #495057;
+            cursor: pointer;
+            user-select: none;
+        }
+        
+        .tree-children {
+            margin-left: 24px;
+            border-left: 1px solid #e9ecef;
+            padding-left: 16px;
+        }
+        
+        .tree-leaf {
+            display: flex;
+            align-items: center;
+            padding: 4px 8px;
+            margin: 2px 0;
+        }
+        
+        .tree-leaf input[type="checkbox"] {
+            margin-right: 8px;
+            cursor: pointer;
+        }
+        
+        .tree-leaf label {
+            font-size: 12px;
+            color: #6c757d;
+            cursor: pointer;
+            user-select: none;
+        }
+        
+        .tree-leaf:hover {
+            background: #f8f9fa;
+            border-radius: 4px;
+        }
+
+        /* Table Styles */
+        .table-wrapper {
+            margin: 24px;
+            border-radius: 8px;
+            overflow-x: auto;
+            overflow-y: auto;
+            border: 1px solid #e9ecef;
+            max-height: 70vh;
+        }
+        table {
+            width: 100%;
+            min-width: 1200px;
+            border-collapse: collapse;
+            background: white;
+            table-layout: fixed;
+        }
+        th {
+            background: #f8f9fa;
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #dee2e6;
+            font-weight: 600;
+            font-size: 12px;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            white-space: normal;
+            word-wrap: break-word;
+            width: 180px;
+            min-width: 180px;
+            max-width: 180px;
+            line-height: 1.3;
+            overflow-wrap: break-word;
+        }
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #f1f3f4;
+            font-size: 12px;
+            vertical-align: top;
+            white-space: normal;
+            word-wrap: break-word;
+            word-break: break-word;
+            width: 180px;
+            min-width: 180px;
+            max-width: 180px;
+            line-height: 1.4;
+            overflow-wrap: break-word;
+        }
+        tr:hover {
+            background-color: #f8f9fa;
+        }
+        .hidden-column {
+            display: none !important;
+        }
+        .hidden-row {
+            display: none !important;
+        }
+        
+        /* Loading Indicator */
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #6c757d;
+        }
+        .loading::after {
+            content: '';
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 2px solid #f3f3f3;
+            border-top: 2px solid #007bff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-left: 10px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Polkadot Ecosystem Map - All Projects</h1>
+            <div class="summary" id="summary">
+                <strong>Total Projects:</strong> <span id="project-count">Loading...</span>
+            </div>
+        </div>
+        
+        <!-- Filter Section -->
+        <div class="filter-section">
+            <!-- Filter Header with Toggle -->
+            <div class="filter-header" onclick="toggleFilterExpansion()" role="button" tabindex="0" aria-label="Toggle Filters">
+                <span class="filter-toggle-icon" id="filter-toggle-icon">▶</span>
+                <span class="filter-title">FILTERS</span>
+                <div class="filter-status" id="filter-status">Loading projects</div>
+            </div>
+            
+            <!-- Active Filters Display -->
+            <div class="active-filters-display" id="active-filters-display">
+                <span id="no-filters-msg" style="color: #6c757d; font-style: italic; font-size: 12px;">No filters active</span>
+                <div id="active-filters-container"></div>
+            </div>
+            
+            <!-- Expandable Filter Controls -->
+            <div class="filter-controls" id="filter-controls" style="display: none;">
+                <!-- Add Filter Dropdown -->
+                <div class="add-filter-section">
+                    <button class="add-filter-btn" onclick="toggleAddFilterDropdown()" id="add-filter-btn">
+                        + Add Filter
+                        <span class="dropdown-arrow">▼</span>
+                    </button>
+                    <div class="add-filter-dropdown" id="add-filter-dropdown" style="display: none;">
+                        <div class="add-filter-option" onclick="addFilterGroup('category')" id="add-category">Category</div>
+                        <div class="add-filter-option" onclick="addFilterGroup('ecosystem')" id="add-ecosystem">Ecosystem</div>
+                        <div class="add-filter-option" onclick="addFilterGroup('layer')" id="add-layer">Layer</div>
+                        <div class="add-filter-option" onclick="addFilterGroup('target_audience')" id="add-target-audience">Target Audience</div>
+                        <div class="add-filter-option" onclick="addFilterGroup('technology_readiness')" id="add-technology-readiness">Technology Readiness</div>
+                        <div class="add-filter-option" onclick="addFilterGroup('business_readiness')" id="add-business-readiness">Business Readiness</div>
+                        <div class="add-filter-option" onclick="addFilterGroup('treasury_funded')" id="add-treasury-funded">Treasury Funded</div>
+                        <div class="add-filter-option" onclick="addFilterGroup('audit')" id="add-audit">Audited</div>
+                    </div>
+                </div>
+                
+                <div class="filter-grid" id="active-filter-groups">
+                    <!-- Filter groups will be added dynamically -->
+                </div>
+                
+                <div class="filter-actions">
+                    <button class="btn" onclick="clearAllFilters()">🔄 Clear All Filters</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Column Selection Section -->
+        <div class="column-selection-section">
+            <div class="column-header" onclick="toggleColumnSelection()" role="button" tabindex="0" aria-label="Toggle Column Selection">
+                <span class="column-toggle-icon" id="column-toggle-icon">▶</span>
+                <span class="column-title">COLUMNS</span>
+                <div class="column-status" id="column-status">5 columns selected</div>
+            </div>
+            
+            <div class="column-controls" id="column-controls" style="display: none;">
+                <div class="column-tree">
+                    <!-- Basic Fields -->
+                    <div class="tree-node">
+                        <div class="tree-item" onclick="toggleBranch('basic')">
+                            <span class="tree-toggle">▼</span>
+                            <input type="checkbox" id="basic-branch" checked onchange="toggleBranchCheckboxes('basic')">
+                            <label for="basic-branch">Basic Information</label>
+                        </div>
+                        <div class="tree-children" id="basic-children">
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-name" checked onchange="toggleColumn('name')">
+                                <label for="col-name">Name</label>
+                            </div>
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-description" checked onchange="toggleColumn('description')">
+                                <label for="col-description">Description</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Categories -->
+                    <div class="tree-node">
+                        <div class="tree-item" onclick="toggleBranch('categories')">
+                            <span class="tree-toggle">▼</span>
+                            <input type="checkbox" id="categories-branch" checked onchange="toggleBranchCheckboxes('categories')">
+                            <label for="categories-branch">Categories</label>
+                        </div>
+                        <div class="tree-children" id="categories-children">
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-category" checked onchange="toggleColumn('category')">
+                                <label for="col-category">Category</label>
+                            </div>
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-ecosystem" checked onchange="toggleColumn('ecosystem')">
+                                <label for="col-ecosystem">Ecosystem</label>
+                            </div>
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-layer" onchange="toggleColumn('layer')">
+                                <label for="col-layer">Layer</label>
+                            </div>
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-target-audience" onchange="toggleColumn('target_audience')">
+                                <label for="col-target-audience">Target Audience</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Web Links -->
+                    <div class="tree-node">
+                        <div class="tree-item" onclick="toggleBranch('web')">
+                            <span class="tree-toggle">▼</span>
+                            <input type="checkbox" id="web-branch" onchange="toggleBranchCheckboxes('web')">
+                            <label for="web-branch">Web Links</label>
+                        </div>
+                        <div class="tree-children" id="web-children" style="display: none;">
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-website" checked onchange="toggleColumn('website')">
+                                <label for="col-website">Website</label>
+                            </div>
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-github" onchange="toggleColumn('github')">
+                                <label for="col-github">GitHub</label>
+                            </div>
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-twitter" onchange="toggleColumn('twitter')">
+                                <label for="col-twitter">Twitter</label>
+                            </div>
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-discord" onchange="toggleColumn('discord')">
+                                <label for="col-discord">Discord</label>
+                            </div>
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-documentation" onchange="toggleColumn('documentation')">
+                                <label for="col-documentation">Documentation</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Readiness -->
+                    <div class="tree-node">
+                        <div class="tree-item" onclick="toggleBranch('readiness')">
+                            <span class="tree-toggle">▼</span>
+                            <input type="checkbox" id="readiness-branch" onchange="toggleBranchCheckboxes('readiness')">
+                            <label for="readiness-branch">Readiness</label>
+                        </div>
+                        <div class="tree-children" id="readiness-children" style="display: none;">
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-tech-readiness" onchange="toggleColumn('tech_readiness')">
+                                <label for="col-tech-readiness">Technology Readiness</label>
+                            </div>
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-business-readiness" onchange="toggleColumn('business_readiness')">
+                                <label for="col-business-readiness">Business Readiness</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Status -->
+                    <div class="tree-node">
+                        <div class="tree-item" onclick="toggleBranch('status')">
+                            <span class="tree-toggle">▼</span>
+                            <input type="checkbox" id="status-branch" onchange="toggleBranchCheckboxes('status')">
+                            <label for="status-branch">Status</label>
+                        </div>
+                        <div class="tree-children" id="status-children" style="display: none;">
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-treasury-funded" onchange="toggleColumn('treasury_funded')">
+                                <label for="col-treasury-funded">Treasury Funded</label>
+                            </div>
+                            <div class="tree-leaf">
+                                <input type="checkbox" id="col-audit" onchange="toggleColumn('audit')">
+                                <label for="col-audit">Audited</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Table -->
+        <div class="table-wrapper">
+            <table id="projects-table">
+                <thead id="table-header">
+                    <tr>
+                        <th class="col-name">Project Name</th>
+                        <th class="col-description">Description</th>
+                        <th class="col-category">Category</th>
+                        <th class="col-ecosystem">Ecosystem</th>
+                        <th class="col-website">Website</th>
+                        <th class="col-layer hidden-column">Layer</th>
+                        <th class="col-target-audience hidden-column">Target Audience</th>
+                        <th class="col-github hidden-column">GitHub</th>
+                        <th class="col-twitter hidden-column">Twitter</th>
+                        <th class="col-discord hidden-column">Discord</th>
+                        <th class="col-documentation hidden-column">Documentation</th>
+                        <th class="col-tech-readiness hidden-column">Tech Readiness</th>
+                        <th class="col-business-readiness hidden-column">Business Readiness</th>
+                        <th class="col-treasury-funded hidden-column">Treasury Funded</th>
+                        <th class="col-audit hidden-column">Audited</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                    <tr>
+                        <td class="loading" colspan="5">Loading projects...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        // Global variables
+        let projects = [];
+        let activeFilters = {};
+        
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            loadProjectsFromJSON();
+        });
+        
+        // Load projects from aggregated JSON file
+        async function loadProjectsFromJSON() {
+            try {
+                console.log('Loading aggregated project data...');
+                
+                const response = await fetch('ecosystem_table_projects.json');
+                if (!response.ok) {
+                    throw new Error(`Failed to load projects: ${response.status}`);
+                }
+                
+                projects = await response.json();
+                console.log('Total projects loaded:', projects.length);
+                
+                // Initialize UI
+                initializeFilterOptions();
+                renderProjects();
+                updateProjectCount();
+                
+                console.log('Projects loaded successfully');
+                
+            } catch (error) {
+                console.error('Error loading projects:', error);
+                document.getElementById('table-body').innerHTML = '<tr><td colspan="5">Error loading projects. Please check console.</td></tr>';
+            }
+        }
+        
+        // Render projects in table
+        function renderProjects() {
+            const tbody = document.getElementById('table-body');
+            tbody.innerHTML = '';
+            
+            if (projects.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="15" class="loading">No projects found</td></tr>';
+                return;
+            }
+            
+            projects.forEach(project => {
+                const row = document.createElement('tr');
+                
+                // Create all cells with proper classes for column visibility
+                const cells = [
+                    createCell('col-name', project.name || 'Unnamed Project'),
+                    createCell('col-description', project.description || ''),
+                    createCell('col-category', Array.isArray(project.category) ? project.category.join(', ') : (project.category || '')),
+                    createCell('col-ecosystem', Array.isArray(project.ecosystem) ? project.ecosystem.join(', ') : (project.ecosystem || '')),
+                    createCell('col-website', createWebsiteLink(project.web?.site), true),
+                    createCell('col-layer', Array.isArray(project.layer) ? project.layer.join(', ') : (project.layer || '')),
+                    createCell('col-target-audience', Array.isArray(project.target_audience) ? project.target_audience.join(', ') : (project.target_audience || '')),
+                    createCell('col-github', createLink(project.web?.github, 'GitHub'), true),
+                    createCell('col-twitter', createLink(project.web?.twitter, 'Twitter'), true),
+                    createCell('col-discord', createLink(project.web?.discord, 'Discord'), true),
+                    createCell('col-documentation', createLink(project.web?.documentation, 'Docs'), true),
+                    createCell('col-tech-readiness', project.readiness?.technology || ''),
+                    createCell('col-business-readiness', project.readiness?.business || ''),
+                    createCell('col-treasury-funded', project.treasury_funded ? 'Yes' : (project.treasury_funded === false ? 'No' : '')),
+                    createCell('col-audit', project.audit ? 'Yes' : (project.audit === false ? 'No' : ''))
+                ];
+                
+                cells.forEach(cell => row.appendChild(cell));
+                tbody.appendChild(row);
+            });
+            
+            // Apply initial column visibility
+            updateColumnVisibility();
+        }
+        
+        // Helper function to create table cell
+        function createCell(className, content, isHtml = false) {
+            const cell = document.createElement('td');
+            cell.className = className;
+            if (isHtml) {
+                cell.innerHTML = content;
+            } else {
+                cell.textContent = content;
+            }
+            // Apply initial visibility - convert class name back to field path
+            const fieldPath = className.replace('col-', '').replace(/-/g, '.');
+            // Handle special cases where underscores should remain as underscores
+            const correctedPath = fieldPath.replace('target.audience', 'target_audience')
+                                           .replace('treasury.funded', 'treasury_funded')
+                                           .replace('github.pushed.at', 'github_pushed_at')
+                                           .replace('app.downloads', 'app_downloads');
+            
+            if (!visibleColumns.has(correctedPath)) {
+                cell.classList.add('hidden-column');
+            }
+            return cell;
+        }
+        
+        // Helper function to create website link
+        function createWebsiteLink(url) {
+            if (!url) return '';
+            return `<a href="${url}" target="_blank" rel="noopener">${url}</a>`;
+        }
+        
+        // Helper function to create generic link
+        function createLink(url, text) {
+            if (!url) return '';
+            const fullUrl = url.startsWith('http') ? url : `https://${url}`;
+            return `<a href="${fullUrl}" target="_blank" rel="noopener">${text}</a>`;
+        }
+        
+        
+        // Setup dropdown click handlers
+        function setupDropdownClickHandlers() {
+            document.addEventListener('click', function(event) {
+                const dropdowns = document.querySelectorAll('.dropdown-content');
+                dropdowns.forEach(dropdown => {
+                    if (!dropdown.contains(event.target) && !event.target.closest('.add-filter-btn')) {
+                        dropdown.classList.remove('show');
+                    }
+                });
+            });
+        }
+        
+        // Toggle add filter dropdown
+        function toggleAddFilterDropdown() {
+            const dropdown = document.getElementById('add-filter-dropdown');
+            dropdown.classList.toggle('show');
+        }
+        
+        // Toggle filter expansion
+        function toggleFilterExpansion() {
+            const controls = document.getElementById('filter-controls');
+            const icon = document.getElementById('filter-toggle-icon');
+            
+            if (controls.style.display === 'none') {
+                controls.style.display = 'block';
+                icon.classList.add('expanded');
+                icon.textContent = '▼';
+            } else {
+                controls.style.display = 'none';
+                icon.classList.remove('expanded');
+                icon.textContent = '▶';
+            }
+        }
+        
+        // Global variable to track active filter groups
+        let activeFilterGroups = new Set();
+        
+        // Global variables for column management
+        let visibleColumns = new Set(['name', 'description', 'category', 'ecosystem', 'website']);
+        let columnMapping = {
+            'name': 0,
+            'description': 1, 
+            'category': 2,
+            'ecosystem': 3,
+            'website': 4,
+            'layer': 5,
+            'target_audience': 6,
+            'github': 7,
+            'twitter': 8,
+            'discord': 9,
+            'documentation': 10,
+            'tech_readiness': 11,
+            'business_readiness': 12,
+            'treasury_funded': 13,
+            'audit': 14
+        };
+
+        // Initialize filter options (no longer populates all filters immediately)
+        function initializeFilterOptions() {
+            // Filter options will be populated dynamically when groups are added
+            console.log('Filter system initialized with dropdown approach');
+        }
+        
+        // Toggle add filter dropdown
+        function toggleAddFilterDropdown() {
+            const dropdown = document.getElementById('add-filter-dropdown');
+            const isVisible = dropdown.style.display === 'block';
+            dropdown.style.display = isVisible ? 'none' : 'block';
+            
+            // Update dropdown options visibility based on already added groups
+            updateAddFilterOptions();
+        }
+        
+        // Update which options are available in the add filter dropdown
+        function updateAddFilterOptions() {
+            const options = document.querySelectorAll('.add-filter-option');
+            options.forEach(option => {
+                const filterType = option.onclick.toString().match(/addFilterGroup\('([^']+)'\)/)?.[1];
+                if (filterType && activeFilterGroups.has(filterType)) {
+                    option.classList.add('disabled');
+                    option.onclick = null;
+                } else if (filterType) {
+                    option.classList.remove('disabled');
+                    option.onclick = () => addFilterGroup(filterType);
+                }
+            });
+        }
+        
+        // Add a filter group to the active filters area
+        function addFilterGroup(filterType) {
+            if (activeFilterGroups.has(filterType)) return;
+            
+            activeFilterGroups.add(filterType);
+            const container = document.getElementById('active-filter-groups');
+            
+            // Create the filter group HTML
+            const groupHtml = createFilterGroupHtml(filterType);
+            const groupDiv = document.createElement('div');
+            groupDiv.className = 'filter-group';
+            groupDiv.id = `filter-group-${filterType}`;
+            groupDiv.innerHTML = groupHtml;
+            
+            container.appendChild(groupDiv);
+            
+            // Populate the options for this group
+            populateFilterOptions(filterType);
+            
+            // Hide the dropdown and update available options
+            document.getElementById('add-filter-dropdown').style.display = 'none';
+            updateAddFilterOptions();
+        }
+        
+        // Create HTML for a specific filter group
+        function createFilterGroupHtml(filterType) {
+            const titles = {
+                'category': 'Category',
+                'ecosystem': 'Ecosystem', 
+                'layer': 'Layer',
+                'target_audience': 'Target Audience',
+                'technology_readiness': 'Technology Readiness',
+                'business_readiness': 'Business Readiness',
+                'treasury_funded': 'Treasury Funded',
+                'audit': 'Audited'
+            };
+            
+            const title = titles[filterType];
+            
+            if (filterType === 'treasury_funded' || filterType === 'audit') {
+                // Toggle filter
+                const toggleText = filterType === 'treasury_funded' 
+                    ? 'Only show Treasury funded projects'
+                    : 'Only show audited projects';
+                
+                return `
+                    <div class="filter-group-title">
+                        ${title}
+                        <button class="remove-filter-group" onclick="removeFilterGroup('${filterType}')">×</button>
+                    </div>
+                    <div class="toggle-filter-option">
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="${filterType.replace('_', '-')}-toggle" onchange="updateToggleFilter('${filterType}')" />
+                            <span class="slider"></span>
+                        </label>
+                        <span>${toggleText}</span>
+                    </div>
+                `;
+            } else {
+                // Options grid filter
+                return `
+                    <div class="filter-group-title">
+                        ${title}
+                        <button class="remove-filter-group" onclick="removeFilterGroup('${filterType}')">×</button>
+                    </div>
+                    <div class="filter-options-grid" id="${filterType.replace('_', '-')}-options">
+                        <!-- Populated by JS -->
+                    </div>
+                `;
+            }
+        }
+        
+        // Remove a filter group
+        function removeFilterGroup(filterType) {
+            activeFilterGroups.delete(filterType);
+            
+            // Clear the filter values
+            delete activeFilters[filterType];
+            
+            // Remove the HTML element
+            const groupElement = document.getElementById(`filter-group-${filterType}`);
+            if (groupElement) {
+                groupElement.remove();
+            }
+            
+            // Update active filter chips and apply filters
+            updateFilterChips();
+            applyFilters();
+            updateAddFilterOptions();
+        }
+        
+        // Populate options for a specific filter type
+        function populateFilterOptions(filterType) {
+            const allOptions = {
+                'category': ['API', 'Aggregator', 'Alerts', 'Analytics', 'Bridge', 'DAO', 'Dapp', 'Data', 'DeFi', 'DePIN', 'Education', 'EVM', 'Exchange', 'Game', 'Governance', 'Identity', 'Indexer', 'Infra', 'Library', 'Marketplace', 'Newsletter', 'NFT', 'Oracle', 'Privacy', 'Smart Contracts', 'Social', 'Staking', 'Tools', 'Validator provider', 'Video', 'Wallet', 'XCM'],
+                'ecosystem': ['Polkadot', 'Kusama', 'Acala Network', 'Moonbeam', 'Astar Network', 'Aleph Zero', 'Bitcoin', 'Ethereum', 'Polygon', 'Cosmos', 'Solana', 'Tezos', 'BNB Chain', 'Avalanche', 'Cardano', 'Flow', 'NEAR', 'Sui', 'Aave', 'TON', 'Arweave', 'Aptos', 'Optimism', 'Sora'],
+                'layer': ['Layer-0', 'Layer-1', 'Layer-2', 'Layer-3', 'Layer-4', 'None'],
+                'target_audience': ['Community DAO', 'Dev teams', 'Established corp', 'Governmental org', 'Individuals', 'Institutional investors', 'Personal investors', 'Research institute', 'Startup'],
+                'technology_readiness': ['In research', 'Validated POC / testnet', 'In development', 'In production', 'Connected to Relay chain', 'Connected to Parachain', 'Discontinued'],
+                'business_readiness': ['Business concept/low adoption', 'Verified in market/high adoption', 'Scaling/Alliance']
+            };
+            
+            if (filterType === 'treasury_funded' || filterType === 'audit') {
+                // Toggle filters don't need option population
+                return;
+            }
+            
+            const options = allOptions[filterType] || [];
+            const containerId = `${filterType.replace('_', '-')}-options`;
+            const container = document.getElementById(containerId);
+            
+            if (!container) return;
+            
+            const updateFunction = `update${filterType.split('_').map(word => 
+                word.charAt(0).toUpperCase() + word.slice(1)
+            ).join('')}Filter`;
+            
+            container.innerHTML = options.map(option => `
+                <div class="filter-option">
+                    <input type="checkbox" id="${filterType}-${option.replace(/\s+/g, '-').replace(/\//g, '-')}" 
+                           onchange="${updateFunction}('${option}')" />
+                    <label for="${filterType}-${option.replace(/\s+/g, '-').replace(/\//g, '-')}">${option}</label>
+                </div>
+            `).join('');
+        }
+        
+        // Column Selection Functions
+        
+        // Toggle column selection section
+        function toggleColumnSelection() {
+            const controls = document.getElementById('column-controls');
+            const icon = document.getElementById('column-toggle-icon');
+            
+            if (controls.style.display === 'none') {
+                controls.style.display = 'block';
+                icon.classList.add('expanded');
+                icon.textContent = '▼';
+            } else {
+                controls.style.display = 'none';
+                icon.classList.remove('expanded');
+                icon.textContent = '▶';
+            }
+        }
+        
+        // Toggle tree branch visibility
+        function toggleBranch(branchId) {
+            const children = document.getElementById(`${branchId}-children`);
+            const toggle = event.target.closest('.tree-item').querySelector('.tree-toggle');
+            
+            if (children.style.display === 'none') {
+                children.style.display = 'block';
+                toggle.textContent = '▼';
+                toggle.classList.remove('collapsed');
+            } else {
+                children.style.display = 'none';
+                toggle.textContent = '▶';
+                toggle.classList.add('collapsed');
+            }
+        }
+        
+        // Toggle all checkboxes in a branch
+        function toggleBranchCheckboxes(branchId) {
+            const branchCheckbox = document.getElementById(`${branchId}-branch`);
+            const children = document.getElementById(`${branchId}-children`);
+            const childCheckboxes = children.querySelectorAll('input[type="checkbox"]');
+            
+            childCheckboxes.forEach(checkbox => {
+                checkbox.checked = branchCheckbox.checked;
+                // Trigger the column toggle for each child
+                const columnId = checkbox.id.replace('col-', '').replace('-', '_');
+                if (branchCheckbox.checked) {
+                    visibleColumns.add(columnId);
+                } else {
+                    visibleColumns.delete(columnId);
+                }
+            });
+            
+            updateColumnVisibility();
+            updateColumnStatus();
+        }
+        
+        // Toggle individual column
+        function toggleColumn(columnId) {
+            if (visibleColumns.has(columnId)) {
+                visibleColumns.delete(columnId);
+            } else {
+                visibleColumns.add(columnId);
+            }
+            
+            updateColumnVisibility();
+            updateColumnStatus();
+            updateBranchCheckboxState();
+        }
+        
+        // Update branch checkbox state based on children
+        function updateBranchCheckboxState() {
+            const branches = ['basic', 'categories', 'web', 'readiness', 'status'];
+            
+            branches.forEach(branchId => {
+                const branchCheckbox = document.getElementById(`${branchId}-branch`);
+                const children = document.getElementById(`${branchId}-children`);
+                const childCheckboxes = children.querySelectorAll('input[type="checkbox"]');
+                
+                const checkedCount = Array.from(childCheckboxes).filter(cb => cb.checked).length;
+                
+                if (checkedCount === 0) {
+                    branchCheckbox.checked = false;
+                    branchCheckbox.indeterminate = false;
+                } else if (checkedCount === childCheckboxes.length) {
+                    branchCheckbox.checked = true;
+                    branchCheckbox.indeterminate = false;
+                } else {
+                    branchCheckbox.checked = false;
+                    branchCheckbox.indeterminate = true;
+                }
+            });
+        }
+        
+        // Update column status display
+        function updateColumnStatus() {
+            const statusElement = document.getElementById('column-status');
+            const count = visibleColumns.size;
+            statusElement.textContent = `${count} column${count !== 1 ? 's' : ''} selected`;
+        }
+        
+        // Update table column visibility
+        function updateColumnVisibility() {
+            const table = document.getElementById('projects-table');
+            
+            // Update all columns based on visibleColumns set
+            Object.keys(columnMapping).forEach(columnPath => {
+                const className = `col-${columnPath.replace(/\./g, '-').replace(/_/g, '-')}`;
+                const elements = table.querySelectorAll(`.${className}`);
+                
+                elements.forEach(element => {
+                    if (visibleColumns.has(columnPath)) {
+                        element.classList.remove('hidden-column');
+                    } else {
+                        element.classList.add('hidden-column');
+                    }
+                });
+            });
+        }
+        
+        // Get column name by table index
+        function getColumnNameByIndex(index) {
+            for (const [name, colIndex] of Object.entries(columnMapping)) {
+                if (colIndex === index) return name;
+            }
+            return null;
+        }
+        
+        // Create static filter chip (no dropdown)
+        function createFilterChip(filterKey, displayName) {
+            const container = document.getElementById('active-filters-container');
+            const noFiltersMsg = document.getElementById('no-filters-msg');
+            
+            if (noFiltersMsg) {
+                noFiltersMsg.style.display = 'none';
+            }
+            
+            const chip = document.createElement('div');
+            chip.className = 'filter-chip';
+            chip.id = `filter-chip-${filterKey}`;
+            
+            let chipText = displayName;
+            if (Array.isArray(activeFilters[filterKey]) && activeFilters[filterKey].length > 0) {
+                chipText += `: ${activeFilters[filterKey].join(', ')}`;
+            }
+            
+            chip.innerHTML = `
+                <span>${chipText}</span>
+                <span class="remove" onclick="removeFilter('${filterKey}')">×</span>
+            `;
+            
+            container.appendChild(chip);
+        }
+        
+        // Update category filter
+        function updateCategoryFilter(category) {
+            if (!activeFilters.category) {
+                activeFilters.category = [];
+            }
+            
+            const checkbox = document.getElementById(`category-${category}`);
+            if (checkbox.checked) {
+                if (!activeFilters.category.includes(category)) {
+                    activeFilters.category.push(category);
+                }
+            } else {
+                const index = activeFilters.category.indexOf(category);
+                if (index > -1) {
+                    activeFilters.category.splice(index, 1);
+                }
+            }
+            
+            updateFilterChips();
+            applyFilters();
+        }
+        
+        // Update ecosystem filter
+        function updateEcosystemFilter(ecosystem) {
+            if (!activeFilters.ecosystem) {
+                activeFilters.ecosystem = [];
+            }
+            
+            const checkbox = document.getElementById(`ecosystem-${ecosystem.replace(/\s+/g, '-')}`);
+            if (checkbox.checked) {
+                if (!activeFilters.ecosystem.includes(ecosystem)) {
+                    activeFilters.ecosystem.push(ecosystem);
+                }
+            } else {
+                const index = activeFilters.ecosystem.indexOf(ecosystem);
+                if (index > -1) {
+                    activeFilters.ecosystem.splice(index, 1);
+                }
+            }
+            
+            updateFilterChips();
+            applyFilters();
+        }
+        
+        // Update layer filter
+        function updateLayerFilter(layer) {
+            if (!activeFilters.layer) {
+                activeFilters.layer = [];
+            }
+            
+            const checkbox = document.getElementById(`layer-${layer}`);
+            if (checkbox.checked) {
+                if (!activeFilters.layer.includes(layer)) {
+                    activeFilters.layer.push(layer);
+                }
+            } else {
+                const index = activeFilters.layer.indexOf(layer);
+                if (index > -1) {
+                    activeFilters.layer.splice(index, 1);
+                }
+            }
+            
+            updateFilterChips();
+            applyFilters();
+        }
+        
+        // Update target audience filter
+        function updateTargetAudienceFilter(audience) {
+            if (!activeFilters.target_audience) {
+                activeFilters.target_audience = [];
+            }
+            
+            const checkbox = document.getElementById(`target-audience-${audience.replace(/\s+/g, '-')}`);
+            if (checkbox.checked) {
+                if (!activeFilters.target_audience.includes(audience)) {
+                    activeFilters.target_audience.push(audience);
+                }
+            } else {
+                const index = activeFilters.target_audience.indexOf(audience);
+                if (index > -1) {
+                    activeFilters.target_audience.splice(index, 1);
+                }
+            }
+            
+            updateFilterChips();
+            applyFilters();
+        }
+        
+        // Update technology readiness filter
+        function updateTechnologyReadinessFilter(readiness) {
+            if (!activeFilters.technology_readiness) {
+                activeFilters.technology_readiness = [];
+            }
+            
+            const checkbox = document.getElementById(`tech-readiness-${readiness.replace(/\s+/g, '-').replace(/\//g, '-')}`);
+            if (checkbox.checked) {
+                if (!activeFilters.technology_readiness.includes(readiness)) {
+                    activeFilters.technology_readiness.push(readiness);
+                }
+            } else {
+                const index = activeFilters.technology_readiness.indexOf(readiness);
+                if (index > -1) {
+                    activeFilters.technology_readiness.splice(index, 1);
+                }
+            }
+            
+            updateFilterChips();
+            applyFilters();
+        }
+        
+        // Update business readiness filter
+        function updateBusinessReadinessFilter(readiness) {
+            if (!activeFilters.business_readiness) {
+                activeFilters.business_readiness = [];
+            }
+            
+            const checkbox = document.getElementById(`biz-readiness-${readiness.replace(/\s+/g, '-').replace(/\//g, '-')}`);
+            if (checkbox.checked) {
+                if (!activeFilters.business_readiness.includes(readiness)) {
+                    activeFilters.business_readiness.push(readiness);
+                }
+            } else {
+                const index = activeFilters.business_readiness.indexOf(readiness);
+                if (index > -1) {
+                    activeFilters.business_readiness.splice(index, 1);
+                }
+            }
+            
+            updateFilterChips();
+            applyFilters();
+        }
+        
+        // Remove filter
+        function removeFilter(filterKey) {
+            delete activeFilters[filterKey];
+            const chip = document.getElementById(`filter-chip-${filterKey}`);
+            if (chip) {
+                chip.remove();
+            }
+            
+            updateFilterDisplay();
+            applyFilters();
+        }
+        
+        // Update filter display
+        function updateFilterDisplay() {
+            const container = document.getElementById('active-filters-container');
+            const noFiltersMsg = document.getElementById('no-filters-msg');
+            const hasFilters = Object.keys(activeFilters).length > 0;
+            
+            if (noFiltersMsg) {
+                noFiltersMsg.style.display = hasFilters ? 'none' : 'inline';
+            }
+        }
+        
+        // Apply filters to the table
+        function applyFilters() {
+            const tbody = document.querySelector('#projects-table tbody');
+            const rows = tbody.querySelectorAll('tr');
+            let visibleCount = 0;
+            
+            rows.forEach((row, index) => {
+                let shouldShow = true;
+                const project = projects[index]; // Access actual project data
+                
+                if (!project) {
+                    row.style.display = 'none';
+                    return;
+                }
+                
+                // Apply category filter
+                if (activeFilters.category && activeFilters.category.length > 0) {
+                    const projectCategories = Array.isArray(project.category) ? project.category : [project.category].filter(Boolean);
+                    const hasMatchingCategory = activeFilters.category.some(filter => 
+                        projectCategories.some(cat => cat && cat.toLowerCase().includes(filter.toLowerCase()))
+                    );
+                    if (!hasMatchingCategory) shouldShow = false;
+                }
+                
+                // Apply ecosystem filter
+                if (activeFilters.ecosystem && activeFilters.ecosystem.length > 0) {
+                    const projectEcosystems = Array.isArray(project.ecosystem) ? project.ecosystem : [project.ecosystem].filter(Boolean);
+                    const hasMatchingEcosystem = activeFilters.ecosystem.some(filter => 
+                        projectEcosystems.some(eco => eco && eco.toLowerCase().includes(filter.toLowerCase()))
+                    );
+                    if (!hasMatchingEcosystem) shouldShow = false;
+                }
+                
+                // Apply layer filter
+                if (activeFilters.layer && activeFilters.layer.length > 0) {
+                    const projectLayers = Array.isArray(project.layer) ? project.layer : [project.layer].filter(Boolean);
+                    const hasMatchingLayer = activeFilters.layer.some(filter => 
+                        projectLayers.some(layer => layer && layer.toLowerCase() === filter.toLowerCase())
+                    );
+                    if (!hasMatchingLayer) shouldShow = false;
+                }
+                
+                // Apply target audience filter
+                if (activeFilters.target_audience && activeFilters.target_audience.length > 0) {
+                    const projectAudiences = Array.isArray(project.target_audience) ? project.target_audience : [project.target_audience].filter(Boolean);
+                    const hasMatchingAudience = activeFilters.target_audience.some(filter => 
+                        projectAudiences.some(audience => audience && audience.toLowerCase() === filter.toLowerCase())
+                    );
+                    if (!hasMatchingAudience) shouldShow = false;
+                }
+                
+                // Apply technology readiness filter
+                if (activeFilters.technology_readiness && activeFilters.technology_readiness.length > 0) {
+                    const techReadiness = project.readiness?.technology;
+                    const hasMatchingTechReadiness = activeFilters.technology_readiness.some(filter => 
+                        techReadiness && techReadiness.toLowerCase() === filter.toLowerCase()
+                    );
+                    if (!hasMatchingTechReadiness) shouldShow = false;
+                }
+                
+                // Apply business readiness filter
+                if (activeFilters.business_readiness && activeFilters.business_readiness.length > 0) {
+                    const bizReadiness = project.readiness?.business;
+                    const hasMatchingBizReadiness = activeFilters.business_readiness.some(filter => 
+                        bizReadiness && bizReadiness.toLowerCase() === filter.toLowerCase()
+                    );
+                    if (!hasMatchingBizReadiness) shouldShow = false;
+                }
+                
+                // Apply treasury funded filter
+                if (activeFilters.treasury_funded === true) {
+                    if (project.treasury_funded !== true) shouldShow = false;
+                }
+                
+                // Apply audit filter
+                if (activeFilters.audit === true) {
+                    if (project.audit !== true) shouldShow = false;
+                }
+                
+                // Show/hide row
+                row.style.display = shouldShow ? '' : 'none';
+                if (shouldShow) visibleCount++;
+            });
+            
+            // Update count display
+            updateProjectCount(visibleCount);
+            console.log('Filters applied:', activeFilters, 'Visible projects:', visibleCount);
+        }
+        
+        // Clear all filters
+        function clearAllFilters() {
+            activeFilters = {};
+            const container = document.getElementById('active-filters-container');
+            container.innerHTML = '<span id="no-filters-msg" style="color: #6c757d; font-style: italic; font-size: 11px;">No filters active</span>';
+            applyFilters();
+        }
+        
+        // Update project count
+        function updateProjectCount(visibleCount = null) {
+            const countElement = document.getElementById('project-count');
+            const statusElement = document.getElementById('filter-status');
+            const totalCount = projects.length;
+            const displayCount = visibleCount !== null ? visibleCount : totalCount;
+            
+            if (countElement) {
+                countElement.textContent = totalCount;
+            }
+            
+            if (statusElement) {
+                const hasFilters = Object.keys(activeFilters).some(key => {
+                    if (Array.isArray(activeFilters[key])) {
+                        return activeFilters[key].length > 0;
+                    }
+                    return activeFilters[key] === true;
+                });
+                
+                if (hasFilters && visibleCount !== null) {
+                    statusElement.textContent = `${displayCount} of ${totalCount} projects`;
+                } else {
+                    statusElement.textContent = `${totalCount} projects`;
+                }
+            }
+        }
+        
+        // Save view (placeholder)
+        function saveView() {
+            console.log('Saving view:', { activeFilters });
+            alert('View settings saved! (This is a placeholder feature)');
+        }
+        
+        // Toggle filter dropdown
+        function toggleFilterDropdown(filterKey) {
+            const dropdown = document.getElementById(`dropdown-${filterKey}`);
+            const isVisible = dropdown.classList.contains('show');
+            
+            // Close all other dropdowns
+            document.querySelectorAll('.filter-dropdown.show').forEach(d => d.classList.remove('show'));
+            
+            // Toggle current dropdown
+            if (!isVisible) {
+                dropdown.classList.add('show');
+            }
+        }
+        
+        // Get available values for a filter
+        function getAvailableFilterValues(filterKey) {
+            const values = new Set();
+            
+            // Extract values from project data
+            projects.forEach(project => {
+                const fieldValues = project[filterKey];
+                if (Array.isArray(fieldValues)) {
+                    fieldValues.forEach(value => values.add(value));
+                } else if (fieldValues) {
+                    values.add(fieldValues);
+                }
+            });
+            
+            return Array.from(values).sort();
+        }
+        
+        // Update multi-select filter
+        function updateMultiSelectFilter(filterKey, value) {
+            if (!activeFilters[filterKey]) {
+                activeFilters[filterKey] = [];
+            }
+            
+            const index = activeFilters[filterKey].indexOf(value);
+            if (index === -1) {
+                activeFilters[filterKey].push(value);
+            } else {
+                activeFilters[filterKey].splice(index, 1);
+            }
+            
+            // Update chip text
+            updateFilterChipText(filterKey);
+            applyFilters();
+        }
+        
+        // Update toggle filter
+        function updateToggleFilter(filterKey) {
+            const checkbox = document.getElementById(`${filterKey.replace('_', '-')}-toggle`);
+            activeFilters[filterKey] = checkbox.checked;
+            
+            updateFilterChips();
+            applyFilters();
+        }
+        
+        // Update all filter chips
+        function updateFilterChips() {
+            const container = document.getElementById('active-filters-container');
+            const noFiltersMsg = document.getElementById('no-filters-msg');
+            
+            // Clear existing chips
+            container.innerHTML = '';
+            
+            // Show/hide no filters message
+            const hasFilters = Object.keys(activeFilters).some(key => {
+                if (Array.isArray(activeFilters[key])) {
+                    return activeFilters[key].length > 0;
+                }
+                return activeFilters[key] === true;
+            });
+            
+            if (hasFilters) {
+                noFiltersMsg.style.display = 'none';
+                
+                // Create chips for active filters
+                if (activeFilters.category && activeFilters.category.length > 0) {
+                    createFilterChip('category', 'Category');
+                }
+                if (activeFilters.ecosystem && activeFilters.ecosystem.length > 0) {
+                    createFilterChip('ecosystem', 'Ecosystem');
+                }
+                if (activeFilters.layer && activeFilters.layer.length > 0) {
+                    createFilterChip('layer', 'Layer');
+                }
+                if (activeFilters.target_audience && activeFilters.target_audience.length > 0) {
+                    createFilterChip('target_audience', 'Target Audience');
+                }
+                if (activeFilters.technology_readiness && activeFilters.technology_readiness.length > 0) {
+                    createFilterChip('technology_readiness', 'Technology Readiness');
+                }
+                if (activeFilters.business_readiness && activeFilters.business_readiness.length > 0) {
+                    createFilterChip('business_readiness', 'Business Readiness');
+                }
+                if (activeFilters.treasury_funded === true) {
+                    createFilterChip('treasury_funded', 'Treasury Funded');
+                }
+                if (activeFilters.audit === true) {
+                    createFilterChip('audit', 'Audited');
+                }
+            } else {
+                noFiltersMsg.style.display = 'inline';
+            }
+        }
+        
+        // Update filter chip text
+        function updateFilterChipText(filterKey) {
+            const chip = document.getElementById(`filter-chip-${filterKey}`);
+            const chipSpan = chip.querySelector('span:first-child');
+            
+            // Get the display name from the original text
+            let displayName = chipSpan.textContent.split(':')[0].replace(' ▼', '');
+            
+            let chipText = displayName;
+            if (Array.isArray(activeFilters[filterKey]) && activeFilters[filterKey].length > 0) {
+                chipText += `: ${activeFilters[filterKey].join(', ')}`;
+            }
+            
+            chipSpan.innerHTML = `${chipText} <span class="dropdown-arrow">▼</span>`;
+        }
+        
+        // Close dropdowns when clicking outside
+        document.addEventListener('click', function(event) {
+            // Close old filter dropdowns
+            if (!event.target.closest('.filter-chip')) {
+                document.querySelectorAll('.filter-dropdown.show').forEach(d => d.classList.remove('show'));
+            }
+            
+            // Close add filter dropdown
+            if (!event.target.closest('.add-filter-section')) {
+                const dropdown = document.getElementById('add-filter-dropdown');
+                if (dropdown) {
+                    dropdown.style.display = 'none';
+                }
+            }
+        });
+    </script>
+</body>
+</html>
