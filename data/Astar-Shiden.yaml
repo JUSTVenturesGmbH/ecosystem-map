@@ -34,11 +34,11 @@ metrics:
     - date: 2023-12-31
       value: 4330
   github:
-    - date: 2026-02-01
-      value: 777
+    - date: 2026-03-01
+      value: 776
   discord:
-    - date: 2026-02-01
-      value: 61494
+    - date: 2026-03-01
+      value: 61521
   blog:
     - date: 2023-12-31
       value: 7600
@@ -46,5 +46,5 @@ metrics:
     - date: 2023-12-31
       value: 0
   github_pushed_at:
-    - date: 2026-02-01
-      value: 1769787341
+    - date: 2026-03-01
+      value: 1772202888

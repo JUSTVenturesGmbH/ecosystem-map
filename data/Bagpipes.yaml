@@ -25,8 +25,8 @@ treasury_funded: false
 audit: false
 metrics:
   discord:
-    - date: 2026-02-01
-      value: 34
+    - date: 2026-03-01
+      value: 33
   github:
     - date: 2025-11-18
       value: 7
