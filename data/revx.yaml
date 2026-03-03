@@ -1,0 +1,20 @@
+name: RevX
+category:
+  - EVM
+  - Infra
+  - Smart Contracts
+  - Tools
+description: RevX is a Rust smart contract IDE for Polkadot Hub that we built to lower the barrier to deploying contracts with PolkaVM.
+readiness:
+  technology: In Production
+target_audience:
+  - Dev teams
+ecosystem:
+  - Polkadot
+  - Kusama
+layer:
+  - None
+web:
+  site: https://revx.dev
+treasury_funded: false
+audit: true
