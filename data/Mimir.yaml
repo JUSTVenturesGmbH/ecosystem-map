@@ -6,7 +6,7 @@ description: enterprise-level multi-signature account (multisig) management tool
   Polkadot, Kusama, and other substrate-based chains
 readiness:
   business: Business concept/low adoption
-  technology: In production
+  technology: Discontinued
 target_audience:
   - Individuals
   - Personal investors

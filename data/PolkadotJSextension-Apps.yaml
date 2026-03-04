@@ -4,7 +4,7 @@ category:
 description: browser extension for managing Polkadot and Substrate network accounts
 readiness:
   business: Verified in market/high adoption
-  technology: In production
+  technology: Discontinued
 target_audience:
   - Dev teams
 ecosystem:

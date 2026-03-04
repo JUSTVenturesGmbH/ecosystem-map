@@ -7,7 +7,7 @@ category:
 description: an interface to easily manage complex multisigs
 readiness:
   business: Business concept/low adoption
-  technology: In production
+  technology: Discontinued
 target_audience:
   - Individuals
   - Personal investors

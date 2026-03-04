@@ -6,7 +6,7 @@ category:
 description: unified API endpoints to web3 services
 readiness:
   business: Verified in market/high adoption
-  technology: Validated POC / testnet
+  technology: Discontinued
 target_audience:
   - Startup
   - Established corp
