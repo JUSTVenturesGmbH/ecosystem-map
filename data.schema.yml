@@ -2,9 +2,6 @@ definitions:
   record:
     type: array
     uniqueItems: true
-    refid: 
-      type: string
-      pattern: "^[a-z0-9-]+$"
     items:
       type: object
       additionalProperties: false
@@ -15,6 +12,9 @@ definitions:
         value:
           type: integer
           minimum: 0
+  refid:
+    type: string
+    pattern: "^[a-z0-9_-]+$"
 
 type: object
 properties:
@@ -26,8 +26,8 @@ properties:
   team:
     type: array
     uniqueItems: true
-    items: 
-    $ref: "#/definitions/refid"
+    items:
+      $ref: "#/definitions/refid"
 
   web:
     type: object
