@@ -6,13 +6,12 @@ category:
   - Smart Contracts 
 description:  All-in-one platform designed to empower creators, communities, and projects to thrive within the Astar ecosystem.
 readiness:
-  business: In development
   technology: In development
 target_audience:
   - Individuals
   - Community DAO
 ecosystem:
-  - Astar
+  - Astar Network
   - Kusama
 layer:
   - Layer-1
