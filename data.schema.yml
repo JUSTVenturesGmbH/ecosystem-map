@@ -2,6 +2,9 @@ definitions:
   record:
     type: array
     uniqueItems: true
+    refid: 
+      type: string
+      pattern: "^[a-z0-9-]+$"
     items:
       type: object
       additionalProperties: false
@@ -19,6 +22,12 @@ properties:
     type: string
   description:
     type: string
+
+  team:
+    type: array
+    uniqueItems: true
+    items: 
+    $ref: "#/definitions/refid"
 
   web:
     type: object
@@ -44,6 +53,8 @@ properties:
       appstore:
         type: string
       webstore:
+        type: string
+      youtube:
         type: string
     required:
       - site
@@ -109,12 +120,6 @@ properties:
         - Personal investors
         - Research institute
         - Startup
-
-  team:
-    type: array
-    uniqueItems: true
-    items:
-      type: string
 
   category:
     type: array
