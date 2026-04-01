@@ -17,11 +17,11 @@ web:
 treasury_funded: false
 metrics:
   discord:
-    - date: 2026-01-01
-      value: 61
+    - date: 2026-04-01
+      value: 66
   github:
-    - date: 2026-02-01
-      value: 339
+    - date: 2026-04-01
+      value: 297
   github_pushed_at:
-    - date: 2026-02-01
-      value: 1769884562
+    - date: 2026-04-01
+      value: 1774950870
