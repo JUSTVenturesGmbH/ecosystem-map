@@ -1,0 +1,23 @@
+name: CoinEx
+category:
+  - Exchange
+description: A global cryptocurrency exchange for trading, holding, and earning digital assets.
+readiness:
+  technology: In production
+target_audience:
+  - Personal investors
+  - Institutional investors
+ecosystem:
+  - Polkadot
+layer:
+  - None
+web:
+  logo: default.png
+  site: https://www.coinex.com/
+  github: https://github.com/coinexcom/coinex_exchange_api
+  discord: https://discord.com/invite/tNzmVncQ6d
+  twitter: coinexcom
+  documentation: https://docs.coinex.com/api/v2/
+  contact: support@coinex.com
+treasury_funded: false
+audit: false
