@@ -18,5 +18,5 @@ web:
 treasury_funded: false
 metrics:
   discord:
-    - date: 2026-04-01
-      value: 12075
+    - date: 2026-05-01
+      value: 12043

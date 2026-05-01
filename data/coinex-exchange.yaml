@@ -1,7 +1,8 @@
 name: CoinEx
 category:
   - Exchange
-description: A global cryptocurrency exchange for trading, holding, and earning digital assets.
+description: A global cryptocurrency exchange for trading, holding, and earning digital
+  assets.
 readiness:
   technology: In production
 target_audience:
@@ -21,3 +22,13 @@ web:
   contact: support@coinex.com
 treasury_funded: false
 audit: false
+metrics:
+  discord:
+    - date: 2026-05-01
+      value: 10915
+  github:
+    - date: 2026-05-01
+      value: 194
+  github_pushed_at:
+    - date: 2026-05-01
+      value: 1684671565

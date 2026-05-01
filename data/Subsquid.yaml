@@ -39,13 +39,13 @@ metrics:
     - date: 2023-12-31
       value: 1710
   github:
-    - date: 2026-04-01
-      value: 1326
+    - date: 2026-05-01
+      value: 1328
   discord:
-    - date: 2026-04-01
-      value: 137
+    - date: 2026-05-01
+      value: 135
   blog: []
   app_downloads: []
   github_pushed_at:
-    - date: 2026-04-01
-      value: 1774980123
+    - date: 2026-05-01
+      value: 1777560886
