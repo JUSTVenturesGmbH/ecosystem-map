@@ -44,11 +44,11 @@ metrics:
     - date: 2023-12-31
       value: 5620
   github:
-    - date: 2026-04-01
-      value: 18830
+    - date: 2026-05-01
+      value: 18807
   discord:
-    - date: 2026-04-01
-      value: 37612
+    - date: 2026-05-01
+      value: 37558
   blog:
     - date: 2023-12-31
       value: 6254
