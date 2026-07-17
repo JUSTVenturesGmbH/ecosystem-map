@@ -20,7 +20,7 @@ layer:
   - None
 web:
   logo: Gem-Wallet.png
-  site: https://gemwallet.com/polkadot-wallet/
+  site: https://gemwallet.com
   twitter: GemWallet
   discord: https://discord.gg/4jpxtwT8r6
   contact: support@gemwallet.com
