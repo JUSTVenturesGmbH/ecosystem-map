@@ -21,13 +21,15 @@ layer:
 web:
   logo: Gem-Wallet.png
   site: https://gemwallet.com
-  twitter: GemWallet
+  twitter: gemwallet
+  blog: https://gemwallet.com/learn/
   discord: https://discord.gg/4jpxtwT8r6
   contact: support@gemwallet.com
   github: https://github.com/gemwalletcom/wallet
   documentation: https://docs.gemwallet.com/blockchains/polkadot/
   playstore: https://play.google.com/store/apps/details?id=com.gemwallet.android
   appstore: https://apps.apple.com/us/app/gem-wallet-usdt-usdc-xrp/id6448712670
+  youtube: https://www.youtube.com/@gemwallet
 audit: true
 metrics:
   github:
