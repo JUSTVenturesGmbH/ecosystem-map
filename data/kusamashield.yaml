@@ -5,7 +5,7 @@ category:
   - Bridge
   - EVM
 
-description: machine attestation layer built by humans, designed for machines
+description: Privacy project that allows anyone to make shielded transfers and have private balances powered by PolkaVM.
 readiness:
   technology: In production
 target_audience:
