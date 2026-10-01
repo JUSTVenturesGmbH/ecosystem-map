@@ -22,7 +22,7 @@ metrics:
   youtube: []
   github: []
   discord:
-    - date: 2026-04-01
-      value: 3268
+    - date: 2026-10-01
+      value: 3180
   blog: []
   app_downloads: []
