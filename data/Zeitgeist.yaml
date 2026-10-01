@@ -29,8 +29,8 @@ metrics:
     - date: 2023-12-31
       value: 576
   github:
-    - date: 2026-04-01
-      value: 199
+    - date: 2026-10-01
+      value: 202
   discord:
     - date: 2025-06-01
       value: 2355
