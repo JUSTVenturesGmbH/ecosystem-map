@@ -32,12 +32,12 @@ metrics:
     - date: 2023-12-31
       value: 2
   discord:
-    - date: 2026-04-01
-      value: 32429
+    - date: 2026-11-01
+      value: 32136
   blog:
     - date: 2023-12-31
       value: 785
   app_downloads: []
   github_pushed_at:
-    - date: 2025-01-08
-      value: 1734075821
+    - date: 2026-11-01
+      value: 1790967927
